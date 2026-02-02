@@ -156,11 +156,21 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
   const token = getRequiredEnv("GITHUB_TOKEN");
   if (!token || events.length === 0) return [];
 
-  LOG.ai(`Clustering ${events.length} signals into topics...`);
+  LOG.ai(
+    `Clustering ${events.length} signals into topics (Prioritizing Bluesky)...`,
+  );
 
+  // Directive to the AI: Use Bluesky as community anchors
   const prompt = `You are a technical analyst for npmx. Group the following events into 5-6 logical "Topics".
+
+  STRATEGY:
+  1. Community Focus: Treat "bluesky" events as high-signal community interests.
+  2. Inclusive Clustering: Ensure that "bluesky" posts are not sidelined; weave them into relevant technical topics where possible.
+  3. Topic Weight: If a topic includes a "bluesky" post, it should generally have a higher relevanceScore.
+
   Sort by relevanceScore (1-10). Refer to the project strictly as "npmx" (lowercase).
   Return ONLY a JSON array with this structure: { "topics": Topic[] }.
+
   Events: ${JSON.stringify(events)}`;
 
   try {
@@ -175,7 +185,7 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
         body: JSON.stringify({
           messages: [{ role: "user", content: prompt }],
           model: "gpt-4o-mini",
-          temperature: 0.3,
+          temperature: 0.3, // Lower temp for more stable clustering
           response_format: { type: "json_object" },
         }),
       },
@@ -183,18 +193,37 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
 
     if (response.ok) {
       const data = await response.json();
-      const parsed = JSON.parse(data.choices[0].message.content);
+      const content = data.choices[0].message.content;
+      const parsed = JSON.parse(content);
 
-      const topics = parsed.topics.map((t: any) => {
+      // Re-ranking Logic: Slightly boost topics that contain Bluesky content
+      const rawTopics = parsed.topics.map((t: any) => {
         const validated = TopicSchema.parse(t);
+        const hasBluesky = events.some(
+          (e) =>
+            e.source === "bluesky" &&
+            t.summary.includes(e.title.substring(0, 20)),
+        );
+
         return {
           ...validated,
           title: sanitizeBrand(validated.title),
           summary: sanitizeBrand(validated.summary),
+          // Subtle priority boost for community-facing topics
+          relevanceScore: hasBluesky
+            ? Math.min(10, validated.relevanceScore + 1)
+            : validated.relevanceScore,
         };
       });
 
-      LOG.success(`Successfully clustered into ${topics.length} topics.`);
+      // Sort by the new boosted score
+      const topics = rawTopics.sort(
+        (a: Topic, b: Topic) => b.relevanceScore - a.relevanceScore,
+      );
+
+      LOG.success(
+        `Successfully clustered into ${topics.length} topics with Bluesky priority.`,
+      );
       return topics;
     }
   } catch {

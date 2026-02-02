@@ -15,7 +15,7 @@ export const TopicSchema = z.object({
 export const PostSchema = z.object({
   title: z.string(),
   date: z.coerce.date(),
-  type: z.enum(["daily", "nightly"]),
+  type: z.enum(["daily", "midday", "nightly"]),
   topics: z.array(TopicSchema),
 });
 

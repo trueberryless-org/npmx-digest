@@ -1,0 +1,18 @@
+{
+  "title": "npmx Launch 🚀",
+  "date": "2026-01-22T06:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "chore: init",
+      "summary": "danielroe committed the beginning of an awesome community",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/e39e56c08fd1e7bdb556c8565c6b11b3c34c8934"
+        }
+      ]
+    }
+  ]
+}

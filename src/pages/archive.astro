@@ -25,7 +25,7 @@ const formatDate = (date: Date) => date.toISOString().split("T")[0];
                         <span class="date">{displayDate}</span>
                         <span class="title">{data.title}</span>
                         <span class="dot" />
-                        <span class="type">{data.type}</span>
+                        <span class={`type ${data.type}`}>{data.type}</span>
                     </a>
                 );
             })
@@ -74,6 +74,17 @@ const formatDate = (date: Date) => date.toISOString().split("T")[0];
         font-size: 0.75rem;
         text-transform: capitalize;
         margin-left: 1rem;
+        font-weight: 600;
+    }
+
+    .daily {
+        color: #fbbf24;
+    }
+    .midday {
+        color: #f97316;
+    }
+    .nightly {
+        color: #818cf8;
     }
 
     .dot {

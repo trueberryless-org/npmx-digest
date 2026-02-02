@@ -7,7 +7,11 @@ const posts = allPosts.sort(
     (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
 );
 
-const latestPosts = posts.slice(0, 5);
+const MAX_DISPLAY_POSTS = 5;
+const TOPIC_LIMIT = 3;
+
+const latestPosts = posts.slice(0, MAX_DISPLAY_POSTS);
+const hasArchive = posts.length > MAX_DISPLAY_POSTS;
 ---
 
 <Layout title="npmx.digest">
@@ -21,49 +25,53 @@ const latestPosts = posts.slice(0, 5);
 
     <div class="post-list">
         {
-            latestPosts.map((post) => (
-                <a href={`/posts/${post.id}`} class="post-entry">
-                    <div class="post-meta">
-                        <time datetime={post.data.date.toString()}>
-                            {new Date(post.data.date).toLocaleDateString(
-                                "en-US",
-                                {
-                                    month: "short",
-                                    day: "numeric",
-                                },
-                            )}
-                        </time>
-                        <span class={`type-tag ${post.data.type}`}>
-                            {post.data.type}
-                        </span>
-                    </div>
-                    <div class="post-content">
-                        <h2>{post.data.title}</h2>
-                        <div class="topic-preview">
-                            {post.data.topics.slice(0, 3).map((topic, i) => (
-                                <span>
-                                    {topic.title}
-                                    {i <
-                                    Math.min(post.data.topics.length, 3) - 1
-                                        ? " • "
-                                        : ""}
-                                </span>
-                            ))}
-                            {post.data.topics.length > 3 && (
-                                <span class="more">
-                                    {" "}
-                                    +{post.data.topics.length - 3} more
-                                </span>
-                            )}
+            latestPosts.map((post) => {
+                const postDate = new Date(post.data.date);
+                const displayDate = postDate.toLocaleDateString("en-US", {
+                    month: "short",
+                    day: "numeric",
+                });
+
+                const visibleTopics = post.data.topics.slice(0, TOPIC_LIMIT);
+                const remainingCount = post.data.topics.length - TOPIC_LIMIT;
+
+                return (
+                    <a href={`/posts/${post.id}`} class="post-entry">
+                        <div class="post-meta">
+                            <time datetime={post.data.date.toString()}>
+                                {displayDate}
+                            </time>
+                            <span class={`type-tag ${post.data.type}`}>
+                                {post.data.type}
+                            </span>
                         </div>
-                    </div>
-                </a>
-            ))
+                        <div class="post-content">
+                            <h2>{post.data.title}</h2>
+                            <div class="topic-preview">
+                                {visibleTopics.map((topic, i) => (
+                                    <span>
+                                        {topic.title}
+                                        {i < visibleTopics.length - 1
+                                            ? " • "
+                                            : ""}
+                                    </span>
+                                ))}
+                                {remainingCount > 0 && (
+                                    <span class="more">
+                                        {" "}
+                                        +{remainingCount} more
+                                    </span>
+                                )}
+                            </div>
+                        </div>
+                    </a>
+                );
+            })
         }
     </div>
 
     {
-        posts.length > 5 && (
+        hasArchive && (
             <a href="/archive" class="archive-link">
                 Explore the archives →
             </a>
@@ -125,6 +133,9 @@ const latestPosts = posts.slice(0, 5);
 
     .daily {
         color: #fbbf24;
+    }
+    .midday {
+        color: #f97316;
     }
     .nightly {
         color: #818cf8;

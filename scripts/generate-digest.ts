@@ -22,22 +22,29 @@ function pickWeightedTopic(topics: Topic[]): Topic {
   return topics[0];
 }
 
-function getPostType(date: Date): "daily" | "nightly" {
-  const hour = date.getUTCHours() + 1;
-  const isMorning = hour >= 6 && hour <= 12;
-  return isMorning ? "daily" : "nightly";
+function getPostType(date: Date): "daily" | "midday" | "nightly" {
+  const hour = date.getUTCHours() + 1; // Basic UTC+1 adjustment
+
+  // Shifted 1h early to protect against early GitHub Action triggers
+  const isDaily = hour >= 5 && hour < 13; // Target 6am
+  const isMidday = hour >= 13 && hour < 21; // Target 2pm
+
+  if (isDaily) return "daily";
+  if (isMidday) return "midday";
+  return "nightly"; // Target 10pm
 }
 
 async function run() {
   console.log("\n\x1b[1m🚀 Generating Intelligent Topic Digest\x1b[0m");
 
   const now = new Date();
-  const twelveHoursAgo = new Date(now.getTime() - 12 * 60 * 60 * 1000);
+  const windowSize = 8 * 60 * 60 * 1000;
+  const startTime = new Date(now.getTime() - windowSize);
 
   try {
     const [gh, bs] = await Promise.all([
-      fetchGitHubEvents(twelveHoursAgo),
-      fetchBlueskyEvents(twelveHoursAgo),
+      fetchGitHubEvents(startTime),
+      fetchBlueskyEvents(startTime),
     ]);
 
     const allEvents = [...gh, ...bs];

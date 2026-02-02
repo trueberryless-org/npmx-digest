@@ -1,0 +1,280 @@
+---
+import { getCollection, getEntry } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+
+export async function getStaticPaths() {
+    const posts = await getCollection("posts");
+    return posts.map((post) => ({
+        params: { id: post.id },
+    }));
+}
+
+const { id } = Astro.params;
+const postEntry = await getEntry("posts", id);
+
+if (!postEntry) {
+    return Astro.redirect("/404");
+}
+
+const { data } = postEntry;
+
+const formattedDate = data.date.toLocaleDateString("en-US", {
+    weekday: "short",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+});
+
+const getGithubId = (url?: string) => {
+    if (!url) return "";
+    const match = url.match(/\/(pull|issues)\/(\d+)$/);
+    return match ? ` (#${match[2]})` : "";
+};
+---
+
+<Layout title={`${data.title} | npmx.digest`}>
+    <article class="report">
+        <header class="report-header">
+            <div class="meta">
+                <time datetime={data.date.toISOString()}>{formattedDate}</time>
+                <span class="slash">/</span>
+                <span class={`tag ${data.type}`}>{data.type}</span>
+            </div>
+            <h1>{data.title}</h1>
+        </header>
+
+        <section class="topics-section">
+            <div class="section-divider">
+                <span>Intelligence Topics</span>
+                <hr />
+            </div>
+
+            <div class="topic-list">
+                {
+                    data.topics.map((topic, index) => {
+                        const displayIndex = (index + 1)
+                            .toString()
+                            .padStart(2, "0");
+
+                        return (
+                            <div class="topic-item">
+                                <div class="topic-meta">
+                                    <span class="index">{displayIndex}</span>
+                                    <span class="score">
+                                        Signal: {topic.relevanceScore}/10
+                                    </span>
+                                </div>
+                                <div class="topic-body">
+                                    <h2>{topic.title}</h2>
+                                    <p>{topic.summary}</p>
+                                    <div class="topic-sources">
+                                        {topic.sources.map((source) => (
+                                            <a
+                                                href={source.url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                class={`source-link ${source.platform}`}
+                                            >
+                                                {source.platform}
+                                                {source.platform === "github"
+                                                    ? getGithubId(source.url)
+                                                    : ""}
+                                                ↗
+                                            </a>
+                                        ))}
+                                    </div>
+                                </div>
+                            </div>
+                        );
+                    })
+                }
+            </div>
+        </section>
+
+        <footer class="report-footer">
+            <a href="/" class="back-btn">← Back to Index</a>
+            <p class="bot-note">
+                Automated cluster analysis performed by npmx-bot
+            </p>
+        </footer>
+    </article>
+</Layout>
+
+<style>
+    .report {
+        margin-top: 2rem;
+    }
+
+    .report-header {
+        margin-bottom: 4rem;
+    }
+
+    .meta {
+        font-family: monospace;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        display: flex;
+        gap: 0.6rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .slash {
+        color: #333;
+    }
+
+    .tag.daily {
+        color: #fbbf24;
+    }
+    .tag.nightly {
+        color: #818cf8;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        line-height: 1.1;
+        color: var(--accent);
+    }
+
+    .section-divider {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .section-divider span {
+        font-family: monospace;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        white-space: nowrap;
+    }
+
+    .section-divider hr {
+        flex-grow: 1;
+        border: 0;
+        border-top: 1px solid #1a1a1a;
+    }
+
+    .topic-list {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .topic-item {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        gap: 2rem;
+    }
+
+    .topic-meta {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        font-family: monospace;
+        font-size: 0.8rem;
+    }
+
+    .index {
+        color: var(--accent);
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    .score {
+        color: var(--text-muted);
+        font-size: 0.7rem;
+        text-transform: uppercase;
+    }
+
+    .topic-body h2 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: var(--text);
+        letter-spacing: -0.02em;
+    }
+
+    .topic-body p {
+        font-size: 1.05rem;
+        color: var(--text-muted);
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+    }
+
+    .topic-sources {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+    }
+
+    .source-link {
+        font-size: 0.75rem;
+        font-family: monospace;
+        text-decoration: none;
+        padding: 0.2rem 0.5rem;
+        border: 1px solid #222;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        transition: all 0.2s;
+    }
+
+    .source-link:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+        background: #111;
+    }
+
+    .source-link.github:hover {
+        color: #fff;
+        border-color: #fff;
+    }
+    .source-link.bluesky:hover {
+        color: #0285ff;
+        border-color: #0285ff;
+    }
+
+    .report-footer {
+        margin-top: 6rem;
+        padding-top: 2rem;
+        border-top: 1px solid #1a1a1a;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .back-btn {
+        text-decoration: none;
+        color: var(--text-muted);
+        font-size: 0.9rem;
+    }
+
+    .back-btn:hover {
+        color: var(--accent);
+    }
+
+    .bot-note {
+        font-family: monospace;
+        font-size: 0.7rem;
+        color: #333;
+    }
+
+    @media (max-width: 600px) {
+        .topic-item {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+        .topic-meta {
+            flex-direction: row;
+            align-items: center;
+            gap: 1rem;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+    }
+</style>

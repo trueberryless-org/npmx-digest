@@ -1,0 +1,85 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+
+const posts = await getCollection("posts");
+
+const sortedPosts = posts.sort(
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+
+const formatDate = (date: Date) => date.toISOString().split("T")[0];
+---
+
+<Layout title="Archive | npmx.digest">
+    <h1 class="page-title">Archives</h1>
+
+    <div class="archive-list">
+        {
+            sortedPosts.map(({ data, id }) => {
+                const displayDate = formatDate(data.date);
+                const postUrl = `/posts/${id}`;
+
+                return (
+                    <a href={postUrl} class="archive-item">
+                        <span class="date">{displayDate}</span>
+                        <span class="title">{data.title}</span>
+                        <span class="dot" />
+                        <span class="type">{data.type}</span>
+                    </a>
+                );
+            })
+        }
+    </div>
+</Layout>
+
+<style>
+    .page-title {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        color: var(--text-muted);
+    }
+
+    .archive-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .archive-item {
+        display: flex;
+        align-items: baseline;
+        padding: 0.8rem 0;
+        border-bottom: 1px solid #151515;
+        text-decoration: none;
+        color: var(--text-muted);
+        font-size: 0.95rem;
+    }
+
+    .archive-item:hover {
+        color: var(--accent);
+    }
+
+    .date {
+        font-family: monospace;
+        width: 120px;
+        flex-shrink: 0;
+        font-size: 0.85rem;
+    }
+
+    .title {
+        color: var(--text);
+    }
+
+    .type {
+        font-size: 0.75rem;
+        text-transform: capitalize;
+        margin-left: 1rem;
+    }
+
+    .dot {
+        align-self: center;
+        flex-grow: 1;
+        border-bottom: 1px dotted #333;
+        margin: 0.2rem 1rem 0;
+    }
+</style>

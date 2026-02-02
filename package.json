@@ -1,14 +1,41 @@
 {
-  "name": "npmx-daily",
+  "name": "npmx-digest",
   "type": "module",
   "version": "0.0.1",
+  "description": "Get the latest news around npmx.",
+  "author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "generate": "tsx --env-file=.env scripts/generate-digest.ts",
+    "backfill": "tsx --env-file=.env scripts/backfill.ts"
   },
   "dependencies": {
-    "astro": "^5.17.1"
-  }
+    "@astrojs/check": "^0.9.6",
+    "astro": "^5.17.1",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "zod": "^3.25.76"
+  },
+  "packageManager": "pnpm@10.10.0",
+  "private": true,
+  "keywords": [
+    "npmx",
+    "newsletter",
+    "blog",
+    "automation",
+    "daily",
+    "nightly"
+  ],
+  "homepage": "https://github.com/trueberryless-org/npmx-digest",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trueberryless-org/npmx-digest.git"
+  },
+  "bugs": "https://github.com/trueberryless-org/npmx-digest/issues"
 }

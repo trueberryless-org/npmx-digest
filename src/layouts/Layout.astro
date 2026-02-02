@@ -1,0 +1,112 @@
+---
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <title>{title}</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <a href="/" class="logo">npmx.<span>digest</span></a>
+                    <div class="links">
+                        <a href="/archive">Archive</a>
+                        <a href="https://github.com/npmx-dev/npmx.dev">GitHub</a
+                        >
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <slot />
+            </main>
+            <footer>
+                <p>AI generated updates for the npmx ecosystem.</p>
+            </footer>
+        </div>
+    </body>
+</html>
+
+<style is:global>
+    :root {
+        --bg: #050505;
+        --text: #e5e5e5;
+        --text-muted: #737373;
+        --accent: #fff;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .wrapper {
+        max-width: 650px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+    }
+
+    header {
+        margin-bottom: 4rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .logo {
+        font-weight: 700;
+        text-decoration: none;
+        color: var(--accent);
+        font-size: 1.2rem;
+        letter-spacing: -0.02em;
+    }
+
+    .logo span {
+        color: var(--text-muted);
+        font-weight: 400;
+    }
+
+    .links {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .links a {
+        color: var(--text-muted);
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: color 0.2s;
+    }
+
+    .links a:hover {
+        color: var(--accent);
+    }
+
+    footer {
+        margin-top: 6rem;
+        padding-top: 2rem;
+        border-top: 1px solid #1a1a1a;
+        font-size: 0.8rem;
+        color: var(--text-muted);
+    }
+</style>

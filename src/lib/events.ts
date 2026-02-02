@@ -46,17 +46,15 @@ function sanitizeBrand(text: string): string {
 export async function fetchGitHubEvents(since: Date): Promise<Event[]> {
   const owner = "npmx-dev";
   const repo = "npmx.dev";
-  const token = getRequiredEnv("GITHUB_TOKEN");
+  const token = getRequiredEnv("MODELS_TOKEN");
   const events: Event[] = [];
 
-  const halfDayInMs = 12 * 60 * 60 * 1000;
-  const until = new Date(since.getTime() + halfDayInMs);
-  const startIso = since.toISOString().split(".")[0];
-  const endIso = until.toISOString().split(".")[0];
-  const dateRange = `${startIso}Z..${endIso}Z`;
+  const startIso = since.toISOString().split(".")[0] + "Z";
+  const now = new Date();
+  const endIso = now.toISOString().split(".")[0] + "Z";
 
   const query = encodeURIComponent(
-    `repo:${owner}/${repo} is:closed created:${dateRange}`,
+    `repo:${owner}/${repo} is:closed closed:${startIso}..${endIso}`,
   );
 
   const headers = {
@@ -82,7 +80,7 @@ export async function fetchGitHubEvents(since: Date): Promise<Event[]> {
           title: `${isPR ? "Merged PR" : "Closed Issue"} #${item.number}: ${item.title}`,
           description: item.body || "No description provided",
           url: item.html_url,
-          timestamp: item.created_at,
+          timestamp: item.closed_at || item.created_at,
         });
       });
       LOG.success(`GitHub: Found ${events.length} finalized items.`);
@@ -106,7 +104,7 @@ export async function fetchBlueskyEvents(since: Date): Promise<Event[]> {
     const { did } = await resolve.json();
 
     const feedRes = await fetch(
-      `https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=${did}&limit=30&filter=posts_with_replies`,
+      `https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=${did}&limit=50&filter=posts_with_replies`,
     );
 
     if (feedRes.ok) {
@@ -114,18 +112,19 @@ export async function fetchBlueskyEvents(since: Date): Promise<Event[]> {
 
       const candidates = feed.reduce((acc: Event[], item: any) => {
         const actionTimestamp = item.reason?.indexedAt || item.post.indexedAt;
-        const isRecent = new Date(actionTimestamp) >= since;
+        const itemDate = new Date(actionTimestamp);
 
-        if (isRecent) {
-          const author = item.post.author.handle;
+        if (itemDate >= since) {
+          const authorHandle = item.post.author.handle;
           const isRepost = !!item.reason;
           const postText = item.post.record.text;
+          const postId = item.post.uri.split("/").pop();
 
           acc.push({
             source: "bluesky",
-            title: `${isRepost ? `[Repost from @${author}] ` : ""}${postText.substring(0, 80)}`,
+            title: `${isRepost ? `[Repost from @${authorHandle}] ` : ""}${postText.substring(0, 80)}`,
             description: postText,
-            url: `https://bsky.app/profile/${handle}/post/${item.post.uri.split("/").pop()}`,
+            url: `https://bsky.app/profile/${authorHandle}/post/${postId}`,
             timestamp: actionTimestamp,
           });
         }
@@ -153,14 +152,13 @@ export async function fetchBlueskyEvents(since: Date): Promise<Event[]> {
 }
 
 export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
-  const token = getRequiredEnv("GITHUB_TOKEN");
+  const token = getRequiredEnv("MODELS_TOKEN");
   if (!token || events.length === 0) return [];
 
   LOG.ai(
     `Clustering ${events.length} signals into topics (Prioritizing Bluesky)...`,
   );
 
-  // Directive to the AI: Use Bluesky as community anchors
   const prompt = `You are a technical analyst for npmx. Group the following events into 5-6 logical "Topics".
 
   STRATEGY:
@@ -185,7 +183,7 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
         body: JSON.stringify({
           messages: [{ role: "user", content: prompt }],
           model: "gpt-4o-mini",
-          temperature: 0.3, // Lower temp for more stable clustering
+          temperature: 0.3,
           response_format: { type: "json_object" },
         }),
       },
@@ -196,27 +194,25 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
       const content = data.choices[0].message.content;
       const parsed = JSON.parse(content);
 
-      // Re-ranking Logic: Slightly boost topics that contain Bluesky content
       const rawTopics = parsed.topics.map((t: any) => {
         const validated = TopicSchema.parse(t);
         const hasBluesky = events.some(
           (e) =>
             e.source === "bluesky" &&
-            t.summary.includes(e.title.substring(0, 20)),
+            (t.summary.includes(e.title.substring(0, 15)) ||
+              t.title.includes(e.source)),
         );
 
         return {
           ...validated,
           title: sanitizeBrand(validated.title),
           summary: sanitizeBrand(validated.summary),
-          // Subtle priority boost for community-facing topics
           relevanceScore: hasBluesky
             ? Math.min(10, validated.relevanceScore + 1)
             : validated.relevanceScore,
         };
       });
 
-      // Sort by the new boosted score
       const topics = rawTopics.sort(
         (a: Topic, b: Topic) => b.relevanceScore - a.relevanceScore,
       );
@@ -233,7 +229,7 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
 }
 
 export async function generateCatchyTitle(topic: Topic): Promise<string> {
-  const token = getRequiredEnv("GITHUB_TOKEN");
+  const token = getRequiredEnv("MODELS_TOKEN");
   if (!token) return "New Update";
 
   const prompt = `You are a tech journalist for npmx. Create a very short (max 5-7 words), catchy headline for this topic.

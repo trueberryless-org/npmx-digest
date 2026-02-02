@@ -1,0 +1,82 @@
+{
+  "title": "npmx Enhances Code Exploration and Security Messaging",
+  "date": "2026-01-24T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Code Exploration & Navigation",
+      "summary": "Improved the code viewer experience by resolving directory listing errors; navigating to a folder path now correctly displays its contents instead of a 404/error state. Additionally, vscode-icons were integrated for better visual identification of README and documentation files within the file tree.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/15"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/16"
+        }
+      ]
+    },
+    {
+      "title": "Connector Security & UX Warnings",
+      "summary": "Implemented a security warning in both the UI modal and the CLI logs for the npmx-connector. This explicitly informs users that enabling the connector grants the application access to their local npmcli and associated authentication contexts.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/17"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/20"
+        }
+      ]
+    },
+    {
+      "title": "Data Visualization & Reduced Motion",
+      "summary": "Refined the weekly downloads sparkline by disabling distracting initial animations to ensure instant visibility. A discrete pulse effect was added for active data paths, which automatically respects system 'prefers-reduced-motion' settings to improve accessibility.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/19"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/21"
+        }
+      ]
+    },
+    {
+      "title": "Developer Experience & Environment",
+      "summary": "Optimized dev startup by pre-including key dependencies like @vueuse/core and vue-ui-sparkline in Vite's optimizeDeps. For Zed users, a basic .zed settings file was added to streamline the onboarding experience for the project's oxc-based linting stack.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/18"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/24"
+        }
+      ]
+    },
+    {
+      "title": "UI Polish & External Integrations",
+      "summary": "Added a JSR badge to identify packages available on the JSR registry. UI layout was refined to allow long 'engines' strings in package metadata to wrap to new lines, preventing overflow on narrow mobile viewports.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/22"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/25"
+        }
+      ]
+    }
+  ]
+}

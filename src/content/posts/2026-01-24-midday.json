@@ -1,0 +1,59 @@
+{
+  "title": "npmx Introduces Download Sparklines and README Fixes",
+  "date": "2026-01-24T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Community Vision: Building an npmjs Alternative",
+      "summary": "Project lead Daniel Roe shared his vision for npmx on Bluesky, framing it as a comprehensive alternative to npmjs.com. The roadmap includes an admin UI, and the team is actively recruiting contributors to address current registry pain points together.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3md47mg7qjs22"
+        }
+      ]
+    },
+    {
+      "title": "Data Visualization: Weekly Download Sparklines",
+      "summary": "Integrated the 'vue-data-ui' package to provide immediate visual feedback on package popularity. The new sparkline chart tracks weekly downloads, with a logic fix implemented to set the default end-date to 'yesterday' to match npmjs datasets and avoid misleading zero-value dips on the current day.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/10"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/14"
+        }
+      ]
+    },
+    {
+      "title": "Markdown Rendering: srcset Support for Themes",
+      "summary": "Enhanced the README parser to support 'srcset' within HTML 'picture' sources. This allows packages like ESLint Plugin Perfectionist to display theme-aware imagery, ensuring that light and dark mode assets are rendered correctly based on user system preferences.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/9"
+        }
+      ]
+    },
+    {
+      "title": "Internal Refinement & Maintenance",
+      "summary": "Standardized internal code practices by explicitly importing 'node:process', mirroring Nuxt conventions. Additionally, a spacing bug in the package manager command templates (e.g., 'yarnadd' vs 'yarn add') was resolved to ensure CLI snippets are valid and readable.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/11"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/12"
+        }
+      ]
+    }
+  ]
+}

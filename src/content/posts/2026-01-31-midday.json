@@ -1,0 +1,86 @@
+{
+  "title": "npmx Enters the atproto 'Atmosphere' with Social Integration",
+  "date": "2026-01-31T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "atproto & Atmosphere Integration",
+      "summary": "npmx has officially entered the 'Atmosphere,' signaling a major push into decentralized social features. Discussion within the community emphasizes that adding social layers to existing utility sites like npmx will accelerate atproto adoption faster than building isolated apps. A new Constellation client was also integrated to power social metrics like star and fork counts from the ATProtocol ecosystem.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/zeu.dev/post/3mdpiaad55s22"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3mdo3pin7g226"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/474"
+        }
+      ]
+    },
+    {
+      "title": "UX Personalization & Keyboard Efficiency",
+      "summary": "Implemented highly requested UX features, including an accent color picker in settings and a collapsible sidebar component that remembers its state via localStorage. Power users gained new efficiencies with a '?' shortcut to highlight all available keyboard actions and a dedicated button to instantly copy package names.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/173"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/461"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/473"
+        }
+      ]
+    },
+    {
+      "title": "Visual Identity & OG Branding",
+      "summary": "Overhauled the platform's Open Graph (OG) image generation. The new flexible design templates provide consistent, environment-aware previews for all routes, including Docs and Code views, ensuring that shared links look professional across social platforms.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/462"
+        }
+      ]
+    },
+    {
+      "title": "Reactivity & Performance Tuning",
+      "summary": "Optimized core runtime performance by migrating more components to `shallowRef` and `useTemplateRef`. Key event listeners were deduped to prevent redundant triggers when holding keys, and unnecessary API requests were removed from the custom badge generation logic.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/476"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/490"
+        }
+      ]
+    },
+    {
+      "title": "Global Language & i18n Tooling",
+      "summary": "Significantly improved the localization workflow with a new script to automatically identify and strip unused i18n keys. The update includes pluralization fixes for multiple locales and specific terminology alignment for Simplified Chinese to match Bluesky's translations.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/471"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/468"
+        }
+      ]
+    }
+  ]
+}

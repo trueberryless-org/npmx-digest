@@ -1,0 +1,18 @@
+{
+  "title": "npmx Upgrades Core Vue Framework",
+  "date": "2026-01-22T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Dependency Management",
+      "summary": "Updated the core Vue dependency to v3.5.27. This patch includes critical fixes for the SFC compiler regarding variable shadowing in loops and indexed access types, as well as improvements to SSR class rendering and reactivity collection iteration.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1"
+        }
+      ]
+    }
+  ]
+}

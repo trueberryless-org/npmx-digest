@@ -1,0 +1,74 @@
+{
+  "title": "npmx Optimizes Date Handling and Registry Reliability",
+  "date": "2026-01-27T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Bluesky & Community Momentum",
+      "summary": "The community continues to surge with high-caliber contributors joining the project. Social updates highlight the 'otherworldly magic' of cross-platform integrations (GitHub, Discord, Bluesky) and a palpable sense of excitement as the team builds a modernized npm browser experience. Leaders emphasize that collaborative open-source work requires unlearning corporate norms to foster rapid, trust-based innovation.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3mde3diush22o"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/graphieros.com/post/3mdebojstok2n"
+        }
+      ]
+    },
+    {
+      "title": "Relative Date Display and UX Polish",
+      "summary": "Implemented a dual-mode date display system across package pages. Users can now view relative publish dates (e.g., '2 days ago') for quick context, with high-precision native browser tooltips providing the full timestamp on hover. This optimization significantly reduces the mental effort required to gauge package freshness.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/149"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/111"
+        }
+      ]
+    },
+    {
+      "title": "Registry Rendering and Readme Fallbacks",
+      "summary": "Resolved a critical edge case where the npm registry returns incorrect localized README filenames (notably affecting @biomejs/biome). npmx now implements a fallback to prioritize standard English READMEs via jsDelivr when the registry metadata is inconsistent, ensuring reliable content rendering.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/130"
+        }
+      ]
+    },
+    {
+      "title": "Mobile Search and Navigation Stability",
+      "summary": "Patched a recurring 'loading loop' on the mobile search screen where vague search terms could trigger an infinite scrolling bug. Additionally, the '404' experience for nonexistent organizations has been improved to match the graceful error handling used for missing packages and users.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/8"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/94"
+        }
+      ]
+    },
+    {
+      "title": "CLI Connector and API Validation",
+      "summary": "Strengthened the internal CLI connector infrastructure with new validation layers for the API. This ensures more robust communication between the local developer environment and the npmx backend services.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/150"
+        }
+      ]
+    }
+  ]
+}

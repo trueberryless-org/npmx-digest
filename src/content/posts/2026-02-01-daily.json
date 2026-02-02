@@ -1,0 +1,101 @@
+{
+  "title": "npmx Scales Global Reach and Hardens Core Layouts",
+  "date": "2026-02-01T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Expansion into Brazil & i18n Efficiency",
+      "summary": "The internationalization effort reached a major milestone with the addition of Brazilian Portuguese (pt-BR) support. Localization logic was further refined with updates to Polish, German, and Japanese translations. To ensure high translation quality, the system now correctly handles singular vs. plural forms in scoped translations and provides automated scripts for identifying missing keys.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/565"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/465"
+        }
+      ]
+    },
+    {
+      "title": "Layout Architecture: The 'Stretched Grid' Fix",
+      "summary": "Resolved a critical layout bug where expanding the version sidebar would stretch the main content (README) into equal vertical parts, pushing information off-screen. The fix utilizes CSS Grid 'auto' vs '1fr' sizing to ensure all components remain anchored to the top of the page. Additionally, breadcrumb navigation and package versions were optimized with better truncation and indentation logic.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/596"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/585"
+        }
+      ]
+    },
+    {
+      "title": "Atmosphere & Community Lore",
+      "summary": "Community enthusiasm continues on Bluesky with the introduction of 'Wamellow,' a roles bot syncing GitHub contributors to Discord. Daniel Roe shared a significant piece on diversity, equity, and inclusion in open source, reinforcing npmx as a welcoming community-first registry browser.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mdquecsxuc2x"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3ljv2bmp4y62s"
+        }
+      ]
+    },
+    {
+      "title": "Glimmer Support & Code Exploration",
+      "summary": "npmx now features first-class support for Glimmer JS (.gjs) and Glimmer TS (.gts) files. This includes custom file icons in the code viewer and integrated syntax highlighting via Shiki, specifically tested on ember-primitives to ensure parity with modern web component standards.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/555"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/554"
+        }
+      ]
+    },
+    {
+      "title": "Vulnerability API & Data Deduplication",
+      "summary": "The vulnerabilities API was hardened to correctly handle namespaced (scoped) packages, resolving 404 errors for modules like @dxup/unimport. Furthermore, a pagination bug causing duplicated packages on user profiles was fixed, and dependency analysis was migrated to Nuxt's `useFetch` to improve state key reactivity and request deduping.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/606"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/592"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/551"
+        }
+      ]
+    },
+    {
+      "title": "Power User UX: Shortcuts and Focus",
+      "summary": "Refined the keyboard-centric workflow by deduplicating `onKeyStroke` triggers and ensuring shortcuts (like '.' or 'd') are ignored when text inputs are focused. The search results navigation now uses native focus styles instead of DOM manipulation, aligning keyboard interaction with hover states and improving overall performance.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/587"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/547"
+        }
+      ]
+    }
+  ]
+}

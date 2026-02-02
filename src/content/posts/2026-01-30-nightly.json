@@ -1,0 +1,74 @@
+{
+  "title": "npmx Accelerates Growth with atproto Integration and Performance SWR",
+  "date": "2026-01-30T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "atproto & Social Vision",
+      "summary": "The community is buzzing about the deepening integration between npmx and atproto. Discussions are active regarding using atproto to power core platform features, moving beyond basic comments to decentralized social utility. Contributors highlighted the 'nerd sniping' that brought atproto experts into the fold to build a truly modern registry browser.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/baileytownsend.dev/post/3mdo3xtmi6k2o"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/knowtheory.net/post/3mdo7nsbdds2l"
+        }
+      ]
+    },
+    {
+      "title": "Performance: Stale-While-Revalidate (SWR)",
+      "summary": "Implemented a client-side 'stale data' pattern to eliminate initial loading 'cliffs.' The app now serves cached data immediately while revalidating in the background, significantly improving perceived performance. This works in tandem with a fix for package manager tab flickering during hydration.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/429"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility & Semantic UX",
+      "summary": "Achieved significant a11y milestones by implementing roving tabindex and proper ARIA tab/tabpanel wiring for the package manager section. Redundant navigation landmarks were removed, and the 'Skip to content' feature was stabilized with fixed positioning and RTL support.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/388"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/385"
+        }
+      ]
+    },
+    {
+      "title": "Global Language Expansion",
+      "summary": "Added full support for Ukrainian (uk-UA) and Azerbaijani (az-AZ), while refining Simplified Chinese and Arabic localization logic. Documentation for contributors was also updated to clarify the Lunaria file tracking requirements for new locales.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/433"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/443"
+        }
+      ]
+    },
+    {
+      "title": "Ecosystem Collaboration: e18e Integration",
+      "summary": "The platform now directly surfaces community advice from the e18e project. Legacy or redundant packages now display tooltips and direct links to e18e documentation for modern module replacements, aiding in ecosystem-wide performance improvements.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/438"
+        }
+      ]
+    }
+  ]
+}

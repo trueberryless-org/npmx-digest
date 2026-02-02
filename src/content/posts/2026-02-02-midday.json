@@ -1,0 +1,94 @@
+{
+  "title": "npmx Scales Global Support and Refines Web Standards",
+  "date": "2026-02-02T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "atproto Expansion & Community Leadership",
+      "summary": "npmx has taken its first major step into decentralized social features with a new pull request from @baileytownsend.dev. This coincides with @patak.dev announcing an independent move to join @danielroe.dev as project steward. The community celebrated its growth on Bluesky, framing npmx as a catalyst to propel atproto adoption within the open-source ecosystem.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/baileytownsend.dev/post/3mdu5rrow722v"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3mdt75lvzkk2z"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility & Theming Overhaul",
+      "summary": "Implemented a suite of high-impact accessibility fixes, including standardized focus indicators for account menus and enhanced chart tooltip contrast in light mode. The project also introduced advanced background theming support via CSS variables, allowing users to choose from familiar background styles while ensuring 'prefers-contrast: more' settings are respected.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/697"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/684"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/663"
+        }
+      ]
+    },
+    {
+      "title": "Markdown Reliability & Provider Integrations",
+      "summary": "README rendering received a critical update to correctly resolve relative markdown links to source repository blob URLs (supporting GitHub, GitLab, Bitbucket, and more). This ensures users land on rendered documentation instead of raw text or CDN error pages. Additionally, code blocks now feature a 'copy-to-clipboard' utility with visual success feedback.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/698"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/636"
+        }
+      ]
+    },
+    {
+      "title": "Global Language Support (Hindi & more)",
+      "summary": "Hindi support was officially added to the platform, following a community review process involving both Bluesky and Discord contributors. Updates were also delivered for Brazilian Portuguese, German, Arabic, and Polish, alongside a refinement of the translation sync logic to maintain consistent key ordering.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/704"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/726"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/671"
+        }
+      ]
+    },
+    {
+      "title": "Data Accuracy & Layout Stability",
+      "summary": "Corrected a misleading UI state where 'time.modified' was used to represent package updates; the system now correctly displays version publish dates. Layout shifts were mitigated by removing empty areas on package pages and fixing an intermittent 504 skeleton flicker. The team also overhauled the comparison tool to better handle binary-only packages and Firefox-specific scrollbar styling.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/702"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/706"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/679"
+        }
+      ]
+    }
+  ]
+}

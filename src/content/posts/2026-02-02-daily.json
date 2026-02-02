@@ -1,0 +1,90 @@
+{
+  "title": "npmx Adopts Canonical Routing and Fast Meta Acceleration",
+  "date": "2026-02-02T06:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Routing Architecture: Canonical Schema & Redirects",
+      "summary": "Implemented a significant overhaul of the platform's URL structure to establish a new canonical routing schema (e.g., transitioning from `/{name}` to `/package/{name}`). This update resolves routing conflicts with reserved names like 'search', configures trailing slash normalization via Vercel, and provides a clear path for upcoming sections like sponsors, tools, and reports.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/674"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/649"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/673"
+        }
+      ]
+    },
+    {
+      "title": "Performance: fast-npm-meta & Payload Slimming",
+      "summary": "Integrated 'fast-npm-meta' to accelerate latest version resolution. Alongside this integration, the team significantly optimized data payloads, stripping unneeded historical version metadata to reduce typical package payload sizes from ~50k to 20k, effectively mitigating intermittent 504 timeout errors on uncached packages.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/664"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/675"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility: High-Contrast & Semantic Upgrades",
+      "summary": "Enhanced visual accessibility by implementing a dedicated high-contrast mode that respects the `prefers-contrast: more` media feature. Core UI elements like toggles and switches received border refinements for better visibility, and missing semantic headers (h1) were added to the search page for screen reader clarity.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/684"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/680"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/660"
+        }
+      ]
+    },
+    {
+      "title": "atproto Adoption & Social Vision",
+      "summary": "Discussion continues around using npmx as a catalyst for atproto adoption in the OSS world. Contributors are leading efforts to embed social protocol features directly into the utility, with the community noting that nine days of development have resulted in an 'insane' level of progress and feature-parity with legacy registries.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3mdtaldnop22q"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/philippeserhal.com/post/3mdtygsbjrk2u"
+        }
+      ]
+    },
+    {
+      "title": "UX Refinements: README Copy & Collapsible Sidebar",
+      "summary": "Upgraded the README experience by injecting copy-to-clipboard buttons directly into code blocks with visual success feedback. The package sidebar was also refactored into a collapsible component using the <details>/<summary> pattern, improving the logical tabbing order and allowing users to hide secondary info like optional dependencies.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/636"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/503"
+        }
+      ]
+    }
+  ]
+}

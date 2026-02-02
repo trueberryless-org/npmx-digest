@@ -1,0 +1,102 @@
+{
+  "title": "npmx Hits 100 Contributors and Overhauls Navigation Infrastructure",
+  "date": "2026-02-01T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Community Milestone & Ecosystem Growth",
+      "summary": "The npmx repository officially reached 100 contributors in just 10 days. On Bluesky, the project celebrated its partnership with the 'Wamellow' bot, which automates Discord roles for GitHub contributors, further bridging the community's primary communication channels. Nepali and Indonesian (id-ID) language support was also added, continuing the aggressive global expansion.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mdsf6qaqys2c"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/614"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/608"
+        }
+      ]
+    },
+    {
+      "title": "Navigation & URL Routing Hardening",
+      "summary": "Resolved several critical routing issues, including a 404 error when directly accessing the code viewer via URL. The team migrated the `.well-known/skills` endpoints to a middleware pattern to prevent Nitro file-based routing conflicts. Additionally, a new 'pinned header' was implemented for package pages to maintain context while scrolling through long READMEs.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/630"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/637"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/566"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility & Mobile Interaction",
+      "summary": "Significant accessibility improvements were made to the mobile menu, including a focus trap to prevent users from tabbing to elements hidden behind the menu. Keyboard shortcuts were refactored to share a helper that correctly ignores modifier keys (fixing conflicts like Shift+Cmd+C) and disables shortcuts when editable text inputs are focused.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/624"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/607"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/547"
+        }
+      ]
+    },
+    {
+      "title": "Rendering & Logic Refinements",
+      "summary": "Migrated from a `MarkdownText` component to a `useMarkdown` composable to better handle empty states in package descriptions. README rendering now supports the `align` attribute for elements, and the dependency list 'Show all' button was fixed to ensure visibility of all 10+ package dependencies.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/590"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/642"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/613"
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure & Maintainability",
+      "summary": "Strengthened code quality by enabling `noUnusedLocals` in the TypeScript configuration and refactoring translation sync logic to maintain original key order from `en.json`. The team also standardized username links to always use the `~` prefix to distinguish them from organization (`@`) pages.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/603"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/627"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/602"
+        }
+      ]
+    }
+  ]
+}

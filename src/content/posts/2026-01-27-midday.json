@@ -1,0 +1,74 @@
+{
+  "title": "npmx Scales with i18n and Personalized Navigation",
+  "date": "2026-01-27T14:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Global Reach: i18n Framework Launch",
+      "summary": "Initialized a global internationalization (i18n) framework to bridge the language gap in the npm ecosystem. The implementation starts with core homepage translations and establishes a scalable architecture for community-driven localization, addressing a long-standing barrier for non-English speaking developers.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/166"
+        }
+      ]
+    },
+    {
+      "title": "Social Momentum & Community Milestone",
+      "summary": "The npmx community celebrated a major milestone, reaching 100 members. On Bluesky, project leads highlighted the 'modern browser' as a fantastic opportunity for new OSS contributors to 'scratch that itch' and build a better npmjs.com together.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3mdfcyig3k22p"
+        }
+      ]
+    },
+    {
+      "title": "Personalized UX: Authenticated Navigation",
+      "summary": "Overhauled the header navigation for logged-in users. New features include persistent GitHub identity links, quick-access 'Packages' and 'Orgs' items with hover-state previews, and a dedicated organizations page displaying team associations and package counts. This shift prioritizes user-specific context directly within the primary UI.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/98"
+        }
+      ]
+    },
+    {
+      "title": "CLI Developer Experience Improvements",
+      "summary": "Introduced QoL improvements for the CLI, including automatic local host detection via the `NPMX_CLI_DEV` environment variable. This ensures the CLI correctly points to local frontend instances during development, streamlining the testing workflow for contributors.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/160"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/163"
+        }
+      ]
+    },
+    {
+      "title": "UI Polish and Search Optimization",
+      "summary": "Optimized the search experience with automatic input autofocus on page load. The version selection UI was also refined: major version nodes are now properly linkified, and PackageCards have been updated to surface license metadata for immediate visibility.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/171"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/159"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/170"
+        }
+      ]
+    }
+  ]
+}

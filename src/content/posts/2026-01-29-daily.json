@@ -1,0 +1,67 @@
+{
+  "title": "npmx Implements OSV Vulnerability Scanning and README Refinements",
+  "date": "2026-01-29T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Security: Direct Dependency Vulnerability Warnings",
+      "summary": "Launched a major security feature that batch-queries the OSV API to identify vulnerabilities in direct dependencies. A new server endpoint (`/api/osv/vulnerabilities`) powers a high-level summary banner and inline security icons with detailed tooltips, allowing users to audit package safety at a glance.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/167"
+        }
+      ]
+    },
+    {
+      "title": "Community Highlights: atproto & Nuxt Integration",
+      "summary": "The community reached a significant milestone by successfully implementing atproto OAuth within the Nuxt framework. Discussions on Bluesky characterize npmx as an 'npmjs browser on steroids,' with contributors expressing high enthusiasm for the project's rapid feature velocity.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/zeu.dev/post/3mdjwyozfck2l"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/graphieros.com/post/3mdjurt4wx22d"
+        }
+      ]
+    },
+    {
+      "title": "Markdown & README UX Improvements",
+      "summary": "Refined README rendering by generating GitHub-style heading IDs to enable functional anchor navigation. Added support for GitHub Markdown Alerts icons and resolved a 'black-on-black' text regression for non-Shiki code blocks in light mode. Visual badges for ESM, CJS, and Types were also modernized for better clarity.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/254"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/253"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/260"
+        }
+      ]
+    },
+    {
+      "title": "Global Expansion & i18n",
+      "summary": "Expanded the platform's linguistic reach by introducing the German locale (`de.json`) and delivering updated Italian translations. These updates continue the push toward a fully localized registry browser experience.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/252"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/255"
+        }
+      ]
+    }
+  ]
+}

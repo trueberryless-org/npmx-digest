@@ -1,0 +1,94 @@
+{
+  "title": "npmx Accelerates Ecosystem Growth and Performance",
+  "date": "2026-02-01T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Lore & Contributor Explosion",
+      "summary": "The npmx community celebrated reaching over 100 contributors in just 10 days. To honor this growth, the 'About' page was updated with a live contributor count and enhanced avatars that surface usernames on hover. Project stewards emphasized that open source contribution extends beyond code to vital activities like reviewing and testing.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mdsf6qaqys2c"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/654"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/670"
+        }
+      ]
+    },
+    {
+      "title": "Performance: OSV Batch API Integration",
+      "summary": "Implemented a major performance optimization by migrating dependency analysis to the OSV Batch API. This significantly reduces resolution times for packages with deep dependency trees by consolidating multiple vulnerability checks into single requests.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/665"
+        }
+      ]
+    },
+    {
+      "title": "atproto OAuth & Ecosystem Emergence",
+      "summary": "Stabilized the atproto 'Atmosphere' integration by resolving critical OAuth schema errors. Meanwhile, the community launched 'nxjt' and 'xnpm'—external browser extensions and navigation tools—signaling the emergence of a broader npmx ecosystem. Contributors noted that adding social features to utility sites will accelerate protocol adoption faster than building isolated social apps.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/668"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/tbeseda.com/post/3mdspxck6rs24"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3mdo3pin7g226"
+        }
+      ]
+    },
+    {
+      "title": "Global i18n Expansion (Nepali & Czech)",
+      "summary": "Added support for Nepali (ne-NP) and Czech (cs-CZ), while delivering comprehensive updates to German, Russian, and Polish translations. The i18n tooling was further hardened to ensure consistent formatting across build environments regardless of the developer's local browser settings.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/614"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/360"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/638"
+        }
+      ]
+    },
+    {
+      "title": "README Rendering & UI Polish",
+      "summary": "Refined the Markdown engine to support the 'git' protocol and HTML 'align' attributes on both tags and images. Resolved several UI friction points, including fixing visibility for pagination chevrons and ensuring licenses explicitly display 'None' instead of being hidden when missing.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/642"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/656"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/645"
+        }
+      ]
+    }
+  ]
+}

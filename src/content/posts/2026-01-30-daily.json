@@ -1,0 +1,78 @@
+{
+  "title": "npmx Achieves Comprehensive RTL Support",
+  "date": "2026-01-30T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Full Right-to-Left (RTL) Implementation",
+      "summary": "Completed a massive migration to support RTL languages across nearly every core component, including the search page, about page, and package detail views. The system now dynamically toggles HTML 'dir' and 'lang' attributes upon locale changes, ensuring proper alignment and rendering for Arabic and other RTL scripts.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/368"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/373"
+        }
+      ]
+    },
+    {
+      "title": "Social Momentum and Contributor Trust",
+      "summary": "Bluesky updates highlight the palpable sense of trust within the npmx community. Contributors are emphasizing how this social glue is enabling the team to move at lightning speeds, with seven locales already supported on the platform.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/sarahedo.bsky.social/post/3mdkxuh2vcc2p"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3mdkqgxtsr22t"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Insights & Deprecation Tracking",
+      "summary": "Introduced new UI elements to surface deprecated packages within the dependency tree. This includes a new banner for deprecated counts and a sub-tree structure identical to the vulnerability viewer, allowing for more intuitive security and health audits.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/344"
+        }
+      ]
+    },
+    {
+      "title": "Localization Expansion",
+      "summary": "Expanded the platform's linguistic reach with updated French and Italian entries. Significant progress was also made on Spanish support, including the introduction of initial Spanish for Latin America (es-419).",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/374"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/361"
+        }
+      ]
+    },
+    {
+      "title": "Visual and Layout Refinements",
+      "summary": "Resolved several polish issues, including baseline alignment for footer taglines and tightening ASCII art rendering in code previews. Tooltips were integrated into table columns to prevent long 'coming soon' labels from breaking row layouts.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/342"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/370"
+        }
+      ]
+    }
+  ]
+}

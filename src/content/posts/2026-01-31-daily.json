@@ -1,0 +1,67 @@
+{
+  "title": "npmx Streamlines CI and Gains atproto Momentum",
+  "date": "2026-01-31T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Infrastructure & CI Optimization",
+      "summary": "Executed a major cleanup of the CI pipeline by migrating from Corepack to pnpm/action-setup. This change anticipates Node.js's removal of Corepack and successfully fixed a long-standing issue with dependency caching. Additionally, happy-dom was removed in favor of native Vitest Browser Mode, and linting workflows were reverted to explicit oxlint/oxfmt calls for better stability.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/455"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/453"
+        }
+      ]
+    },
+    {
+      "title": "atproto & Social Integration Buzz",
+      "summary": "npmx is gaining significant traction within the atproto ecosystem. Reposts from the official atproto account and key developers highlight the platform as a 'fast, modern browser' that is being positioned as a 'back door' for bringing decentralized social features into mainstream developer tools.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/atprotocol.dev/post/3mdocdmndgk26"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/hipstersmoothie.com/post/3mdnwwl7q5223"
+        }
+      ]
+    },
+    {
+      "title": "UI Accessibility and Mobile Readability",
+      "summary": "Enhanced the large download charts for mobile by removing cluttered X-axis labels and increasing scale font sizes. The version selection UI now explicitly calls out the 'latest' version, ensuring it remains prominent even when deep in a version list. Markdown rendering was also enabled for deprecation notices to improve technical clarity.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/447"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/448"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/446"
+        }
+      ]
+    },
+    {
+      "title": "Localization: Polish Support",
+      "summary": "The platform's linguistic reach continues to expand with the addition of a full Polish translation, bringing npmx one step closer to complete global registry coverage.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/450"
+        }
+      ]
+    }
+  ]
+}

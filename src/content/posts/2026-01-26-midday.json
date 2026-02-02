@@ -1,0 +1,90 @@
+{
+  "title": "npmx Integrates OpenSearch and Security Auditing",
+  "date": "2026-01-26T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "OpenSearch and Browser Integration",
+      "summary": "Implemented OpenSearch support, enabling browsers to use npmx as a native search engine. The integration includes a suggestions API for real-time autocomplete in the address bar and specific header fixes to ensure XML parsing compatibility on Vercel.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/113"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/115"
+        }
+      ]
+    },
+    {
+      "title": "Security and Version Auditing",
+      "summary": "Introduced automated detection of installation scripts (pre/post-install) with warning indicators for potential security risks. The system now extracts hidden runtime dependencies invoked via npx and provides clear UI notices for deprecated packages and versions.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/82"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/102"
+        }
+      ]
+    },
+    {
+      "title": "URL Routing and SemVer Resolution",
+      "summary": "Enhanced routing logic to support complex URL patterns like `/package@version` and semver ranges (e.g., `/vue/v/^1`). This update improves the DX for power users navigating directly to specific module states.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/103"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/107"
+        }
+      ]
+    },
+    {
+      "title": "UI Accessibility and Keyboard Shortcuts",
+      "summary": "Achieved a 100% Lighthouse accessibility score target by increasing touch targets and refining component contrast. Added a '.' (dot) keyboard shortcut to quickly jump to a package's code view and added a clear icon to the search input.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/121"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/100"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/101"
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure and Layout Fixes",
+      "summary": "Resolved several high-priority bugs, including a Firefox-specific footer visibility issue and a CORS configuration error in the connector CLI that prevented authentication on non-standard localhost ports. Updated the org and package views to utilize full container width.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/104"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/93"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/92"
+        }
+      ]
+    }
+  ]
+}

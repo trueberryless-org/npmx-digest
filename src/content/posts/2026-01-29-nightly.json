@@ -1,0 +1,78 @@
+{
+  "title": "npmx Scales Globally with RTL Framework",
+  "date": "2026-01-29T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Global RTL Framework",
+      "summary": "Executed a massive coordinated update to support Right-to-Left (RTL) languages across the platform. This included refactoring the AppHeader, AppFooter, CodeViewer, and various organizational panels to utilize logical CSS properties and UnoCSS RTL utilities, ensuring seamless layout mirroring for locales like Arabic.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/318"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/320"
+        }
+      ]
+    },
+    {
+      "title": "Community and Social Growth",
+      "summary": "The npmx community celebrated reaching seven locales and high levels of contributor trust. Discussions are ongoing regarding atproto integration and social features, while power users shared excitement over the rapid reinvigoration of the community surrounding the project.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3mdkqgxtsr22t"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mdlbp3gfcc2w"
+        }
+      ]
+    },
+    {
+      "title": "Package Discovery UX supercharged",
+      "summary": "Merged a significant UX upgrade allowing users to toggle between concise cards and a detailed, customizable table view. Features include sortable columns, scoped search (name, description, keywords), and advanced filtering by downloads and update recency.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/philippeserhal.com/post/3mdllwb53ps2l"
+        }
+      ]
+    },
+    {
+      "title": "Hydration and SSR Stability",
+      "summary": "Resolved critical SSR hydration mismatches by migrating asynchronous MDC components in the documentation landing page from slots to synchronous props. Additionally, wrapped the language selector and package manager tabs in ClientOnly tags to prevent state conflicts during client-side hydration.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/333"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/305"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility and Semantic Markup",
+      "summary": "Streamlined accessibility by removing redundant ARIA roles from implicit landmarks and fixing layout shifts that occurred when vulnerability blocks were expanded. Added human-readable date formatting to native tooltips on hover states.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/311"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/331"
+        }
+      ]
+    }
+  ]
+}

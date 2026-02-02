@@ -1,0 +1,94 @@
+{
+  "title": "npmx Scales Communities and Hardens Multi-Locale UX",
+  "date": "2026-01-31T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Stewardship & Visual Identity",
+      "summary": "Daniel Roe announced that @patak.dev has joined as a steward of npmx, reinforcing the project's roots in the Nuxt and Vite communities. The community celebrated high visual diversity among contributors, with a new PR being raised every 32 minutes. The platform also updated its Open Graph (OG) strategy with flexible templates that adapt to themes and environments.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mdprcakxuc2v"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/462"
+        }
+      ]
+    },
+    {
+      "title": "Mobile UX Overhaul",
+      "summary": "Significant upgrades were made to the mobile experience, including the launch of a new mobile-specific menu and navigation alignment. Critical fixes resolved issues where avatars were shrinking on small screens and search sort dropdowns were exceeding viewport widths. A new collapsible sidebar component was also introduced, persisting state via localStorage.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/517"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/559"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/488"
+        }
+      ]
+    },
+    {
+      "title": "atproto Expansion into the 'Atmosphere'",
+      "summary": "npmx has officially integrated with the Atmosphere dev community. A new Constellation client was added to the core library to facilitate social feature adoption, while community discussions highlighted that adding social features to existing utility sites like npmx will accelerate decentralized protocol adoption faster than isolated apps.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mdqgrw5nn22x"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/474"
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure & Search Reliability",
+      "summary": "The search experience was stabilized by increasing the debounce timer to 500ms to prevent focus loss during rapid typing. Performance improvements include the automatic abortion of deduped async data handlers to reduce rate-limit pressure on npmjs. Additionally, a new UnoCSS preset was introduced to automatically detect and warn against hardcoded physical CSS directions (left/right) in favor of logical ones.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/505"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/538"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/539"
+        }
+      ]
+    },
+    {
+      "title": "Global i18n Refinement",
+      "summary": "Added Hungarian translations and updated Russian, Spanish, and Japanese locales. The i18n logic was hardened to handle singular vs. plural forms correctly in transaction scopes, and a new tool was added to automatically strip unused translation keys from the codebase.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/529"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/471"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/465"
+        }
+      ]
+    }
+  ]
+}

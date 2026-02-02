@@ -1,0 +1,90 @@
+{
+  "title": "npmx Enhances Markdown Rendering and Global Localization",
+  "date": "2026-01-28T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Visual Design and Light Mode Refinement",
+      "summary": "Completed a high-impact visual update by introducing the 'github-light' code theme for Light Mode, ensuring high contrast and consistent aesthetics with the dark theme. Resolved several CSS bugs where non-Shiki code blocks had unreadable black-on-black text.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/235"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/253"
+        }
+      ]
+    },
+    {
+      "title": "Community & Ecosystem Growth",
+      "summary": "The community continues to expand with new contributors sharing their experiences on Bluesky. Project leaders highlighted the 'special foundation' of the open-source community currently driving the project. Collaborations with e18e are also being explored to integrate module-replacement suggestions directly into the UI.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3mdj6pjlsc22t"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/217"
+        }
+      ]
+    },
+    {
+      "title": "Localization and i18n Workflow",
+      "summary": "Significantly scaled the internationalization effort by adding the German locale and integrating Lunaria for translation tracking. This new workflow includes a dashboard to monitor completion status and an automated GitHub Action to warn about outdated translation strings in pull requests.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/242"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/252"
+        }
+      ]
+    },
+    {
+      "title": "User Interface and Mobile Optimization",
+      "summary": "Enhanced responsiveness for ultra-narrow viewports (e.g., iPhone SE) by implementing horizontal scrollbars for package manager tabs. Added a 'Sponsor' button to package pages and unified the navigation header with a persistent search bar and a functional 'back' button for the settings route.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/236"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/233"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/251"
+        }
+      ]
+    },
+    {
+      "title": "Registry and Metadata Features",
+      "summary": "Introduced custom npmx.dev badges for embedding in READMEs and added fork count support for Tangled.org repositories via the Constellation API. Advanced install command logic now detects 'create-*' variants and binary execution scripts, tailoring the UI based on the specific package contents.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/262"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/243"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/209"
+        }
+      ]
+    }
+  ]
+}

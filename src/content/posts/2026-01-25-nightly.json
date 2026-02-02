@@ -1,0 +1,82 @@
+{
+  "title": "npmx Enhances Discovery with Playground Extraction and Accessibility Automation",
+  "date": "2026-01-25T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Interactive Discovery: Playground Extraction",
+      "summary": "Implemented an automated system to extract demo and playground links (StackBlitz, CodeSandbox, CodePen, etc.) directly from package READMEs. These links are now surfaced prominently in the sidebar via a new 'PackagePlaygrounds' component, featuring brand-specific colors and a dropdown interface for multiple demos.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/55"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility Hardening & Keyboard Navigation",
+      "summary": "Significant accessibility milestones achieved with the introduction of full keyboard navigation for search results (ArrowUp/ArrowDown, Enter to open) and the integration of automated Lighthouse and Axe-core testing into the CI pipeline. A new 'AppTooltip' component was also introduced to standardize accessible UI hints.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/64"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/85"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/87"
+        }
+      ]
+    },
+    {
+      "title": "Data Integrity: Backend Validation with Valibot",
+      "summary": "Introduced Valibot to the backend stack to implement strict schema validation and standardized error handling across all internal APIs. This ensures data consistency for registry responses and provides a more robust foundation for the growing admin UI features.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/84"
+        }
+      ]
+    },
+    {
+      "title": "UI Polish & Mobile Ergonomics",
+      "summary": "Resolved several mobile regressions, including 'updated' column alignment and layout shifts during breadcrumb navigation. The package page now features GitHub star/fork counts with correct pluralization logic and provides a direct integration link to the Node Modules Inspector for deep dependency auditing.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/68"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/74"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/73"
+        }
+      ]
+    },
+    {
+      "title": "Bluesky Community Buzz",
+      "summary": "The community continues to grow with project members expressing awe at the 'caliber of folks' joining the effort. Discussions regarding atproto integration are intensifying, with hints that npmx may soon use atproto to power decentralized social features directly on the platform.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3mdmcrajvo22x"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/baileytownsend.dev/post/3mdlq4u3oxk2k"
+        }
+      ]
+    }
+  ]
+}

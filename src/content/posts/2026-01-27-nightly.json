@@ -1,0 +1,82 @@
+{
+  "title": "npmx Launches Light Mode and Enhanced Analytics",
+  "date": "2026-01-27T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Theming: Light Mode and Accent Customization",
+      "summary": "The project reached a major visual milestone with the implementation of Light Mode, driven by CSS variables and OKLCH colors. Users can now also personalize the interface via a new accent color picker in the settings menu, which automatically applies to interactive elements and charts to prevent theme flickering on load.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/172"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/173"
+        }
+      ]
+    },
+    {
+      "title": "Community & Social: The 'Sparkline' Advantage",
+      "summary": "Activity on Bluesky highlights the project's momentum, with contributors showcasing the new sparkline charts and the expansion into detailed download analytics. project leads are leveraging this excitement to recruit 'more brains' for what they call the 'hottest open source project' in the npm space right now.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/graphieros.com/post/3mdg6wmflg22m"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Data Visualization",
+      "summary": "Introduced enlarged download charts within a modal, featuring granular filters and debounced date ranges. To improve reliability, the system now chunks and aggregates GitHub API queries that exceed the 18-month limit and provides context menus for CSV, PNG, and SVG data exports.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/146"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/189"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization & Documentation",
+      "summary": "Expanded global support with Simplified Chinese (zh-CN) and French (fr) locales. The team also scaffolded a dedicated documentation site using Docus to streamline community onboarding and centralize feature FAQs.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/180"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/190"
+        }
+      ]
+    },
+    {
+      "title": "Performance & Accessibility Refinements",
+      "summary": "Optimized deployment latency by implementing a server fetch cache for API responses. Accessibility was also strengthened by restricting animations to 'motion-safe' environments and expanding Lighthouse CI audits to cover both light and dark modes.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/183"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/177"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/194"
+        }
+      ]
+    }
+  ]
+}

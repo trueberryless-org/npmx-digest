@@ -1,0 +1,94 @@
+{
+  "title": "npmx Hits 1K Stars and Accelerates Global Scaling",
+  "date": "2026-02-02T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Milestone: 1,000 GitHub Stars",
+      "summary": "npmx officially reached 1,000 stars on GitHub, a massive testament to the community's rapid growth since launch. Project stewards Daniel Roe and Patak celebrated the milestone, while contributors emphasized the value of the project as a high-impact learning ground for junior developers entering open source.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mdv4qumk6k22"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/jovidecroock.com/post/3mdv3ryddds2h"
+        }
+      ]
+    },
+    {
+      "title": "Search Logic & UX Overhaul",
+      "summary": "Implemented significant improvements to the search experience, including exact package lookup fallbacks for short queries (fixing the 1-character search limitation). Search results now support clickable keywords that automatically navigate to filtered queries, and the UI was refined to prevent 'jumping' layouts during search page transitions.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/729"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/733"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/762"
+        }
+      ]
+    },
+    {
+      "title": "atproto OAuth & Ecosystem Support",
+      "summary": "Resolved critical blockers for atproto integration by implementing dynamic client URI resolution for Vercel preview deployments. This ensures OAuth flows work correctly across production, staging, and local environments. Community enthusiasm remains high as developers tease the first batch of integrated social features coming soon.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/739"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/baileytownsend.dev/post/3mdu5rrow722v"
+        }
+      ]
+    },
+    {
+      "title": "A11y and Design System Polish",
+      "summary": "Continued the push for 100% accessibility with improved focus indicators for dropdown menus and higher contrast focus rings across the site. The 'CallToAction' component was refactored using CSS Subgrid for perfect alignment, and a 'perfers-contrast' mode was implemented to support high-visibility system settings.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/697"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/746"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/684"
+        }
+      ]
+    },
+    {
+      "title": "Global Language Expansion (Hindi & Arabic)",
+      "summary": "Hindi support was added to the platform, leveraging AI-assisted translations followed by community review. Updates were also delivered for Arabic, Simplified Chinese, and Japanese, ensuring that new search filters and package comparison facets are fully localized.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/704"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/754"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/765"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "title": "npmx Scales with Wide Layouts and SSR Sparklines",
+  "date": "2026-01-28T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "UI Architecture and Wide-Screen Optimization",
+      "summary": "Implemented a new extra-wide layout for screens exceeding 1280px, utilizing CSS Grid named areas to create a floating sidebar effect. Additionally, the settings interface has been refactored from a modal into a dedicated /settings route to improve visibility and accommodate future preference gating.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/200"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/225"
+        }
+      ]
+    },
+    {
+      "title": "Data Visualization and SSR Performance",
+      "summary": "Resolved the need for an SSR-friendly sparkline by implementing a static SVG-based chart that renders server-side, eliminating the reliance on client-side loading skeletons. Interactive charts also received height adjustments for mobile and support for custom filenames in data exports.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/165"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/214"
+        }
+      ]
+    },
+    {
+      "title": "Community Velocity & atproto Exploration",
+      "summary": "The project hit a milestone of 47 contributors and 283 commits in just five days. Discussions on Bluesky highlight the successful implementation of atproto OAuth across multiple frameworks (Nuxt, SvelteKit, Hono), signaling a strong push toward decentralized social features within the npmx ecosystem.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mdicejnotj2e"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/zeu.dev/post/3mdicv54fj22l"
+        }
+      ]
+    },
+    {
+      "title": "Ecosystem Collaboration and README Parity",
+      "summary": "Initiated collaboration with the e18e community to integrate module-replacement suggestions directly into package pages. README rendering was further improved by allowing the 'align' attribute on <div> elements, ensuring parity with GitHub's display logic.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/217"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/227"
+        }
+      ]
+    },
+    {
+      "title": "i18n and Global Formatting",
+      "summary": "Strengthened the internationalization framework by implementing an English fallback locale and adding locale-aware date formatting to the DateTime component. Refinement also continued for Simplified Chinese (zh-CN) translations and light-theme contrast fixes.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/202"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/206"
+        }
+      ]
+    }
+  ]
+}

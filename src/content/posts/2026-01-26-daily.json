@@ -1,0 +1,67 @@
+{
+  "title": "npmx Enhances Mobile Ergonomics and Accessibility",
+  "date": "2026-01-26T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Mobile UX and Layout Overhaul",
+      "summary": "Implemented a suite of mobile-first features including a floating scroll-to-top button and a 'reverse sticky footer' that slides in on scroll-up. This architecture utilizes CSS scroll-state container queries with a JS fallback for progressive enhancement, ensuring footer visibility on infinite-scroll pages.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/69"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/71"
+        }
+      ]
+    },
+    {
+      "title": "Community Growth and Ecosystem Expansion",
+      "summary": "The community surrounding npmx is rapidly expanding, with members sharing excitement on Bluesky about building a 'better browser for npm packages.' UI support was added for multiple VCS platforms including Tangled.org, Bitbucket, GitLab, and Gitee, positioning npmx as a versatile tool for the broader open-source ecosystem.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3mdaxxvdnv22s"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mdboxklib22h"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mdbvdoy4522o"
+        }
+      ]
+    },
+    {
+      "title": "Search Input Optimization",
+      "summary": "Applied additional HTML attributes to the search input to disable browser-level text mangling, such as autocorrect and autocapitalization. This ensures that technical package names are preserved exactly as typed during the search process.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/88"
+        }
+      ]
+    },
+    {
+      "title": "Platform Infrastructure",
+      "summary": "Established common redirects for social links, repositories, and community guidelines. Critical fixes were applied to the code viewer to utilize a unified sticky header approach, resolving issues with nested scroll containers on mobile.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/89"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/42"
+        }
+      ]
+    }
+  ]
+}

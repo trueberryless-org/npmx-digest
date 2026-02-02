@@ -1,0 +1,18 @@
+{
+  "title": "npmx Enables Version-Specific Install Commands",
+  "date": "2026-01-24T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Version-Specific Package Installation",
+      "summary": "The UI now dynamically generates installation commands with `@version` suffixes when a user views a specific package version. This affects code snippets and clipboard functionality across all supported package managers: npm, pnpm, yarn, bun, and deno.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/7"
+        }
+      ]
+    }
+  ]
+}

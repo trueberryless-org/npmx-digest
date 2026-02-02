@@ -15,8 +15,9 @@ The system generates reports three times daily:
 
 ## ✨ Features
 
-- 🤖 **AI-Powered Summaries** - Uses GitHub Models to generate concise summaries
-- ⏰ **Twice Daily Updates** - Posts published at 07:00 and 23:00 CET
-- 🎨 **Beautiful Minimalist Design** - Clean, modern interface with no framework dependencies
-- 📱 **Fully Responsive** - Works perfectly on all devices
-- 🔄 **Automated** - GitHub Actions handles everything automatically
+- 🤖 **AI-Powered Summaries** — Leverages **GitHub Models** to cluster technical signals into intelligent topics.
+- 🦋 **Social-First Insights** — Prioritizes **Bluesky** community interactions as high-signal anchors for technical digests.
+- ⏰ **Thrice Daily Updates** — Automated digests generated at 06:00, 14:00, and 22:00 UTC to cover global activity.
+- 🛠️ **Best-in-Class Tooling** — Built with **Astro 5**, **TypeScript**, and **pnpm** for a type-safe, high-performance workflow.
+- 🔄 **Fully Automated** — GitHub Actions manages the end-to-end lifecycle: fetching events, AI processing, and git-backed persistence.
+- 📱 **Minimalist & Responsive** — A clean, modern interface designed for readability across all device types.

@@ -53,9 +53,11 @@ export async function fetchGitHubEvents(since: Date): Promise<Event[]> {
   const now = new Date();
   const endIso = now.toISOString().split(".")[0] + "Z";
 
-  const query = encodeURIComponent(
-    `repo:${owner}/${repo} is:closed closed:${startIso}..${endIso}`,
-  );
+  const repository = `repo:${owner}/${repo}`;
+  const timeRange = `closed:${startIso}..${endIso}`;
+  const filters = "(is:issue is:closed) OR (is:pr is:merged)";
+
+  const query = encodeURIComponent(`${repository} ${filters} ${timeRange}`);
 
   const headers = {
     Accept: "application/vnd.github.v3+json",

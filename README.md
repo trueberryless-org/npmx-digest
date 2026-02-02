@@ -3,7 +3,7 @@
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/765292dd-a66b-423b-aece-551ab6940f24/deploy-status)](https://app.netlify.com/projects/npmx-digest/deploys)
 
-An automated news aggregation website that summarizes [**npmx**](https://repo.npmx.dev) activity from GitHub and Bluesky every 12 hours.
+An automated news aggregation website that summarizes [**npmx**](https://repo.npmx.dev) activity from GitHub and Bluesky every 8 hours.
 
 ## ⚡ Report Cycle
 

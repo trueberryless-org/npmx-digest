@@ -1,0 +1,66 @@
+{
+  "title": "npmx Introduces Dynamic Table of Contents and System-Aware Theming",
+  "date": "2026-02-03T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "README UX: Automated Table of Contents",
+      "summary": "Implemented an automated Table of Contents (ToC) for package READMEs, mirroring the navigation ergonomics of GitHub. This feature allows users to quickly jump between sections in long documentation files, significantly improving readability and information discovery.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/573"
+        }
+      ]
+    },
+    {
+      "title": "Theming: System Preference Autodiscovery",
+      "summary": "Resolved a key community request by transitioning the default theme logic to follow user system preferences instead of forcing dark mode. The platform now utilizes the `color-scheme` property to ensure consistent rendering when browsers or operating systems override UI colors.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/782"
+        }
+      ]
+    },
+    {
+      "title": "Search Integrity & Cache Consistency",
+      "summary": "Fixed a high-priority bug where rapid typing could lead to outdated or empty search results due to racing network requests. The system now includes a check to ignore stale search responses before updating the incremental client-side cache, ensuring search results always reflect the user's latest query state.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/788"
+        }
+      ]
+    },
+    {
+      "title": "Developer Experience & Tooling Optimization",
+      "summary": "Optimized the local development workflow by circumventing a slow post-install bug in `vite-plus`. Linting and formatting commands (oxlint/oxfmt) are now called directly, reducing git commit and lint times by approximately 4.5 seconds. Additionally, the CI pipeline was migrated to slim Ubuntu runners for improved environmental efficiency and cost reduction.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/786"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/753"
+        }
+      ]
+    },
+    {
+      "title": "Atmosphere Branding & Social Features",
+      "summary": "Continued the integration into the atproto 'Atmosphere' with new branded HTML email templates for PDS (Personal Data Server) automated communications. This builds on the first social feature PRs recently submitted by core community members.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/741"
+        }
+      ]
+    }
+  ]
+}

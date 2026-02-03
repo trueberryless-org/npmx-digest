@@ -43,7 +43,7 @@ export async function fetchGitHubEvents(since: Date): Promise<Event[]> {
 
   const repository = `repo:${owner}/${repo}`;
   const timeRange = `closed:${startIso}..${endIso}`;
-  const filters = "is:closed -is:unmerged";
+  const filters = "is:closed reason:completed -is:unmerged";
 
   const query = encodeURIComponent(`${repository} ${filters} ${timeRange}`);
 

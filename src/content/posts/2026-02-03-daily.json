@@ -15,17 +15,6 @@
       ]
     },
     {
-      "title": "Theming: System Preference Autodiscovery",
-      "summary": "Resolved a key community request by transitioning the default theme logic to follow user system preferences instead of forcing dark mode. The platform now utilizes the `color-scheme` property to ensure consistent rendering when browsers or operating systems override UI colors.",
-      "relevanceScore": 9,
-      "sources": [
-        {
-          "platform": "github",
-          "url": "https://github.com/npmx-dev/npmx.dev/issues/782"
-        }
-      ]
-    },
-    {
       "title": "Search Integrity & Cache Consistency",
       "summary": "Fixed a high-priority bug where rapid typing could lead to outdated or empty search results due to racing network requests. The system now includes a check to ignore stale search responses before updating the incremental client-side cache, ensuring search results always reflect the user's latest query state.",
       "relevanceScore": 9,

@@ -66,12 +66,9 @@ export async function fetchGitHubEvents(
 
   const repository = `repo:${owner}/${repo}`;
   const timeRange = `closed:${startIso}..${endIso}`;
-  const filters = "is:closed -is:unmerged";
+  const filters = "is:closed reason:completed -is:unmerged";
 
   const query = encodeURIComponent(`${repository} ${filters} ${timeRange}`);
-
-  console.log(query);
-  console.log(`${repository} ${filters} ${timeRange}`);
 
   const headers = {
     Accept: "application/vnd.github.v3+json",

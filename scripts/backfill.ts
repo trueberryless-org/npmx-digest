@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { spawn } from "child_process";
 
-const END_TIME_CONSTANT = "2026-02-02T22:00:00Z";
+const END_TIME_CONSTANT = "2026-02-03T06:00:00Z";
 const WINDOW_HOURS = 8;
 
 const EventSchema = z.object({
@@ -63,9 +63,15 @@ export async function fetchGitHubEvents(
 
   const startIso = start.toISOString().split(".")[0] + "Z";
   const endIso = end.toISOString().split(".")[0] + "Z";
-  const query = encodeURIComponent(
-    `repo:${owner}/${repo} is:closed closed:${startIso}..${endIso}`,
-  );
+
+  const repository = `repo:${owner}/${repo}`;
+  const timeRange = `closed:${startIso}..${endIso}`;
+  const filters = "is:closed -is:unmerged";
+
+  const query = encodeURIComponent(`${repository} ${filters} ${timeRange}`);
+
+  console.log(query);
+  console.log(`${repository} ${filters} ${timeRange}`);
 
   const headers = {
     Accept: "application/vnd.github.v3+json",

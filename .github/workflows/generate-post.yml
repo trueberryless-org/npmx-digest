@@ -9,7 +9,6 @@ on:
 
 permissions:
   contents: write
-  models: read
 
 jobs:
   generate-post:
@@ -34,6 +33,7 @@ jobs:
       - name: Generate post
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
         run: pnpm run generate
 
       - name: Commit and push new post

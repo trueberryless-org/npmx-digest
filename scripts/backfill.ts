@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { spawn } from "child_process";
 
-const END_TIME_CONSTANT = "2026-02-03T06:00:00Z";
+const END_TIME_CONSTANT = "2026-02-03T14:00:00Z";
 const WINDOW_HOURS = 8;
 
 const EventSchema = z.object({
@@ -64,11 +64,9 @@ export async function fetchGitHubEvents(
   const startIso = start.toISOString().split(".")[0] + "Z";
   const endIso = end.toISOString().split(".")[0] + "Z";
 
-  const repository = `repo:${owner}/${repo}`;
-  const timeRange = `closed:${startIso}..${endIso}`;
-  const filters = "is:closed reason:completed -is:unmerged";
-
-  const query = encodeURIComponent(`${repository} ${filters} ${timeRange}`);
+  const query = encodeURIComponent(
+    `repo:${owner}/${repo} is:closed reason:completed -is:unmerged closed:${startIso}..${endIso}`,
+  );
 
   const headers = {
     Accept: "application/vnd.github.v3+json",
@@ -149,12 +147,9 @@ export async function fetchBlueskyEvents(
           const postId = post.uri.split("/").pop();
           const isRepost = !!item.reason;
 
-          const titlePrefix = isRepost ? `[Repost from @${authorHandle}] ` : "";
-          const title = `${titlePrefix}${post.record.text.substring(0, 80)}`;
-
           events.push({
             source: "bluesky",
-            title,
+            title: `${isRepost ? `[Repost from @${authorHandle}] ` : ""}${post.record.text.substring(0, 80)}`,
             description: post.record.text,
             url: `https://bsky.app/profile/${authorHandle}/post/${postId}`,
             timestamp: itemDate.toISOString(),
@@ -170,6 +165,10 @@ export async function fetchBlueskyEvents(
 }
 
 async function run() {
+  // Ensuring MODELS_TOKEN exists even if not used for fetching,
+  // to maintain consistency with the lib requirement.
+  getRequiredEnv("MODELS_TOKEN");
+
   const end = new Date(END_TIME_CONSTANT);
   const start = new Date(end.getTime() - WINDOW_HOURS * 60 * 60 * 1000);
 

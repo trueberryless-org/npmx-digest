@@ -1,6 +1,8 @@
 import { z } from "astro/zod";
 import { TopicSchema, type Topic } from "../lib/schema";
 
+const INFERENCE_URL = "https://models.inference.ai.azure.com/chat/completions";
+
 const EventSchema = z.object({
   source: z.enum(["github", "bluesky"]),
   title: z.string(),
@@ -31,6 +33,26 @@ function sanitizeBrand(text: string): string {
   return text.replace(/npmx/gi, "npmx");
 }
 
+async function requestInference(payload: object) {
+  const token = getRequiredEnv("MODELS_TOKEN");
+  const response = await fetch(INFERENCE_URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`,
+      "User-Agent": "npmx-digest-bot",
+    },
+    body: JSON.stringify(payload),
+  });
+
+  if (!response.ok) {
+    const errorBody = await response.text();
+    throw new Error(`Inference failed [${response.status}]: ${errorBody}`);
+  }
+
+  return response.json();
+}
+
 export async function fetchGitHubEvents(since: Date): Promise<Event[]> {
   const owner = "npmx-dev";
   const repo = "npmx.dev";
@@ -38,25 +60,22 @@ export async function fetchGitHubEvents(since: Date): Promise<Event[]> {
   const events: Event[] = [];
 
   const startIso = since.toISOString().split(".")[0] + "Z";
-  const now = new Date();
-  const endIso = now.toISOString().split(".")[0] + "Z";
+  const endIso = new Date().toISOString().split(".")[0] + "Z";
 
-  const repository = `repo:${owner}/${repo}`;
-  const timeRange = `closed:${startIso}..${endIso}`;
-  const filters = "is:closed reason:completed -is:unmerged";
-
-  const query = encodeURIComponent(`${repository} ${filters} ${timeRange}`);
-
-  const headers = {
-    Accept: "application/vnd.github.v3+json",
-    "User-Agent": "npmx-digest-bot",
-    Authorization: `Bearer ${token}`,
-  };
+  const query = encodeURIComponent(
+    `repo:${owner}/${repo} is:closed reason:completed -is:unmerged closed:${startIso}..${endIso}`,
+  );
 
   try {
     const response = await fetch(
       `https://api.github.com/search/issues?q=${query}`,
-      { headers },
+      {
+        headers: {
+          Accept: "application/vnd.github.v3+json",
+          "User-Agent": "npmx-digest-bot",
+          Authorization: `Bearer ${token}`,
+        },
+      },
     );
 
     if (response.ok) {
@@ -64,10 +83,9 @@ export async function fetchGitHubEvents(since: Date): Promise<Event[]> {
       const items = data.items || [];
 
       items.forEach((item: any) => {
-        const isPR = !!item.pull_request;
         events.push({
           source: "github",
-          title: `${isPR ? "Merged PR" : "Closed Issue"} #${item.number}: ${item.title}`,
+          title: `${!!item.pull_request ? "Merged PR" : "Closed Issue"} #${item.number}: ${item.title}`,
           description: item.body || "No description provided",
           url: item.html_url,
           timestamp: item.closed_at || item.created_at,
@@ -101,21 +119,15 @@ export async function fetchBlueskyEvents(since: Date): Promise<Event[]> {
       const { feed } = await feedRes.json();
 
       const posts = feed.reduce((acc: Event[], item: any) => {
-        const actionTimestamp = item.reason?.indexedAt || item.post.indexedAt;
-        const itemDate = new Date(actionTimestamp);
-
-        if (itemDate >= since) {
-          const authorHandle = item.post.author.handle;
-          const isRepost = !!item.reason;
-          const postText = item.post.record.text;
-          const postId = item.post.uri.split("/").pop();
-
+        const timestamp = item.reason?.indexedAt || item.post.indexedAt;
+        if (new Date(timestamp) >= since) {
+          const author = item.post.author.handle;
           acc.push({
             source: "bluesky",
-            title: `${isRepost ? `[Repost from @${authorHandle}] ` : ""}${postText.substring(0, 80)}`,
-            description: postText,
-            url: `https://bsky.app/profile/${authorHandle}/post/${postId}`,
-            timestamp: actionTimestamp,
+            title: `${item.reason ? `[Repost from @${author}] ` : ""}${item.post.record.text.substring(0, 80)}`,
+            description: item.post.record.text,
+            url: `https://bsky.app/profile/${author}/post/${item.post.uri.split("/").pop()}`,
+            timestamp,
           });
         }
         return acc;
@@ -131,114 +143,92 @@ export async function fetchBlueskyEvents(since: Date): Promise<Event[]> {
 }
 
 export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
-  const token = getRequiredEnv("GITHUB_TOKEN");
-  if (!token || events.length === 0) return [];
+  if (events.length === 0) return [];
 
   LOG.ai(
     `Clustering ${events.length} signals into topics (Prioritizing Bluesky)...`,
   );
 
-  const prompt = `You are a technical analyst for npmx. Group the following events into 5-6 logical "Topics".
+  const prompt = `You are a technical analyst for npmx. Group these events into 5-6 logical "Topics".
+  Return ONLY JSON: { "topics": Topic[] }.
 
-  STRATEGY:
-  1. Community Focus: Treat "bluesky" events as high-signal community interests.
-  2. Inclusive Clustering: Ensure that "bluesky" posts are not sidelined; weave them into relevant technical topics where possible.
-  3. Topic Weight: If a topic includes a "bluesky" post, it should generally have a higher relevanceScore.
-
-  Sort by relevanceScore (1-10). Refer to the project strictly as "npmx" (lowercase).
-  Return ONLY a JSON array with this structure: { "topics": Topic[] }.
+  Topic Structure:
+  {
+    "title": "string",
+    "summary": "string",
+    "relevanceScore": number (1-10),
+    "sources": [{ "platform": "github" | "bluesky", "url": "string" }]
+  }
 
   Events: ${JSON.stringify(events)}`;
 
   try {
-    const response = await fetch(
-      "https://api.github.com/models/chat/completions",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify({
-          messages: [{ role: "user", content: prompt }],
-          model: "gpt-4o-mini",
-          temperature: 0.3,
-          response_format: { type: "json_object" },
-        }),
-      },
-    );
+    const data = await requestInference({
+      messages: [
+        { role: "system", content: "You are a JSON-only generator. No prose." },
+        { role: "user", content: prompt },
+      ],
+      model: "gpt-4o-mini",
+      temperature: 0.1,
+      response_format: { type: "json_object" },
+    });
 
-    if (response.ok) {
-      const data = await response.json();
-      const content = data.choices[0].message.content;
-      const parsed = JSON.parse(content);
+    // Cast the parsed content to our interface
+    const parsed = JSON.parse(data.choices[0].message.content) as {
+      topics: Topic[];
+    };
 
-      const rawTopics = parsed.topics.map((t: any) => {
-        const validated = TopicSchema.parse(t);
-        const hasBluesky = events.some(
-          (e) =>
-            e.source === "bluesky" &&
-            (t.summary.includes(e.title.substring(0, 15)) ||
-              t.title.includes(e.source)),
-        );
-
-        return {
-          ...validated,
-          title: sanitizeBrand(validated.title),
-          summary: sanitizeBrand(validated.summary),
-          relevanceScore: hasBluesky
-            ? Math.min(10, validated.relevanceScore + 1)
-            : validated.relevanceScore,
-        };
-      });
-
-      const topics = rawTopics.sort(
-        (a: Topic, b: Topic) => b.relevanceScore - a.relevanceScore,
-      );
-
-      LOG.success(
-        `Successfully clustered into ${topics.length} topics with Bluesky priority.`,
-      );
-      return topics;
+    // Verify the topics array exists before processing
+    if (!parsed.topics || !Array.isArray(parsed.topics)) {
+      throw new Error("AI response missing 'topics' array");
     }
-  } catch {
-    LOG.error("AI Clustering failed.");
+
+    const topics = parsed.topics.map((t) => {
+      // Step 1: Runtime validation via Zod
+      // This is where it would have failed if the AI output was "messy"
+      const validated = TopicSchema.parse(t);
+
+      // Step 2: Logic & Refinement
+      const hasBluesky = validated.sources.some(
+        (s) => s.platform === "bluesky",
+      );
+
+      return {
+        ...validated,
+        title: sanitizeBrand(validated.title),
+        summary: sanitizeBrand(validated.summary),
+        relevanceScore: hasBluesky
+          ? Math.min(10, validated.relevanceScore + 1)
+          : validated.relevanceScore,
+      };
+    });
+
+    LOG.success(
+      `Successfully clustered into ${topics.length} topics with Bluesky priority.`,
+    );
+    return topics.sort((a, b) => b.relevanceScore - a.relevanceScore);
+  } catch (err: any) {
+    // If Zod fails, err.errors will contain exactly which field was missing/wrong
+    LOG.error(`AI Clustering failed: ${err.message}`);
+    return [];
   }
-  return [];
 }
 
 export async function generateCatchyTitle(topic: Topic): Promise<string> {
-  const token = getRequiredEnv("GITHUB_TOKEN");
-  if (!token) return "New Update";
-
   const prompt = `You are a tech journalist for npmx. Create a very short (max 5-7 words), catchy headline for this topic.
   Return ONLY the text, no quotes. Topic: ${topic.title} - ${topic.summary}`;
 
   try {
-    const response = await fetch(
-      "https://api.github.com/models/chat/completions",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify({
-          messages: [{ role: "user", content: prompt }],
-          model: "gpt-4o-mini",
-          temperature: 0.8,
-          max_tokens: 30,
-        }),
-      },
-    );
+    const data = await requestInference({
+      messages: [{ role: "user", content: prompt }],
+      model: "gpt-4o-mini",
+      temperature: 0.8,
+      max_tokens: 30,
+    });
 
-    if (response.ok) {
-      const data = await response.json();
-      const title = data.choices[0].message.content.trim();
-      return sanitizeBrand(title);
-    }
+    return sanitizeBrand(data.choices[0].message.content.trim());
   } catch {
     LOG.error("Failed to generate title");
+    return sanitizeBrand(topic.title);
   }
-  return sanitizeBrand(topic.title);
 }

@@ -152,7 +152,7 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
 
   try {
     const response = await fetch(
-      "https://models.inference.ai.azure.com/chat/completions",
+      "https://api.github.com/models/chat/completions",
       {
         method: "POST",
         headers: {
@@ -216,7 +216,7 @@ export async function generateCatchyTitle(topic: Topic): Promise<string> {
 
   try {
     const response = await fetch(
-      "https://models.inference.ai.azure.com/chat/completions",
+      "https://api.github.com/models/chat/completions",
       {
         method: "POST",
         headers: {

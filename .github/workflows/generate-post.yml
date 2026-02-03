@@ -33,7 +33,7 @@ jobs:
 
       - name: Generate post
         env:
-          GITHUB_TOKEN: ${{ secrets.MODELS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: pnpm run generate
 
       - name: Commit and push new post

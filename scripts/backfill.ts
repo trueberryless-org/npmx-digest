@@ -58,7 +58,7 @@ export async function fetchGitHubEvents(
 ): Promise<Event[]> {
   const owner = "npmx-dev";
   const repo = "npmx.dev";
-  const token = getRequiredEnv("MODELS_TOKEN");
+  const token = getRequiredEnv("GITHUB_TOKEN");
   const events: Event[] = [];
 
   const startIso = start.toISOString().split(".")[0] + "Z";

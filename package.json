@@ -12,7 +12,8 @@
     "generate": "tsx scripts/generate-digest.ts",
     "local:generate": "tsx --env-file=.env scripts/generate-digest.ts",
     "backfill": "tsx scripts/backfill.ts",
-    "local:backfill": "tsx --env-file=.env scripts/backfill.ts"
+    "local:backfill": "tsx --env-file=.env scripts/backfill.ts",
+    "local:quota": "tsx --env-file=.env scripts/quota.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.6",

@@ -34,7 +34,7 @@ function sanitizeBrand(text: string): string {
 export async function fetchGitHubEvents(since: Date): Promise<Event[]> {
   const owner = "npmx-dev";
   const repo = "npmx.dev";
-  const token = getRequiredEnv("MODELS_TOKEN");
+  const token = getRequiredEnv("GITHUB_TOKEN");
   const events: Event[] = [];
 
   const startIso = since.toISOString().split(".")[0] + "Z";
@@ -131,7 +131,7 @@ export async function fetchBlueskyEvents(since: Date): Promise<Event[]> {
 }
 
 export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
-  const token = getRequiredEnv("MODELS_TOKEN");
+  const token = getRequiredEnv("GITHUB_TOKEN");
   if (!token || events.length === 0) return [];
 
   LOG.ai(
@@ -208,7 +208,7 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
 }
 
 export async function generateCatchyTitle(topic: Topic): Promise<string> {
-  const token = getRequiredEnv("MODELS_TOKEN");
+  const token = getRequiredEnv("GITHUB_TOKEN");
   if (!token) return "New Update";
 
   const prompt = `You are a tech journalist for npmx. Create a very short (max 5-7 words), catchy headline for this topic.

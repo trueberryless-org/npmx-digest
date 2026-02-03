@@ -38,8 +38,27 @@ async function run() {
   console.log("\n\x1b[1m🚀 Generating Intelligent Topic Digest\x1b[0m");
 
   const now = new Date();
+  const marks = [6, 14, 22];
+
+  const candidates: Date[] = [];
+  [-1, 0, 1].forEach((dayOffset) => {
+    marks.forEach((hour) => {
+      const d = new Date(now);
+      d.setUTCDate(d.getUTCDate() + dayOffset);
+      d.setUTCHours(hour, 0, 0, 0);
+      candidates.push(d);
+    });
+  });
+
+  const nearestMark = candidates.reduce((prev, curr) =>
+    Math.abs(curr.getTime() - now.getTime()) <
+    Math.abs(prev.getTime() - now.getTime())
+      ? curr
+      : prev,
+  );
+
   const windowSize = 8 * 60 * 60 * 1000;
-  const startTime = new Date(now.getTime() - windowSize);
+  const startTime = new Date(nearestMark.getTime() - windowSize);
 
   try {
     const [gh, bs] = await Promise.all([
@@ -58,13 +77,13 @@ async function run() {
     const heroTopic = pickWeightedTopic(topics);
     const catchyTitle = await generateCatchyTitle(heroTopic);
 
-    const type = getPostType(now);
-    const dateStr = now.toISOString().split("T")[0];
+    const type = getPostType(nearestMark);
+    const dateStr = nearestMark.toISOString().split("T")[0];
     const slug = `${dateStr}-${type}`;
 
     const postData = {
       title: catchyTitle,
-      date: now.toISOString(),
+      date: nearestMark.toISOString(),
       type,
       topics,
     };

@@ -150,6 +150,7 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
   );
 
   const prompt = `You are a technical analyst for npmx. Group these events into 5-6 logical "Topics".
+  Each summary should be around 50 words long.
   Return ONLY JSON: { "topics": Topic[] }.
 
   Topic Structure:
@@ -173,22 +174,17 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
       response_format: { type: "json_object" },
     });
 
-    // Cast the parsed content to our interface
     const parsed = JSON.parse(data.choices[0].message.content) as {
       topics: Topic[];
     };
 
-    // Verify the topics array exists before processing
     if (!parsed.topics || !Array.isArray(parsed.topics)) {
       throw new Error("AI response missing 'topics' array");
     }
 
     const topics = parsed.topics.map((t) => {
-      // Step 1: Runtime validation via Zod
-      // This is where it would have failed if the AI output was "messy"
       const validated = TopicSchema.parse(t);
 
-      // Step 2: Logic & Refinement
       const hasBluesky = validated.sources.some(
         (s) => s.platform === "bluesky",
       );
@@ -208,7 +204,6 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
     );
     return topics.sort((a, b) => b.relevanceScore - a.relevanceScore);
   } catch (err: any) {
-    // If Zod fails, err.errors will contain exactly which field was missing/wrong
     LOG.error(`AI Clustering failed: ${err.message}`);
     return [];
   }

@@ -27,18 +27,6 @@ function getRequiredEnv(key: string): string {
   return value;
 }
 
-async function isUrlReachable(url: string): Promise<boolean> {
-  try {
-    const response = await fetch(url, {
-      method: "HEAD",
-      signal: AbortSignal.timeout(3000),
-    });
-    return response.ok;
-  } catch {
-    return false;
-  }
-}
-
 function sanitizeBrand(text: string): string {
   return text.replace(/npmx/gi, "npmx");
 }
@@ -112,7 +100,7 @@ export async function fetchBlueskyEvents(since: Date): Promise<Event[]> {
     if (feedRes.ok) {
       const { feed } = await feedRes.json();
 
-      const candidates = feed.reduce((acc: Event[], item: any) => {
+      const posts = feed.reduce((acc: Event[], item: any) => {
         const actionTimestamp = item.reason?.indexedAt || item.post.indexedAt;
         const itemDate = new Date(actionTimestamp);
 
@@ -133,18 +121,7 @@ export async function fetchBlueskyEvents(since: Date): Promise<Event[]> {
         return acc;
       }, []);
 
-      const reachabilityResults = await Promise.all(
-        candidates.map(async (c: Event) => ({
-          event: c,
-          isAlive: c.url ? await isUrlReachable(c.url) : false,
-        })),
-      );
-
-      const aliveEvents = reachabilityResults
-        .filter((r) => r.isAlive)
-        .map((r) => r.event);
-
-      events.push(...aliveEvents);
+      events.push(...posts);
       LOG.success(`Bluesky: Collected ${events.length} active items.`);
     }
   } catch {

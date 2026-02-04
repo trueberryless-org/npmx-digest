@@ -39,6 +39,8 @@ async function run() {
 
   const now = new Date();
   const marks = [6, 14, 22];
+  const windowSize = 8 * 60 * 60 * 1000;  // 8 hours: event fetch window
+  const snapWindow = 2 * 60 * 60 * 1000;  // 2 hours: snap-to-future threshold
 
   const candidates: Date[] = [];
   [-1, 0, 1].forEach((dayOffset) => {
@@ -50,20 +52,30 @@ async function run() {
     });
   });
 
-  const nearestMark = candidates.reduce((prev, curr) =>
-    Math.abs(curr.getTime() - now.getTime()) <
-    Math.abs(prev.getTime() - now.getTime())
-      ? curr
-      : prev,
-  );
+  const futureMark = candidates
+    .filter((d) => d.getTime() >= now.getTime())
+    .sort((a, b) => a.getTime() - b.getTime())[0];
 
-  const windowSize = 8 * 60 * 60 * 1000;
+  const pastMark = candidates
+    .filter((d) => d.getTime() < now.getTime())
+    .sort((a, b) => b.getTime() - a.getTime())[0];
+
+  if (!futureMark || !pastMark) {
+    throw new Error("Failed to compute time marks from candidates");
+  }
+
+  const diffToFuture = futureMark.getTime() - now.getTime();
+  const nearestMark = diffToFuture <= snapWindow ? futureMark : pastMark;
+
   const startTime = new Date(nearestMark.getTime() - windowSize);
+
+  console.log(`\x1b[34m[INFO]\x1b[0m Target Mark: ${nearestMark.toISOString()}`);
+  console.log(`\x1b[34m[INFO]\x1b[0m Window: ${startTime.toISOString()} -> ${nearestMark.toISOString()}`);
 
   try {
     const [gh, bs] = await Promise.all([
-      fetchGitHubEvents(startTime),
-      fetchBlueskyEvents(startTime),
+      fetchGitHubEvents(startTime, nearestMark),
+      fetchBlueskyEvents(startTime, nearestMark),
     ]);
 
     const allEvents = [...gh, ...bs];

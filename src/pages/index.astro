@@ -4,7 +4,7 @@ import Layout from "../layouts/Layout.astro";
 
 const allPosts = await getCollection("posts");
 const posts = allPosts.sort(
-    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
+  (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
 );
 
 const MAX_DISPLAY_POSTS = 5;
@@ -15,176 +15,166 @@ const hasArchive = posts.length > MAX_DISPLAY_POSTS;
 ---
 
 <Layout title="npmx.digest">
-    <section class="intro">
-        <h1>Latest Intelligence</h1>
-        <p>
-            A semi-daily report on the progress of npmx across GitHub and
-            Bluesky.
-        </p>
-    </section>
+  <section class="intro">
+    <h1>Latest Intelligence</h1>
+    <p>
+      A semi-daily report on the progress of npmx across GitHub and Bluesky.
+    </p>
+  </section>
 
-    <div class="post-list">
-        {
-            latestPosts.map((post) => {
-                const postDate = new Date(post.data.date);
-                const displayDate = postDate.toLocaleDateString("en-US", {
-                    month: "short",
-                    day: "numeric",
-                });
-
-                const visibleTopics = post.data.topics.slice(0, TOPIC_LIMIT);
-                const remainingCount = post.data.topics.length - TOPIC_LIMIT;
-
-                return (
-                    <a href={`/posts/${post.id}`} class="post-entry">
-                        <div class="post-meta">
-                            <time datetime={post.data.date.toString()}>
-                                {displayDate}
-                            </time>
-                            <span class={`type-tag ${post.data.type}`}>
-                                {post.data.type}
-                            </span>
-                        </div>
-                        <div class="post-content">
-                            <h2>{post.data.title}</h2>
-                            <div class="topic-preview">
-                                {visibleTopics.map((topic, i) => (
-                                    <span>
-                                        {topic.title}
-                                        {i < visibleTopics.length - 1
-                                            ? " • "
-                                            : ""}
-                                    </span>
-                                ))}
-                                {remainingCount > 0 && (
-                                    <span class="more">
-                                        {" "}
-                                        +{remainingCount} more
-                                    </span>
-                                )}
-                            </div>
-                        </div>
-                    </a>
-                );
-            })
-        }
-    </div>
-
+  <div class="post-list">
     {
-        hasArchive && (
-            <a href="/archive" class="archive-link">
-                Explore the archives →
-            </a>
-        )
+      latestPosts.map((post) => {
+        const postDate = new Date(post.data.date);
+        const displayDate = postDate.toLocaleDateString("en-US", {
+          month: "short",
+          day: "numeric",
+        });
+
+        const visibleTopics = post.data.topics.slice(0, TOPIC_LIMIT);
+        const remainingCount = post.data.topics.length - TOPIC_LIMIT;
+
+        return (
+          <a href={`/posts/${post.id}`} class="post-entry">
+            <div class="post-meta">
+              <time datetime={post.data.date.toString()}>{displayDate}</time>
+              <span class={`type-tag ${post.data.type}`}>{post.data.type}</span>
+            </div>
+            <div class="post-content">
+              <h2>{post.data.title}</h2>
+              <div class="topic-preview">
+                {visibleTopics.map((topic, i) => (
+                  <span>
+                    {topic.title}
+                    {i < visibleTopics.length - 1 ? " • " : ""}
+                  </span>
+                ))}
+                {remainingCount > 0 && (
+                  <span class="more"> +{remainingCount} more</span>
+                )}
+              </div>
+            </div>
+          </a>
+        );
+      })
     }
+  </div>
+
+  {
+    hasArchive && (
+      <a href="/archive" class="archive-link">
+        Explore the archives →
+      </a>
+    )
+  }
 </Layout>
 
 <style>
-    .intro {
-        margin-bottom: 3rem;
-    }
+  .intro {
+    margin-bottom: 3rem;
+  }
 
-    h1 {
-        font-size: 1.5rem;
-        font-weight: 600;
-        margin-bottom: 0.5rem;
-        color: var(--accent);
-    }
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--accent);
+  }
 
-    .intro p {
-        color: var(--text-muted);
-        line-height: 1.5;
-    }
+  .intro p {
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
 
-    .post-list {
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
-    }
+  .post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
 
+  .post-entry {
+    text-decoration: none;
+    color: inherit;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 1.5rem;
+    transition: transform 0.2s;
+  }
+
+  .post-entry:hover {
+    transform: translateX(4px);
+  }
+
+  .post-meta {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-family: monospace;
+  }
+
+  .type-tag {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+  }
+
+  .daily {
+    color: #fbbf24;
+  }
+  .midday {
+    color: #f97316;
+  }
+  .nightly {
+    color: #818cf8;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: var(--text);
+  }
+
+  .topic-preview {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  .topic-preview span {
+    display: inline;
+  }
+
+  .topic-preview .more {
+    opacity: 0.5;
+    font-style: italic;
+  }
+
+  .archive-link {
+    display: block;
+    margin-top: 5rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .archive-link:hover {
+    color: var(--accent);
+  }
+
+  @media (max-width: 500px) {
     .post-entry {
-        text-decoration: none;
-        color: inherit;
-        display: grid;
-        grid-template-columns: 100px 1fr;
-        gap: 1.5rem;
-        transition: transform 0.2s;
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
     }
-
-    .post-entry:hover {
-        transform: translateX(4px);
-    }
-
     .post-meta {
-        font-size: 0.85rem;
-        color: var(--text-muted);
-        display: flex;
-        flex-direction: column;
-        gap: 0.4rem;
-        font-family: monospace;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
     }
-
-    .type-tag {
-        text-transform: uppercase;
-        font-size: 0.7rem;
-        letter-spacing: 0.05em;
-        font-weight: 700;
-    }
-
-    .daily {
-        color: #fbbf24;
-    }
-    .midday {
-        color: #f97316;
-    }
-    .nightly {
-        color: #818cf8;
-    }
-
-    h2 {
-        font-size: 1.1rem;
-        font-weight: 600;
-        margin-bottom: 0.4rem;
-        color: var(--text);
-    }
-
-    .topic-preview {
-        font-size: 0.9rem;
-        color: var(--text-muted);
-        line-height: 1.4;
-    }
-
-    .topic-preview span {
-        display: inline;
-    }
-
-    .topic-preview .more {
-        opacity: 0.5;
-        font-style: italic;
-    }
-
-    .archive-link {
-        display: block;
-        margin-top: 5rem;
-        color: var(--text-muted);
-        text-decoration: none;
-        font-size: 0.9rem;
-        font-weight: 500;
-    }
-
-    .archive-link:hover {
-        color: var(--accent);
-    }
-
-    @media (max-width: 500px) {
-        .post-entry {
-            grid-template-columns: 1fr;
-            gap: 0.5rem;
-        }
-        .post-meta {
-            flex-direction: row;
-            align-items: center;
-            gap: 1rem;
-        }
-    }
+  }
 </style>

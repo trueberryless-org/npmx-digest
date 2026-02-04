@@ -1,5 +1,6 @@
 import { z } from "astro/zod";
-import { TopicSchema, type Topic } from "../lib/schema";
+
+import { type Topic, TopicSchema } from "../lib/schema";
 
 const INFERENCE_URL = "https://models.inference.ai.azure.com/chat/completions";
 
@@ -54,7 +55,10 @@ async function requestInference(payload: object) {
   return response.json();
 }
 
-export async function fetchGitHubEvents(since: Date, end: Date): Promise<Event[]> {
+export async function fetchGitHubEvents(
+  since: Date,
+  end: Date
+): Promise<Event[]> {
   const owner = "npmx-dev";
   const repo = "npmx.dev";
   const token = getRequiredEnv("GITHUB_TOKEN");
@@ -64,7 +68,7 @@ export async function fetchGitHubEvents(since: Date, end: Date): Promise<Event[]
   const endIso = end.toISOString().split(".")[0] + "Z";
 
   const query = encodeURIComponent(
-    `repo:${owner}/${repo} is:closed reason:completed -is:unmerged closed:${startIso}..${endIso}`,
+    `repo:${owner}/${repo} is:closed reason:completed -is:unmerged closed:${startIso}..${endIso}`
   );
 
   try {
@@ -76,7 +80,7 @@ export async function fetchGitHubEvents(since: Date, end: Date): Promise<Event[]
           "User-Agent": "npmx-digest-bot",
           Authorization: `Bearer ${token}`,
         },
-      },
+      }
     );
 
     if (response.ok) {
@@ -101,19 +105,22 @@ export async function fetchGitHubEvents(since: Date, end: Date): Promise<Event[]
   return events;
 }
 
-export async function fetchBlueskyEvents(since: Date, end: Date): Promise<Event[]> {
+export async function fetchBlueskyEvents(
+  since: Date,
+  end: Date
+): Promise<Event[]> {
   const handle = "npmx.dev";
   const events: Event[] = [];
 
   try {
     const resolve = await fetch(
-      `https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=${handle}`,
+      `https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=${handle}`
     );
     if (!resolve.ok) return events;
     const { did } = await resolve.json();
 
     const feedRes = await fetch(
-      `https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=${did}&limit=50&filter=posts_with_replies`,
+      `https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=${did}&limit=50&filter=posts_with_replies`
     );
 
     if (feedRes.ok) {
@@ -148,7 +155,7 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
   if (events.length === 0) return [];
 
   LOG.ai(
-    `Clustering ${events.length} signals into topics (Prioritizing Bluesky)...`,
+    `Clustering ${events.length} signals into topics (Prioritizing Bluesky)...`
   );
 
   const prompt = `You are a technical analyst for npmx. Group these events into 5-6 logical "Topics".
@@ -188,7 +195,7 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
       const validated = TopicSchema.parse(t);
 
       const hasBluesky = validated.sources.some(
-        (s) => s.platform === "bluesky",
+        (s) => s.platform === "bluesky"
       );
 
       return {
@@ -202,7 +209,7 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
     });
 
     LOG.success(
-      `Successfully clustered into ${topics.length} topics with Bluesky priority.`,
+      `Successfully clustered into ${topics.length} topics with Bluesky priority.`
     );
     return topics.sort((a, b) => b.relevanceScore - a.relevanceScore);
   } catch (err: any) {
@@ -218,8 +225,12 @@ export async function generateCatchyTitle(topic: Topic): Promise<string> {
   try {
     const data = await requestInference({
       messages: [
-        { role: "system", content: "You provide raw text headlines without any quotation marks or wrapping characters." },
-        { role: "user", content: prompt }
+        {
+          role: "system",
+          content:
+            "You provide raw text headlines without any quotation marks or wrapping characters.",
+        },
+        { role: "user", content: prompt },
       ],
       model: "gpt-4o-mini",
       temperature: 0.7,

@@ -1,12 +1,13 @@
-import { writeFile, mkdir } from "node:fs/promises";
+import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import { PostSchema, type Topic } from "../src/lib/schema";
+
 import {
-  fetchGitHubEvents,
   fetchBlueskyEvents,
-  generateSmartDigest,
+  fetchGitHubEvents,
   generateCatchyTitle,
+  generateSmartDigest,
 } from "../src/lib/events";
+import { PostSchema, type Topic } from "../src/lib/schema";
 
 const POST_DIR = join(process.cwd(), "src/content/posts");
 
@@ -39,8 +40,8 @@ async function run() {
 
   const now = new Date();
   const marks = [6, 14, 22];
-  const windowSize = 8 * 60 * 60 * 1000;  // 8 hours: event fetch window
-  const snapWindow = 2 * 60 * 60 * 1000;  // 2 hours: snap-to-future threshold
+  const windowSize = 8 * 60 * 60 * 1000; // 8 hours: event fetch window
+  const snapWindow = 2 * 60 * 60 * 1000; // 2 hours: snap-to-future threshold
 
   const candidates: Date[] = [];
   [-1, 0, 1].forEach((dayOffset) => {
@@ -69,8 +70,12 @@ async function run() {
 
   const startTime = new Date(nearestMark.getTime() - windowSize);
 
-  console.log(`\x1b[34m[INFO]\x1b[0m Target Mark: ${nearestMark.toISOString()}`);
-  console.log(`\x1b[34m[INFO]\x1b[0m Window: ${startTime.toISOString()} -> ${nearestMark.toISOString()}`);
+  console.log(
+    `\x1b[34m[INFO]\x1b[0m Target Mark: ${nearestMark.toISOString()}`
+  );
+  console.log(
+    `\x1b[34m[INFO]\x1b[0m Window: ${startTime.toISOString()} -> ${nearestMark.toISOString()}`
+  );
 
   try {
     const [gh, bs] = await Promise.all([
@@ -105,7 +110,7 @@ async function run() {
     await mkdir(POST_DIR, { recursive: true });
     await writeFile(
       join(POST_DIR, `${slug}.json`),
-      JSON.stringify(validatedPost, null, 2),
+      JSON.stringify(validatedPost, null, 2)
     );
 
     console.log(`\x1b[32m✅ Digest complete: ${slug}.json\x1b[0m`);

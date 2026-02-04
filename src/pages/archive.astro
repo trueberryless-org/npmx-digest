@@ -14,23 +14,25 @@ const formatDate = (date: Date) => date.toISOString().split("T")[0];
 <Layout title="Archive | npmx.digest">
     <h1 class="page-title">Archives</h1>
 
-    <div class="archive-list">
+    <ul class="archive-list">
         {
             sortedPosts.map(({ data, id }) => {
                 const displayDate = formatDate(data.date);
                 const postUrl = `/posts/${id}`;
 
                 return (
-                    <a href={postUrl} class="archive-item">
-                        <span class={`type ${data.type}`}>{data.type}</span>
-                        <span class="title">{data.title}</span>
-                        <span class="dot" />
-                        <span class="date">{displayDate}</span>
-                    </a>
+                    <li class="archive-row">
+                        <a href={postUrl} class="archive-item">
+                            <span class={`type ${data.type}`} aria-label={`Post type: ${data.type}`}>{data.type}</span>
+                            <span class="title">{data.title}</span>
+                            <span class="dot" aria-hidden="true" />
+                            <time datetime={data.date.toISOString()} class="date">{displayDate}</time>
+                        </a>
+                    </li>
                 );
             })
         }
-    </div>
+    </ul>
 </Layout>
 
 <style>
@@ -42,12 +44,19 @@ const formatDate = (date: Date) => date.toISOString().split("T")[0];
 
     .archive-list {
         display: flex;
-        align-items: baseline;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .archive-row {
+        width: 100%;
     }
 
     .archive-item {
         display: flex;
-        flex-direction: column;
+        align-items: baseline;
         padding: 0.8rem 0;
         border-bottom: 1px solid #151515;
         text-decoration: none;
@@ -68,15 +77,9 @@ const formatDate = (date: Date) => date.toISOString().split("T")[0];
         margin-right: 0.5rem;
     }
 
-    .daily {
-        color: #fbbf24;
-    }
-    .midday {
-        color: #f97316;
-    }
-    .nightly {
-        color: #818cf8;
-    }
+    .daily { color: #fbbf24; }
+    .midday { color: #f97316; }
+    .nightly { color: #818cf8; }
 
     .title {
         color: var(--text);

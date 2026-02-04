@@ -60,6 +60,10 @@ async function run() {
     .filter((d) => d.getTime() < now.getTime())
     .sort((a, b) => b.getTime() - a.getTime())[0];
 
+  if (!futureMark || !pastMark) {
+    throw new Error("Failed to compute time marks from candidates");
+  }
+
   const diffToFuture = futureMark.getTime() - now.getTime();
   const nearestMark = diffToFuture <= snapWindow ? futureMark : pastMark;
 

@@ -30,7 +30,8 @@ function getRequiredEnv(key: string): string {
 }
 
 function sanitizeBrand(text: string): string {
-  return cleanText.replace(/npmx/gi, "npmx").trim().replace(/^["'„“]+|["'”„“]+$/g, "");
+  const cleanText = text.trim().replace(/^["'„“]+|["'”„“]+$/g, "");
+  return cleanText.replace(/npmx/gi, "npmx");
 }
 
 async function requestInference(payload: object) {
@@ -53,14 +54,14 @@ async function requestInference(payload: object) {
   return response.json();
 }
 
-export async function fetchGitHubEvents(since: Date): Promise<Event[]> {
+export async function fetchGitHubEvents(since: Date, end: Date): Promise<Event[]> {
   const owner = "npmx-dev";
   const repo = "npmx.dev";
   const token = getRequiredEnv("GITHUB_TOKEN");
   const events: Event[] = [];
 
   const startIso = since.toISOString().split(".")[0] + "Z";
-  const endIso = new Date().toISOString().split(".")[0] + "Z";
+  const endIso = end.toISOString().split(".")[0] + "Z";
 
   const query = encodeURIComponent(
     `repo:${owner}/${repo} is:closed reason:completed -is:unmerged closed:${startIso}..${endIso}`,
@@ -100,7 +101,7 @@ export async function fetchGitHubEvents(since: Date): Promise<Event[]> {
   return events;
 }
 
-export async function fetchBlueskyEvents(since: Date): Promise<Event[]> {
+export async function fetchBlueskyEvents(since: Date, end: Date): Promise<Event[]> {
   const handle = "npmx.dev";
   const events: Event[] = [];
 
@@ -120,7 +121,8 @@ export async function fetchBlueskyEvents(since: Date): Promise<Event[]> {
 
       const posts = feed.reduce((acc: Event[], item: any) => {
         const timestamp = item.reason?.indexedAt || item.post.indexedAt;
-        if (new Date(timestamp) >= since) {
+        const itemDate = new Date(timestamp);
+        if (itemDate >= since && itemDate <= end) {
           const author = item.post.author.handle;
           acc.push({
             source: "bluesky",
@@ -215,13 +217,16 @@ export async function generateCatchyTitle(topic: Topic): Promise<string> {
 
   try {
     const data = await requestInference({
-      messages: [{ role: "user", content: prompt }],
+      messages: [
+        { role: "system", content: "You provide raw text headlines without any quotation marks or wrapping characters." },
+        { role: "user", content: prompt }
+      ],
       model: "gpt-4o-mini",
-      temperature: 0.8,
+      temperature: 0.7,
       max_tokens: 30,
     });
 
-    return sanitizeBrand(data.choices[0].message.content);
+    return sanitizeBrand(data.choices[0].message.content.trim());
   } catch {
     LOG.error("Failed to generate title");
     return sanitizeBrand(topic.title);

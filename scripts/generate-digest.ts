@@ -39,8 +39,8 @@ async function run() {
 
   const now = new Date();
   const marks = [6, 14, 22];
-  const windowSize = 8 * 60 * 60 * 1000;
-  const snapWindow = 2 * 60 * 60 * 1000;
+  const windowSize = 8 * 60 * 60 * 1000;  // 8 hours: event fetch window
+  const snapWindow = 2 * 60 * 60 * 1000;  // 2 hours: snap-to-future threshold
 
   const candidates: Date[] = [];
   [-1, 0, 1].forEach((dayOffset) => {

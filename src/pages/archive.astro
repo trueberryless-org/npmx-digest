@@ -14,23 +14,25 @@ const formatDate = (date: Date) => date.toISOString().split("T")[0];
 <Layout title="Archive | npmx.digest">
     <h1 class="page-title">Archives</h1>
 
-    <div class="archive-list">
+    <ul class="archive-list">
         {
             sortedPosts.map(({ data, id }) => {
                 const displayDate = formatDate(data.date);
                 const postUrl = `/posts/${id}`;
 
                 return (
-                    <a href={postUrl} class="archive-item">
-                        <span class="date">{displayDate}</span>
-                        <span class="title">{data.title}</span>
-                        <span class="dot" />
-                        <span class={`type ${data.type}`}>{data.type}</span>
-                    </a>
+                    <li class="archive-row">
+                        <a href={postUrl} class="archive-item">
+                            <span class={`type ${data.type}`} aria-label={`Post type: ${data.type}`}>{data.type}</span>
+                            <span class="title">{data.title}</span>
+                            <span class="dot" aria-hidden="true" />
+                            <time datetime={data.date.toISOString()} class="date">{displayDate}</time>
+                        </a>
+                    </li>
                 );
             })
         }
-    </div>
+    </ul>
 </Layout>
 
 <style>
@@ -43,6 +45,13 @@ const formatDate = (date: Date) => date.toISOString().split("T")[0];
     .archive-list {
         display: flex;
         flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .archive-row {
+        width: 100%;
     }
 
     .archive-item {
@@ -59,38 +68,41 @@ const formatDate = (date: Date) => date.toISOString().split("T")[0];
         color: var(--accent);
     }
 
-    .date {
-        font-family: monospace;
-        width: 120px;
+    .type {
+        width: 65px;
         flex-shrink: 0;
-        font-size: 0.85rem;
+        font-size: 0.75rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        margin-right: 0.5rem;
     }
+
+    .daily { color: #fbbf24; }
+    .midday { color: #f97316; }
+    .nightly { color: #818cf8; }
 
     .title {
         color: var(--text);
-    }
-
-    .type {
-        font-size: 0.75rem;
-        text-transform: capitalize;
-        margin-left: 1rem;
-        font-weight: 600;
-    }
-
-    .daily {
-        color: #fbbf24;
-    }
-    .midday {
-        color: #f97316;
-    }
-    .nightly {
-        color: #818cf8;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        flex-shrink: 1;
+        min-width: 0;
     }
 
     .dot {
         align-self: center;
         flex-grow: 1;
+        min-width: 20px;
         border-bottom: 1px dotted #333;
-        margin: 0.2rem 1rem 0;
+        margin: 0.2rem 0.5rem 0;
+    }
+
+    .date {
+        font-family: monospace;
+        width: 90px;
+        text-align: right;
+        flex-shrink: 0;
+        font-size: 0.85rem;
     }
 </style>

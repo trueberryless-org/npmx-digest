@@ -30,7 +30,7 @@ function getRequiredEnv(key: string): string {
 }
 
 function sanitizeBrand(text: string): string {
-  return text.replace(/npmx/gi, "npmx");
+  return cleanText.replace(/npmx/gi, "npmx").trim().replace(/^["'„“]+|["'”„“]+$/g, "");
 }
 
 async function requestInference(payload: object) {
@@ -221,7 +221,7 @@ export async function generateCatchyTitle(topic: Topic): Promise<string> {
       max_tokens: 30,
     });
 
-    return sanitizeBrand(data.choices[0].message.content.trim());
+    return sanitizeBrand(data.choices[0].message.content);
   } catch {
     LOG.error("Failed to generate title");
     return sanitizeBrand(topic.title);

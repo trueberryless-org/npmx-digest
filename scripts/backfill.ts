@@ -1,5 +1,5 @@
-import { z } from "zod";
 import { spawn } from "child_process";
+import { z } from "zod";
 
 const END_TIME_CONSTANT = "2026-02-03T14:00:00Z";
 const WINDOW_HOURS = 8;
@@ -38,7 +38,7 @@ async function copyToClipboard(text: string): Promise<void> {
   return new Promise((resolve, reject) => {
     const child = spawn(command, args);
     child.on("error", () =>
-      reject(new Error(`Failed to use ${command}. Is it installed?`)),
+      reject(new Error(`Failed to use ${command}. Is it installed?`))
     );
     child.stdin.write(text);
     child.stdin.end();
@@ -54,7 +54,7 @@ function getRequiredEnv(key: string): string {
 
 export async function fetchGitHubEvents(
   start: Date,
-  end: Date,
+  end: Date
 ): Promise<Event[]> {
   const owner = "npmx-dev";
   const repo = "npmx.dev";
@@ -65,7 +65,7 @@ export async function fetchGitHubEvents(
   const endIso = end.toISOString().split(".")[0] + "Z";
 
   const query = encodeURIComponent(
-    `repo:${owner}/${repo} is:closed reason:completed -is:unmerged closed:${startIso}..${endIso}`,
+    `repo:${owner}/${repo} is:closed reason:completed -is:unmerged closed:${startIso}..${endIso}`
   );
 
   const headers = {
@@ -77,7 +77,7 @@ export async function fetchGitHubEvents(
   try {
     const response = await fetch(
       `https://api.github.com/search/issues?q=${query}`,
-      { headers },
+      { headers }
     );
     if (response.ok) {
       const data = await response.json();
@@ -100,7 +100,7 @@ export async function fetchGitHubEvents(
 
 export async function fetchBlueskyEvents(
   start: Date,
-  end: Date,
+  end: Date
 ): Promise<Event[]> {
   const handle = "npmx.dev";
   const events: Event[] = [];
@@ -109,14 +109,14 @@ export async function fetchBlueskyEvents(
 
   try {
     const resolve = await fetch(
-      `https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=${handle}`,
+      `https://public.api.bsky.app/xrpc/com.atproto.identity.resolveHandle?handle=${handle}`
     );
     if (!resolve.ok) return [];
     const { did } = await resolve.json();
 
     while (!reachedBeforeStart) {
       const url = new URL(
-        "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed",
+        "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
       );
       url.searchParams.set("actor", did);
       url.searchParams.set("limit", "100");

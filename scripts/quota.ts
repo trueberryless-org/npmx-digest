@@ -16,7 +16,7 @@ async function checkQuota() {
 
   if (!token) {
     console.log(
-      "\x1b[31mError: GITHUB_TOKEN is not set in your environment\x1b[0m",
+      "\x1b[31mError: GITHUB_TOKEN is not set in your environment\x1b[0m"
     );
     return;
   }
@@ -44,18 +44,18 @@ async function checkQuota() {
       console.log("\n\x1b[32m[MATCH FOUND]\x1b[0m");
       console.log(`Resource:  ${resources.models ? "Models" : "Marketplace"}`);
       console.log(
-        `Remaining: ${targetResource.remaining} / ${targetResource.limit}`,
+        `Remaining: ${targetResource.remaining} / ${targetResource.limit}`
       );
       console.log(
-        `Resets:    ${resetDate.toLocaleTimeString()} (${waitMins}m)`,
+        `Resets:    ${resetDate.toLocaleTimeString()} (${waitMins}m)`
       );
     } else {
       console.log(
-        "\n\x1b[33m[DEBUG] Available resources found on this token:\x1b[0m",
+        "\n\x1b[33m[DEBUG] Available resources found on this token:\x1b[0m"
       );
       Object.keys(resources).forEach((key) => console.log(` - ${key}`));
       console.log(
-        "\n\x1b[31mAction Required:\x1b[0m Enable 'Models' or 'Copilot' scopes in your PAT settings.",
+        "\n\x1b[31mAction Required:\x1b[0m Enable 'Models' or 'Copilot' scopes in your PAT settings."
       );
     }
   } catch (error) {

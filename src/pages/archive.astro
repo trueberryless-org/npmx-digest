@@ -68,6 +68,9 @@ const formatDate = (date: Date) => date.toISOString().split("T")[0];
 
     .title {
         color: var(--text);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .type {

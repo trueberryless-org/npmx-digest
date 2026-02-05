@@ -1,4 +1,4 @@
-import { mkdir, readdir, writeFile, readFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
 import {
@@ -39,7 +39,7 @@ async function getRecentTitles(count = 15): Promise<string[]> {
   try {
     const files = await readdir(POST_DIR);
     const jsonFiles = files
-      .filter(f => f.endsWith(".json"))
+      .filter((f) => f.endsWith(".json"))
       .sort()
       .reverse()
       .slice(0, count);

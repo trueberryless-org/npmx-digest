@@ -1,8 +1,7 @@
 import rss from "@astrojs/rss";
+import type { APIContext } from "astro";
 import { getCollection } from "astro:content";
 import sanitizeHtml from "sanitize-html";
-
-import type { APIContext } from "astro";
 
 export async function GET(context: APIContext) {
   const posts = await getCollection("posts");
@@ -37,7 +36,7 @@ export async function GET(context: APIContext) {
         `
           )
           .join("")}
-      `,
+      `
       ),
     })),
     customData: `<language>en-us</language>`,

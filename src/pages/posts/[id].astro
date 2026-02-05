@@ -114,17 +114,17 @@ const getGithubId = (url?: string) => {
   }
 
   .slash {
-    color: #333;
+    color: var(--border);
   }
 
   .tag.daily {
-    color: #fbbf24;
+    color: var(--tag-daily);
   }
   .tag.midday {
-    color: #f97316;
+    color: var(--tag-midday);
   }
   .tag.nightly {
-    color: #818cf8;
+    color: var(--tag-nightly);
   }
 
   h1 {
@@ -153,7 +153,7 @@ const getGithubId = (url?: string) => {
   .section-divider hr {
     flex-grow: 1;
     border: 0;
-    border-top: 1px solid #1a1a1a;
+    border-top: 1px solid var(--border);
   }
 
   .topic-list {
@@ -214,7 +214,7 @@ const getGithubId = (url?: string) => {
     font-family: monospace;
     text-decoration: none;
     padding: 0.2rem 0.5rem;
-    border: 1px solid #222;
+    border: 1px solid var(--border);
     color: var(--text-muted);
     text-transform: uppercase;
     transition: all 0.2s;
@@ -223,13 +223,14 @@ const getGithubId = (url?: string) => {
   .source-link:hover {
     border-color: var(--accent);
     color: var(--accent);
-    background: #111;
+    background: var(--border);
   }
 
   .source-link.github:hover {
-    color: #fff;
-    border-color: #fff;
+    color: var(--accent);
+    border-color: var(--accent);
   }
+
   .source-link.bluesky:hover {
     color: #0285ff;
     border-color: #0285ff;
@@ -238,7 +239,7 @@ const getGithubId = (url?: string) => {
   .report-footer {
     margin-top: 6rem;
     padding-top: 2rem;
-    border-top: 1px solid #1a1a1a;
+    border-top: 1px solid var(--border);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -248,6 +249,7 @@ const getGithubId = (url?: string) => {
     text-decoration: none;
     color: var(--text-muted);
     font-size: 0.9rem;
+    transition: color 0.2s;
   }
 
   .back-btn:hover {
@@ -257,7 +259,8 @@ const getGithubId = (url?: string) => {
   .bot-note {
     font-family: monospace;
     font-size: 0.7rem;
-    color: #333;
+    color: var(--text-muted);
+    opacity: 0.6;
   }
 
   @media (max-width: 600px) {

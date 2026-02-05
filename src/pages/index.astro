@@ -122,13 +122,13 @@ const hasArchive = posts.length > MAX_DISPLAY_POSTS;
   }
 
   .daily {
-    color: #fbbf24;
+    color: var(--tag-daily);
   }
   .midday {
-    color: #f97316;
+    color: var(--tag-midday);
   }
   .nightly {
-    color: #818cf8;
+    color: var(--tag-nightly);
   }
 
   h2 {
@@ -160,6 +160,7 @@ const hasArchive = posts.length > MAX_DISPLAY_POSTS;
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: 500;
+    transition: color 0.2s;
   }
 
   .archive-link:hover {

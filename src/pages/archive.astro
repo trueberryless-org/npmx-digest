@@ -65,7 +65,7 @@ const formatDate = (date: Date) => date.toISOString().split("T")[0];
     display: flex;
     align-items: baseline;
     padding: 0.8rem 0;
-    border-bottom: 1px solid #151515;
+    border-bottom: 1px solid var(--border);
     text-decoration: none;
     color: var(--text-muted);
     font-size: 0.95rem;
@@ -85,13 +85,13 @@ const formatDate = (date: Date) => date.toISOString().split("T")[0];
   }
 
   .daily {
-    color: #fbbf24;
+    color: var(--tag-daily);
   }
   .midday {
-    color: #f97316;
+    color: var(--tag-midday);
   }
   .nightly {
-    color: #818cf8;
+    color: var(--tag-nightly);
   }
 
   .title {
@@ -107,7 +107,8 @@ const formatDate = (date: Date) => date.toISOString().split("T")[0];
     align-self: center;
     flex-grow: 1;
     min-width: 20px;
-    border-bottom: 1px dotted #333;
+    border-bottom: 1px dotted var(--text-muted);
+    opacity: 0.3;
     margin: 0.2rem 0.5rem 0;
   }
 

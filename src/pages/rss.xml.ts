@@ -14,7 +14,7 @@ export async function GET(context: APIContext) {
     title: "npmx.digest",
     description:
       "An automated news aggregation website that summarizes npmx activity from GitHub and Bluesky every 8 hours.",
-    site: context.site,
+    site: context.site!,
     stylesheet: "/rss/pretty-feed-v3.xsl",
     items: sortedPosts.map((post) => ({
       title: post.data.title,

@@ -218,8 +218,23 @@ export async function generateSmartDigest(events: Event[]): Promise<Topic[]> {
   }
 }
 
-export async function generateCatchyTitle(topic: Topic): Promise<string> {
+export async function generateCatchyTitle(
+  topic: Topic,
+  recentTitles: string[] = []
+): Promise<string> {
+  const normalizedTitles = recentTitles
+    .map((title) => title.replace(/\s+/g, " ").trim())
+    .filter(Boolean)
+    .slice(0, 10)
+    .map((title) => (title.length > 80 ? `${title.slice(0, 77)}…` : title));
+
+  const avoidList =
+    normalizedTitles.length > 0
+      ? `Avoid using these specific words or styles from recent headlines: ${normalizedTitles.join("; ")}`
+      : "";
+
   const prompt = `You are a tech journalist for npmx. Create a very short (max 5-7 words), catchy headline for this topic.
+  ${avoidList}
   Return ONLY the text, no quotes. Topic: ${topic.title} - ${topic.summary}`;
 
   try {
@@ -228,12 +243,12 @@ export async function generateCatchyTitle(topic: Topic): Promise<string> {
         {
           role: "system",
           content:
-            "You provide raw text headlines without any quotation marks or wrapping characters.",
+            "You provide raw text headlines without any quotation marks or wrapping characters. You vary your vocabulary significantly.",
         },
         { role: "user", content: prompt },
       ],
       model: "gpt-4o-mini",
-      temperature: 0.7,
+      temperature: 0.8,
       max_tokens: 30,
     });
 

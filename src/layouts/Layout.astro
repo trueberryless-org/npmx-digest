@@ -8,35 +8,70 @@ const { title } = Astro.props;
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <title>{title}</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <nav>
-          <a href="/" class="logo">npmx.<span>digest</span></a>
-          <div class="links">
-            <a href="/archive">Archive</a>
-            <a href="https://github.com/npmx-dev/npmx.dev">GitHub</a>
-          </div>
-        </nav>
-      </header>
-      <main>
-        <slot />
-      </main>
-      <footer>
-        <p>AI generated updates for the npmx ecosystem.</p>
-        <a
-          href="https://github.com/trueberryless-org/npmx-digest"
-          class="footer-link">Source Code</a
-        >
-      </footer>
-    </div>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <title>{title}</title>
+        <meta
+            name="description"
+            content="An automated news aggregation website that summarizes npmx activity from GitHub and Bluesky every 8 hours."
+        />
+
+        <meta
+            property="og:url"
+            content="https://npmx-digest.trueberryless.org"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="npmx.digest" />
+        <meta
+            property="og:description"
+            content="An automated news aggregation website that summarizes npmx activity from GitHub and Bluesky every 8 hours."
+        />
+        <meta
+            property="og:image"
+            content="https://npmx-digest.trueberryless.org/og.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            property="twitter:domain"
+            content="npmx-digest.trueberryless.org"
+        />
+        <meta
+            property="twitter:url"
+            content="https://npmx-digest.trueberryless.org"
+        />
+        <meta name="twitter:title" content="npmx.digest" />
+        <meta
+            name="twitter:description"
+            content="An automated news aggregation website that summarizes npmx activity from GitHub and Bluesky every 8 hours."
+        />
+        <meta
+            name="twitter:image"
+            content="https://npmx-digest.trueberryless.org/og.png"
+        />
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <a href="/" class="logo">npmx.<span>digest</span></a>
+                    <div class="links">
+                        <a href="/archive">Archive</a>
+                        <a href="https://github.com/npmx-dev/npmx.dev">GitHub</a
+                        >
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <slot />
+            </main>
+            <footer>
+                <p>AI generated updates for the npmx ecosystem.</p>
+            </footer>
+        </div>
+    </body>
 </html>
 
 <style is:global>

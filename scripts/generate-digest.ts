@@ -46,14 +46,21 @@ async function getRecentTitles(count = 15): Promise<string[]> {
 
     const titles: string[] = [];
     for (const file of jsonFiles) {
-      const content = await readFile(join(POST_DIR, file), "utf-8");
-      const data = JSON.parse(content);
-      if (data.title) titles.push(data.title);
+      try {
+        const content = await readFile(join(POST_DIR, file), "utf-8");
+        const data = JSON.parse(content);
+        if (typeof data.title === "string" && data.title.trim()) {
+          titles.push(data.title);
+        }
+      } catch {
+        console.warn(`Skipping malformed post file: ${file}`);
+      }
     }
     return titles;
   } catch {
     return [];
   }
+}
 }
 
 async function run() {

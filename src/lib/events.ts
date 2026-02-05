@@ -222,9 +222,10 @@ export async function generateCatchyTitle(
   topic: Topic,
   recentTitles: string[] = []
 ): Promise<string> {
-  const avoidList = recentTitles.length > 0 
-    ? `Avoid using these specific words or styles from recent headlines: ${recentTitles.join(", ")}`
-    : "";
+  const avoidList =
+    recentTitles.length > 0
+      ? `Avoid using these specific words or styles from recent headlines: ${recentTitles.join(", ")}`
+      : "";
 
   const prompt = `You are a tech journalist for npmx. Create a very short (max 5-7 words), catchy headline for this topic.
   ${avoidList}

@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readdir, writeFile, readFile } from "node:fs/promises";
 import { join } from "node:path";
 
 import {
@@ -33,6 +33,27 @@ function getPostType(date: Date): "daily" | "midday" | "nightly" {
   if (isDaily) return "daily";
   if (isMidday) return "midday";
   return "nightly"; // Target 10pm
+}
+
+async function getRecentTitles(count = 15): Promise<string[]> {
+  try {
+    const files = await readdir(POST_DIR);
+    const jsonFiles = files
+      .filter(f => f.endsWith(".json"))
+      .sort()
+      .reverse()
+      .slice(0, count);
+
+    const titles: string[] = [];
+    for (const file of jsonFiles) {
+      const content = await readFile(join(POST_DIR, file), "utf-8");
+      const data = JSON.parse(content);
+      if (data.title) titles.push(data.title);
+    }
+    return titles;
+  } catch {
+    return [];
+  }
 }
 
 async function run() {
@@ -78,9 +99,10 @@ async function run() {
   );
 
   try {
-    const [gh, bs] = await Promise.all([
+    const [gh, bs, recentTitles] = await Promise.all([
       fetchGitHubEvents(startTime, nearestMark),
       fetchBlueskyEvents(startTime, nearestMark),
+      getRecentTitles(20),
     ]);
 
     const allEvents = [...gh, ...bs];
@@ -92,7 +114,7 @@ async function run() {
     }
 
     const heroTopic = pickWeightedTopic(topics);
-    const catchyTitle = await generateCatchyTitle(heroTopic);
+    const catchyTitle = await generateCatchyTitle(heroTopic, recentTitles);
 
     const type = getPostType(nearestMark);
     const dateStr = nearestMark.toISOString().split("T")[0];

@@ -4,13 +4,93 @@
   "type": "nightly",
   "topics": [
     {
-      "title": "Dependency Management",
-      "summary": "Updated the core Vue dependency to v3.5.27. This patch includes critical fixes for the SFC compiler regarding variable shadowing in loops and indexed access types, as well as improvements to SSR class rendering and reactivity collection iteration.",
+      "title": "Search and Discovery Enhancements",
+      "summary": "Implemented infinite scrolling for package search results to replace traditional pagination, significantly improving UX and interaction speed. Additionally, a new global keyboard shortcut ('/') was added to instantly focus the search bar.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/3ed8a09151305c20daf15906387093930f708a38"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/62ad33ffe34b25de821cc3484c51cd1ba2941fa1"
+        }
+      ]
+    },
+    {
+      "title": "Bundle and Build Optimization",
+      "summary": "Executed a series of optimizations to reduce bundle size and build complexity. This includes replacing 'isomorphic-dompurify' with 'sanitize-html', removing the heavy Nuxt Image module in favor of native optimizations, and adopting 'shiki/core' with a leaner JavaScript engine for syntax highlighting.",
       "relevanceScore": 8,
       "sources": [
         {
           "platform": "github",
-          "url": "https://github.com/npmx-dev/npmx.dev/pull/1"
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/e2a35ad31f91297e8da93095cc305404fa4da4ed"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/b7523d296dee46e381aa2178145d4b076ac4279d"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/6b2f81a7f824a9c78eabbf1d997486581303273e"
+        }
+      ]
+    },
+    {
+      "title": "Deployment and Serverless Compatibility",
+      "summary": "Resolved Vercel and Nitro deployment failures by inlining critical modules like 'shiki' and 'html-encoding-sniffer'. Refined Incremental Static Regeneration (ISR) rules and updated Nuxt core to ensure stable serverless function performance.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/a344ab337e4f3004f4682c306fda7704ba19a895"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/0dea5c9d517707c188e4ec520fce4138a7701bfb"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/b383d25a8c891ea4d9eca3d4afb4022defbf7eed"
+        }
+      ]
+    },
+    {
+      "title": "Design System and PWA Integration",
+      "summary": "Transitioned the design system to UnoCSS Wind4 and standardized the Geist typeface. Mobile integration was furthered by configuring PWA manifest icons via @vite-pwa/nuxt and re-enabling dynamic Open Graph images for package detail pages.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/790a3d6cac5b18cf564704bdc9ee8a03a0787ed8"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/633083c2a60d9f58e59cca67f9250f8f6ac68f35"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/3306498ddc9c51f2da0b97768bb82c12b28574d5"
+        }
+      ]
+    },
+    {
+      "title": "CI/CD and DX Improvements",
+      "summary": "Stabilized the CI pipeline by ensuring Playwright browser installation before component tests and isolating PWA types from the general type-checking step. UI reactivity issues were addressed by ensuring non-static keys in loops.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/fd6cbf011b182cf10821b1aacb1b536607da00f6"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/d21337151b5dac35cb1b983f6dd16d80ebc131e5"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/commit/cfcd95c50105980f508f52b852ebfc0deb9e41ae"
         }
       ]
     }

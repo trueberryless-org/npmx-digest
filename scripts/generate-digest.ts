@@ -61,7 +61,6 @@ async function getRecentTitles(count = 15): Promise<string[]> {
     return [];
   }
 }
-}
 
 async function run() {
   console.log("\n\x1b[1m🚀 Generating Intelligent Topic Digest\x1b[0m");

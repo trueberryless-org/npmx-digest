@@ -1,0 +1,94 @@
+{
+  "title": "Community Collaboration Shines Through Contributions",
+  "date": "2026-02-07T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Internationalization Updates",
+      "summary": "Several PRs have been merged to enhance internationalization (i18n) support. Updates include new translations for Spanish and Japanese, cleanup of unused translation keys, and formatting numbers according to locale. These changes aim to improve user experience across different languages.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1175"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1158"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1155"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1149"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement and Contributions",
+      "summary": "Community involvement is highlighted through various posts on Bluesky, showcasing new contributors and positive feedback about the project. The engagement reflects a supportive environment that encourages contributions and collaboration among developers.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3meboadyu6k27"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mecdyj64lk2l"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Management and Refactoring",
+      "summary": "Recent PRs focus on improving dependency management and code refactoring. Notable changes include adding the `@vueuse/shared` dependency for local development and migrating to the `upstash` unstorage driver. These updates enhance the project's maintainability and performance.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1176"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1169"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1159"
+        }
+      ]
+    },
+    {
+      "title": "Documentation and User Guidance",
+      "summary": "Improvements to documentation have been made, including adding browser names to the extension readme and ensuring clarity in locale file management. These updates are designed to assist users in navigating the project and utilizing its features effectively.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1162"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1157"
+        }
+      ]
+    },
+    {
+      "title": "Technical Enhancements and Testing",
+      "summary": "Recent technical enhancements include mocking client-side requests in Lighthouse and unifying npm registry requests with caching. These improvements aim to optimize performance and ensure robust testing practices within the development workflow.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1171"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/641"
+        }
+      ]
+    }
+  ]
+}

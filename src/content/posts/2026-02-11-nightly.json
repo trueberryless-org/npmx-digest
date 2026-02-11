@@ -1,0 +1,93 @@
+{
+  "title": "Turbocharged Performance: Faster Load Times Ahead",
+  "date": "2026-02-11T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Accessibility Enhancements",
+      "summary": "Several updates have been made to improve accessibility, including adding tabindex for better focus management and implementing Spanish translations for the accessibility page. These changes are crucial for ensuring that all users can navigate and utilize the platform effectively.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1385"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1383"
+        }
+      ]
+    },
+    {
+      "title": "User Interface Improvements",
+      "summary": "Recent PRs have focused on enhancing the user interface, particularly for mobile users. Changes include better spacing for filters, resolving dropdown issues, and improving the visual consistency of icons. These updates aim to create a more user-friendly experience across devices.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1390"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1387"
+        }
+      ]
+    },
+    {
+      "title": "Search Functionality Fixes",
+      "summary": "Multiple fixes have been implemented to enhance the search functionality, addressing issues like hydration errors and input handling. These improvements ensure that users can search effectively without encountering errors or losing focus.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1358"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1211"
+        }
+      ]
+    },
+    {
+      "title": "Keyboard Navigation Features",
+      "summary": "New features have been added to improve keyboard navigation, particularly on the compare page. Users can now select packages using keyboard shortcuts, enhancing accessibility and usability for those who prefer keyboard interactions.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1377"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1346"
+        }
+      ]
+    },
+    {
+      "title": "Performance Optimizations",
+      "summary": "Performance improvements have been a focus, with changes made to load markdown content separately to reduce response size. This optimization enhances the overall speed and efficiency of the application, providing a smoother user experience.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1386"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement and Contributions",
+      "summary": "Recent discussions on Bluesky highlight the importance of community contributions and engagement within the npmx project. Users are encouraged to participate actively, fostering a collaborative environment that enhances the project's growth and development.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3memf7kiqdc2u"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3memfpbtajs2u"
+        }
+      ]
+    }
+  ]
+}

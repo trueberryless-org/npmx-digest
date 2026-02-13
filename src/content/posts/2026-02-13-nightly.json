@@ -1,0 +1,94 @@
+{
+  "title": "Community Sparks Innovation Through Collaboration",
+  "date": "2026-02-13T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Engagement and Collaboration",
+      "summary": "Recent discussions on Bluesky highlight community engagement efforts, including taking time off for open-source projects and fostering collaboration among developers. These conversations emphasize the importance of community in driving innovation and support.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3merirlvrnk2n"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3merggbqgvs2c"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/baileytownsend.dev/post/3mer3l2t4rs2n"
+        }
+      ]
+    },
+    {
+      "title": "User Interface Enhancements",
+      "summary": "Several recent pull requests focus on improving the user interface, including making dependency icons tappable, adding a copy button for package versions, and enhancing the cursor behavior on buttons. These changes aim to create a more intuitive user experience.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1471"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1447"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1470"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Updates",
+      "summary": "Recent merges focus on enhancing internationalization support, including updates to German translations, adding Bulgarian language support, and fixing missing text for Chinese. These changes aim to improve accessibility and user experience for a broader audience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1477"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1473"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1472"
+        }
+      ]
+    },
+    {
+      "title": "Visual and Branding Updates",
+      "summary": "Recent merges include visual updates such as replacing carbon icons with lucide icons and configuring font sizes for open-graph previews. These changes aim to enhance the brand identity and visual consistency across the platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1454"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1466"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Management Improvements",
+      "summary": "Recent updates include features for better dependency management, such as showing replaceable dependencies and fixing issues related to dependency exports. These enhancements aim to streamline the development process and improve package management.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1468"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1467"
+        }
+      ]
+    }
+  ]
+}

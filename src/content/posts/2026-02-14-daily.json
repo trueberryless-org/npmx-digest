@@ -1,0 +1,85 @@
+{
+  "title": "UI Revamp: Icons Get a Fresh Look",
+  "date": "2026-02-14T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "GitHub Contributors Graph",
+      "summary": "A new feature has been added to visualize the number of contributors for packages, providing insights into the health and activity of projects. This tool leverages the GitHub API, helping users assess the reliability of packages based on contributor activity.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1445"
+        }
+      ]
+    },
+    {
+      "title": "Icon and UI Improvements",
+      "summary": "Recent PRs have focused on enhancing the user interface by adding Luau icons and fixing missing icons. These changes improve the visual representation of files and ensure consistency across the platform, addressing issues that arose from previous merges.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1492"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1484"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility Improvements",
+      "summary": "The project has addressed broken aria references, enhancing accessibility for users with disabilities. This fix is part of ongoing efforts to ensure compliance with accessibility standards, making the platform more usable for everyone.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1424"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement and Well-being",
+      "summary": "Recent posts on Bluesky reflect a focus on community well-being and the importance of taking breaks. Discussions emphasize the need for a balanced approach to project development, promoting a healthier online environment for contributors.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3merlhpnkj224"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/francoisbest.com/post/3merkv5a4xk2r"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Updates",
+      "summary": "The project has merged several PRs to update translations for Polish and French languages. These updates are crucial for enhancing accessibility and user experience for non-English speaking users, ensuring a broader reach and inclusivity.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1490"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1489"
+        }
+      ]
+    },
+    {
+      "title": "Versioning and Badges",
+      "summary": "A recent PR introduced a 'v' prefix for version numbers on badges, aligning with common practices in the community. This change enhances clarity for users when viewing package versions, contributing to a more professional presentation.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1488"
+        }
+      ]
+    }
+  ]
+}

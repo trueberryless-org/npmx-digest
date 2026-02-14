@@ -1,0 +1,93 @@
+{
+  "title": "Nurturing Contributors: Prioritizing Well-Being",
+  "date": "2026-02-14T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Maintainer Well-being",
+      "summary": "Open source projects are recognizing the importance of maintaining the well-being of their contributors. Initiatives like pausing activities for recharging and supporting each other to prevent burnout are gaining traction. This reflects a growing awareness of the human aspect of technology development.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mesywpeqpk2k"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/openresource.dev/post/3meswffcpzc26"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The open source community is actively discussing ways to engage and support each other during breaks. Ideas include setting expectations in repositories and utilizing collaboration tools effectively. This highlights the importance of communication and planning in maintaining community health.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3mesgstj5lk2c"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mesnqtq3ec2k"
+        }
+      ]
+    },
+    {
+      "title": "Collective Breaks",
+      "summary": "The concept of collective breaks in open source projects is gaining popularity. Projects like npmx are taking time off to recharge, which is seen as a positive step towards sustainable development practices. This trend encourages others to consider similar approaches.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mesxetwlcs2y"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/byarielm.fyi/post/3mesbij5pl22w"
+        }
+      ]
+    },
+    {
+      "title": "Event Planning",
+      "summary": "Discussions around organizing events and initiatives within the open source community are ongoing. Ideas for gatherings and collaborations are being shared, indicating a desire for more community interaction and support during breaks.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.dev/post/3meskip7n7s23"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/zeu.dev/post/3mesphtfgrk2c"
+        }
+      ]
+    },
+    {
+      "title": "Social Media Trends",
+      "summary": "The impact of social media on open source projects is evident, with npmx trending on platforms like Hacker News during their break. This highlights the visibility and engagement that open source projects can achieve through social media interactions.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mesxetwlcs2y"
+        }
+      ]
+    },
+    {
+      "title": "General Reflections",
+      "summary": "Various reflections and sentiments are being shared within the community, emphasizing the importance of taking breaks and the human side of technology. These discussions foster a supportive environment for contributors and encourage a culture of care.",
+      "relevanceScore": 5,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3met2ssv2k22k"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mesyuxdqqc2k"
+        }
+      ]
+    }
+  ]
+}

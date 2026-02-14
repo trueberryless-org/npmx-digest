@@ -1,0 +1,94 @@
+{
+  "title": "Bugs Squashed for Smoother Navigation Experience",
+  "date": "2026-02-14T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Dependency Management",
+      "summary": "Recent merges include updates to various dependencies, such as pnpm/action-setup and actions/github-script. These updates are crucial for maintaining the security and functionality of the application, ensuring that it runs on the latest and most secure versions of its dependencies.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1502"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1501"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1491"
+        }
+      ]
+    },
+    {
+      "title": "User Interface Improvements",
+      "summary": "Recent PRs focused on enhancing the user interface, including fixing dialog titles, improving badge text measurement accuracy, and preventing duplicate items in column selection. These changes aim to provide a more intuitive and visually appealing experience for users interacting with the application.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1497"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1486"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1503"
+        }
+      ]
+    },
+    {
+      "title": "Bug Fixes and Issue Resolutions",
+      "summary": "Multiple bug fixes have been addressed, including issues with navigation, duplicate items in selections, and dialog title mismatches. These fixes enhance the overall stability and usability of the application, providing a smoother user experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1496"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1494"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1483"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Updates",
+      "summary": "Several PRs have been merged to enhance internationalization support, including updates to Arabic and Chinese translations. These updates ensure that the application is accessible to a broader audience by providing accurate translations for various languages.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1506"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1498"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement and Feedback",
+      "summary": "Engagement with the community has been highlighted through discussions on Bluesky, where users are encouraged to create issues and provide feedback. This interaction fosters a collaborative environment for improving the application based on user input.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/colinscz.npmx.social/post/3met63fm7hk2f"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3meta5bnp4c2k"
+        }
+      ]
+    }
+  ]
+}

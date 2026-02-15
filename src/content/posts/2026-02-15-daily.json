@@ -1,0 +1,18 @@
+{
+  "title": "Global Charts Get Localized Date Format Boost",
+  "date": "2026-02-15T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Internationalization in Charting",
+      "summary": "The recent closure of Issue #430 focuses on enhancing date formatting in charts by utilizing locales. This involves passing Unix timestamps to xAxis values and implementing a `datetimeFormatter` in vue-data-ui configurations, necessitating an update to support all i18n locales.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/430"
+        }
+      ]
+    }
+  ]
+}

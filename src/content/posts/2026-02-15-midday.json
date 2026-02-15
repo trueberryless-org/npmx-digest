@@ -1,0 +1,55 @@
+{
+  "title": "Sustaining Open Source: Balance Is Key",
+  "date": "2026-02-15T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Support for Open Source Sustainability",
+      "summary": "A repost emphasizes the need for sustainability in open-source software (OSS) projects. The community is encouraged to prioritize balance and rest, which is essential for long-term success and well-being of contributors.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/antfu.me/post/3meupr6m3pc2g"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "Community members are actively discussing the importance of language accessibility in npmx, highlighting the translation efforts that enhance user experience. This engagement reflects a commitment to inclusivity and user support within the project.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/vicwalker.dev.br/post/3mevht2hnrk2l"
+        }
+      ]
+    },
+    {
+      "title": "Project Feedback",
+      "summary": "Users are expressing their thoughts and inquiries about the npmx project, indicating a vibrant community interested in its development. Questions about specific projects suggest a desire for transparency and communication from the npmx team.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3meuyfcjl422x"
+        }
+      ]
+    },
+    {
+      "title": "Community Celebrations",
+      "summary": "Simple expressions of support and celebration within the npmx community are evident, showcasing a positive atmosphere among users. These interactions foster a sense of belonging and motivation among contributors.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mevgpm3tzk2x"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3meuyjy7v5c2x"
+        }
+      ]
+    }
+  ]
+}

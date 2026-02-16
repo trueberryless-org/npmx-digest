@@ -1,0 +1,29 @@
+{
+  "title": "Recharge and Bond: The Power of Retreats",
+  "date": "2026-02-16T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Open Source Software Design Needs",
+      "summary": "A discussion on the necessity for more designers and product people in the open source software community, suggesting a shift in focus from engineering to design. This highlights the importance of user experience and product management in software development.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/todepond.com/post/3mexz3lbkhs2g"
+        }
+      ]
+    },
+    {
+      "title": "Personal Retreats and Team Building",
+      "summary": "An account of a personal retreat taken by a member of the @npmx.dev community, emphasizing the importance of disconnecting and recharging. This event showcases the value of team bonding and reflection in enhancing productivity and creativity.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/griff.dev/post/3meyd6krr2s2p"
+        }
+      ]
+    }
+  ]
+}

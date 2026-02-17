@@ -1,0 +1,33 @@
+{
+  "title": "Join the Movement: Engage with npmx Community",
+  "date": "2026-02-17T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx community is fostering engagement and contributions, as seen through personal stories of users who have recently joined and contributed to the project. This highlights the welcoming nature of the community and encourages others to participate in open-source development.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/pauliecodes.bsky.social/post/3mf36eqglmc2m"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/jaydip.me/post/3mf2ttbrihk22"
+        }
+      ]
+    },
+    {
+      "title": "Project Recognition",
+      "summary": "npmx is gaining recognition within the developer community, with users expressing their enthusiasm and appreciation for the platform. This positive feedback indicates a growing interest and support for npmx as a valuable tool for developers.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/monkchips.com/post/3mf3baqqdf22c"
+        }
+      ]
+    }
+  ]
+}

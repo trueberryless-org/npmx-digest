@@ -1,0 +1,40 @@
+{
+  "title": "Connecting Minds: npmx at ATmosphereConf 2026",
+  "date": "2026-02-17T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx community is set to participate in ATmosphereConf 2026, showcasing its commitment to collaboration and innovation. This event will provide an opportunity for community members to connect and share insights.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mezfwznbic2x"
+        }
+      ]
+    },
+    {
+      "title": "Performance Improvements",
+      "summary": "The recent closure of Issue #122 focuses on identifying bottlenecks in the system and optimizing performance by offloading tasks from the main thread. This initiative aims to enhance the overall efficiency of the npmx platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/122"
+        }
+      ]
+    },
+    {
+      "title": "Support for Open Source Tools",
+      "summary": "A community member expressed admiration for the Elk Mastodon client developed by @patak.dev and @danielroe.dev. This highlights the npmx community's support for open-source tools and collaboration within the ecosystem.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/knowtheory.net/post/3mezeri5dis23"
+        }
+      ]
+    }
+  ]
+}

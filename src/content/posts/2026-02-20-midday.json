@@ -1,0 +1,37 @@
+{
+  "title": "Cheers to 2,000 Stars on GitHub!",
+  "date": "2026-02-20T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Community Growth",
+      "summary": "npmx has experienced significant growth, surpassing 500 members and reaching 2,000 stars on GitHub. This milestone reflects the increasing interest and engagement within the community, indicating a positive trajectory for future developments and collaborations.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/alexdln.com/post/3mfbypcgdic2z"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mfbzyv5brs2q"
+        }
+      ]
+    },
+    {
+      "title": "Celebratory Milestones",
+      "summary": "The community is celebrating the achievement of 2,000 stars on GitHub, marking a significant milestone for npmx. This achievement is a testament to the hard work and dedication of its members, fostering a sense of accomplishment and motivation for future goals.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mfbzyv5brs2q"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/graphieros.com/post/3mfbqn7i4ck27"
+        }
+      ]
+    }
+  ]
+}

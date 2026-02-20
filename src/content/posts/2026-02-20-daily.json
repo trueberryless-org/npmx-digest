@@ -1,0 +1,40 @@
+{
+  "title": "Seamless Sync: Blogs Meet Personal Data Servers",
+  "date": "2026-02-20T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Community Engagement in atproto",
+      "summary": "The atproto community actively engages with members through live discussions, showcasing the importance of collaboration and shared knowledge. A recent live session on @codetv.dev highlighted the protocol's significance, with plans for edited episodes to further disseminate insights.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/zeu.dev/post/3mfaftwfso42h"
+        }
+      ]
+    },
+    {
+      "title": "Integration of Standard.site Support",
+      "summary": "A developer has successfully integrated @standard.site support into their blog, allowing for automatic synchronization of blog articles to their personal data server (PDS). This enhances discoverability across various platforms, demonstrating the growing interoperability within the ecosystem.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mfak2oea622k"
+        }
+      ]
+    },
+    {
+      "title": "Personal Updates from Developers",
+      "summary": "Developers are sharing personal updates and milestones on social platforms, fostering a sense of community and connection. Simple posts like 'oh yeah' reflect the informal nature of interactions, contributing to a vibrant online culture.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mfakagn3f22k"
+        }
+      ]
+    }
+  ]
+}

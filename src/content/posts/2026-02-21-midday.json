@@ -1,0 +1,29 @@
+{
+  "title": "Unexpected Insights from Holiday Downtime",
+  "date": "2026-02-21T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Community Appreciation",
+      "summary": "The event highlights gratitude towards Evan, showcasing the community's appreciation for contributions made. Such acknowledgments foster a positive environment and encourage further engagement among members.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mfenxsdfzc2z"
+        }
+      ]
+    },
+    {
+      "title": "Holiday Reflections",
+      "summary": "A repost from Daniel Roe reflects on events that occurred during a holiday period, emphasizing the unexpected nature of occurrences when the community is less active. This highlights the importance of staying connected even during breaks.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mfe7b6nhu22g"
+        }
+      ]
+    }
+  ]
+}

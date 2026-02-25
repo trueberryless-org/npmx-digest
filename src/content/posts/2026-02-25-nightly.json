@@ -1,0 +1,90 @@
+{
+  "title": "Badge API Error Handling Gets a Boost",
+  "date": "2026-02-25T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Performance Improvements",
+      "summary": "The implementation of a payload cache aims to reduce rendering times by avoiding duplicate renders for HTML and JSON. Additionally, adjustments to sidebar spacing and error handling for FetchError have been made to enhance overall user interface performance and reliability.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1643"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1641"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1634"
+        }
+      ]
+    },
+    {
+      "title": "Framework Enhancements",
+      "summary": "Recent updates include the addition of Storybook to the framework list and improvements in data handling for missed payload cases. These enhancements aim to streamline user experience and ensure better performance during page rendering, addressing issues that previously caused flickering.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1649"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1648"
+        }
+      ]
+    },
+    {
+      "title": "Error Handling Improvements",
+      "summary": "Recent changes include the addition of error handling for the Badge API, which now returns appropriate HTTP status codes instead of generic errors. This update aims to improve user experience by providing clearer feedback when accessing non-existent packages.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1634"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1603"
+        }
+      ]
+    },
+    {
+      "title": "User Interface Updates",
+      "summary": "New sections for OSS Partners and Sponsors have been added to the about page, enhancing visibility for contributors. Minor design adjustments have also been made to improve accessibility and user experience, ensuring a more polished interface for users.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1630"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1623"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "Community members are actively discussing their experiences with npmx, including migrations to the npmx.social platform and the benefits of using related tools. These interactions highlight the growing community and support for the npmx ecosystem.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/nicr.dev/post/3mfpmkdrp3c2l"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/fubits.dev/post/3mfpi26ns622r"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/andrew.npmx.social/post/3mfp2hzwmqs2e"
+        }
+      ]
+    }
+  ]
+}

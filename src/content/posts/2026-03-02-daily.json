@@ -1,0 +1,77 @@
+{
+  "title": "Version Display Fix: Issue #1789 Resolved",
+  "date": "2026-03-02T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Dist-Tag Version Management",
+      "summary": "Merged PR #1802 addresses a bug where newer versions were dropped from the expanded tag list. The fix ensures that the primary version is correctly excluded based on version string match, improving version management for packages.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1802"
+        }
+      ]
+    },
+    {
+      "title": "Profile URL Fixes",
+      "summary": "Merged PR #1806 resolves issues with the profile lexicon creation and allows the profile endpoint to accept both DID and Atproto handles. This enhances the functionality and usability of the profile feature on npmx.dev.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1806"
+        }
+      ]
+    },
+    {
+      "title": "Version Listing Bug",
+      "summary": "Closed Issue #1789 highlights a bug where the version list for @types/node did not display the latest version. This issue was linked to the dist-tag management and has been addressed in recent PRs.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1789"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Efforts",
+      "summary": "Merged PR #1767 introduces Turkish (tr-TR) translations for npmx.dev, enhancing accessibility for Turkish-speaking users. The addition includes over 800 keys covering all UI elements, reflecting a commitment to inclusivity.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1767"
+        }
+      ]
+    },
+    {
+      "title": "Logo Update",
+      "summary": "Merged PR #1799 updates the vlt sponsor logo to the current wordmark version, enhancing the visual branding of npmx.dev. This change reflects the latest design standards and improves brand recognition.",
+      "relevanceScore": 5,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1799"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "Posts on Bluesky indicate a growing community interest in organizing local events, such as a PDS neighborhood party. This reflects a desire for community building and engagement among npmx.dev users.",
+      "relevanceScore": 5,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mg2hbzu6hk2o"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/mackuba.eu/post/3mg2bxoz5gc2x"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Hydration Mismatch Issue Finally Resolved",
+  "date": "2026-03-04T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Hydration Issues",
+      "summary": "An issue regarding hydration mismatches on organization and user pages has been closed. The problem was identified as causing discrepancies during the hydration process, which may affect user experience. The issue was possibly related to a previous ticket, indicating ongoing challenges in rendering.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1650"
+        }
+      ]
+    },
+    {
+      "title": "Blog Post Updates",
+      "summary": "A recent pull request merged into the alpha blog post adds a link to a personal blog by contributor Jonathan Yeong. This update enhances the content of the blog post, providing readers with additional resources and insights related to the topic discussed.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1907"
+        }
+      ]
+    }
+  ]
+}

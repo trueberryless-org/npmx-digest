@@ -1,0 +1,62 @@
+{
+  "title": "Documentation Upgrade: Clarity Unleashed for Developers",
+  "date": "2026-03-05T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Documentation Enhancements",
+      "summary": "Merged PR #1949 addresses the documentation rendering by separating class getters from methods. This change improves the clarity of the documentation, making it easier for developers to understand the structure and functionality of the code.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1949"
+        }
+      ]
+    },
+    {
+      "title": "Translation Updates",
+      "summary": "Merged PR #1951 focuses on updating Japanese translations and adjusting footer card wording. This change enhances the accessibility and usability of the platform for Japanese-speaking users, ensuring that the content is accurately represented in their language.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1951"
+        }
+      ]
+    },
+    {
+      "title": "Issue Resolution on Class Getters",
+      "summary": "Closed Issue #1943 highlights a bug where class getters were miscategorized as methods in the documentation. This issue prompted the recent PRs aimed at improving the accuracy of the documentation, ensuring that developers have the correct information.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1943"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement in Open Source",
+      "summary": "A post on Bluesky by Abbey reflects on their journey from being a passive observer to an active contributor in open source software (OSS). Their experience emphasizes the importance of community support and engagement in fostering confidence among new contributors.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgday2tmbk2b"
+        }
+      ]
+    },
+    {
+      "title": "Legal Copy Improvements",
+      "summary": "Merged PR #1950 introduces a minor but significant change by replacing a paragraph tag with a small tag for legal disclaimers. This adjustment improves semantic HTML usage, enhancing the clarity and professionalism of the legal text on the platform.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1950"
+        }
+      ]
+    }
+  ]
+}

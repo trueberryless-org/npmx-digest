@@ -1,0 +1,44 @@
+{
+  "title": "Open Source: Embracing Community and Collaboration",
+  "date": "2026-03-07T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Engagement in Open Source",
+      "summary": "Contributors emphasize the importance of community in open source projects. They encourage participation and support for newcomers, highlighting that the open source world is inclusive and collaborative. This fosters a welcoming environment for all contributors, regardless of their experience level.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgijyuy7j22x"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgibueuqpc2b"
+        }
+      ]
+    },
+    {
+      "title": "Excitement for npmx",
+      "summary": "Community members express their enthusiasm for npmx, sharing personal stories and experiences. The sentiment reflects a strong desire for the project's success and a belief in its potential to make a positive impact within the open source community.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgibueuqpc2b"
+        }
+      ]
+    },
+    {
+      "title": "Celebratory Moments",
+      "summary": "A celebratory post highlights the positive atmosphere surrounding npmx. Such moments contribute to community morale and encourage ongoing participation and collaboration among members, reinforcing the project's vibrant culture.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgiadt22q22c"
+        }
+      ]
+    }
+  ]
+}

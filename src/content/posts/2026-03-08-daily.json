@@ -1,0 +1,29 @@
+{
+  "title": "Lint-Staged Boosts Windows Development Experience",
+  "date": "2026-03-08T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Image Generation Fixes",
+      "summary": "Merged PR #1982 addresses multiple issues with Open Graph image generation, including error display failures and format inconsistencies. The fix ensures proper image dimensions and format handling, enhancing functionality across platforms, particularly Windows.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1982"
+        }
+      ]
+    },
+    {
+      "title": "Lint-Staged Update",
+      "summary": "Merged PR #1965 updates `lint-staged` to version `16.3.2`, resolving issues with node lint process windows on Windows systems. This update aims to improve the development experience by preventing unnecessary window pop-ups during the linting process.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1965"
+        }
+      ]
+    }
+  ]
+}

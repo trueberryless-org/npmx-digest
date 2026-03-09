@@ -1,0 +1,70 @@
+{
+  "title": "Tech Insights: npmx Shines in Podcast Spotlight",
+  "date": "2026-03-09T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Engagement",
+      "summary": "Vlad-Stefan Harbuz emphasizes the importance of trust and collaboration within the npmx community, reflecting a culture of mutual dependence. This sentiment is echoed in various posts, showcasing the community's commitment to working together for shared goals and understanding.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgngm3msic2j"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Updates",
+      "summary": "Merged PR #2008 updates the Vue dependency from version 3.5.29 to 3.5.30, addressing various bug fixes and improvements. This update enhances compatibility and reactivity, ensuring better performance and stability for applications using Vue. Manual merging is required as automerge is disabled.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2008"
+        }
+      ]
+    },
+    {
+      "title": "Issue Resolutions",
+      "summary": "Closed Issue #1968 addresses a 404 error on the package page for 'emoji-regex-xs', confirming the package exists on npm. Additionally, Issue #1877 highlights a broken ATproto login due to invalid OAuth client metadata, requiring further investigation to resolve the authentication issue.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1968"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1877"
+        }
+      ]
+    },
+    {
+      "title": "Media Mentions",
+      "summary": "A repost from @front-end-fire.com highlights a podcast episode discussing recent developments in the tech space, including the launch of @bun.sh and the user experience improvements at @npmx.dev. This showcases npmx's relevance in current tech discussions.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/front-end-fire.com/post/3mgmyqkgcnc22"
+        }
+      ]
+    },
+    {
+      "title": "User Interaction",
+      "summary": "Several posts on Bluesky reflect user sentiments and interactions within the npmx community, including expressions of unity and collaborative spirit. These interactions highlight the community's engagement and the positive atmosphere surrounding npmx.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgn5lurjcs2b"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgn5lui6ic2b"
+        }
+      ]
+    }
+  ]
+}

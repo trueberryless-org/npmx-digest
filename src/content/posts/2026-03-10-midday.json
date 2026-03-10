@@ -1,0 +1,74 @@
+{
+  "title": "Community Connects: Surprise Guests Inspire Developers",
+  "date": "2026-03-10T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Chart Improvements",
+      "summary": "Recent updates have focused on enhancing the weekly chart display and prediction capabilities. A merged PR addressed issues with partial week data and introduced linear regression for weekly predictions, improving user experience and data accuracy. This aligns with the closure of an issue highlighting similar concerns.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2014"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2013"
+        }
+      ]
+    },
+    {
+      "title": "User Interface Enhancements",
+      "summary": "Several PRs have been merged to improve the user interface, including updates to button copy in the versions modal for consistency with displayed graphs. These changes aim to enhance clarity and usability for users interacting with the npmx platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2007"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1935"
+        }
+      ]
+    },
+    {
+      "title": "Open Source Ecosystem Insights",
+      "summary": "Conversations around the open-source ecosystem emphasize the importance of collaboration and data sharing. Suggestions to leverage existing structured package rename data aim to enhance the npmx platform, showcasing the community's commitment to improving developer resources and tools.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/philippeserhal.com/post/3mgp7jyodwc2o"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgp6oraww22e"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Updates",
+      "summary": "The project has seen updates to its internationalization efforts, specifically with the addition of missing Azerbaijani translations. This ensures that the platform remains accessible to a broader audience, reflecting a commitment to inclusivity in software development.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1991"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "Engagement within the npmx community is highlighted through various discussions and events. A special episode featuring surprise guests will focus on performance topics, fostering collaboration and knowledge sharing among developers in the ecosystem.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/e18e.dev/post/3mgphqfufm223"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Bluesky Awards $6K Grant to npmx",
+  "date": "2026-03-10T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Dependency Management Issues",
+      "summary": "A recent issue was closed regarding dependency links with version unions leading to 404 errors. The problem was identified as spaces in URLs for complex versioning. The app now handles complex versions correctly, but hyphenated ranges still result in errors.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1120"
+        }
+      ]
+    },
+    {
+      "title": "Community Support and Grants",
+      "summary": "The Bluesky team announced a $6K grant to support npmx as part of their ecosystem support initiative. This highlights the importance of collaborative efforts in the development of the social web and the role of npmx in this ecosystem.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgponlvwis2b"
+        }
+      ]
+    },
+    {
+      "title": "User Engagement",
+      "summary": "A simple post on Bluesky expressing hope (🤞) reflects user engagement and sentiment towards npmx. Such interactions can foster community and encourage further participation in discussions and developments.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgq7y3sdpk2b"
+        }
+      ]
+    }
+  ]
+}

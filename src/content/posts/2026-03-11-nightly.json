@@ -1,0 +1,74 @@
+{
+  "title": "Binary File Handling Gets User-Friendly Upgrade",
+  "date": "2026-03-11T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Binary File Handling Improvements",
+      "summary": "Recent updates focus on enhancing user experience with binary files in the package code page. A merged PR introduces a warning for binary files, addressing issues where they were displayed as raw strings. This aims to improve clarity and usability for developers working with binary assets.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1959"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1945"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement and Events",
+      "summary": "The npmx community is actively engaging through various platforms, sharing insights and promoting events. Recent posts highlight discussions on the NPM frontend and live shows featuring prominent developers, fostering collaboration and knowledge sharing within the developer community.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/joyofcode.xyz/post/3mgseddk4n22n"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/thealexlichter.com/post/3mgshpxousk2w"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/codetv.dev/post/3mgrylmtv5h2b"
+        }
+      ]
+    },
+    {
+      "title": "Team Culture and Values",
+      "summary": "The npmx team emphasizes a caring and supportive culture, as reflected in recent posts. This focus on team values fosters a positive environment, encouraging collaboration and innovation among team members, which is crucial for the ongoing development of the npmx platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgsgh4yee22e"
+        }
+      ]
+    },
+    {
+      "title": "Technical Discussions and Resources",
+      "summary": "The npmx community is actively sharing technical discussions and resources, including podcasts and educational content. These resources aim to enhance knowledge and skills among developers, ensuring they stay updated with the latest trends and best practices in the field.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/codetv.dev/post/3mgrylmtv5h2b"
+        }
+      ]
+    },
+    {
+      "title": "Feature Announcements and Updates",
+      "summary": "Updates regarding new features and enhancements are being shared within the npmx community. Recent discussions include the availability of icons in vue-data-ui, showcasing the continuous development and improvement of tools available for developers using the npmx platform.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/graphieros.npmx.social/post/3mgsebqn5ok2z"
+        }
+      ]
+    }
+  ]
+}

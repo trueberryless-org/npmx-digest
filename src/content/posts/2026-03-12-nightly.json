@@ -1,0 +1,51 @@
+{
+  "title": "Cultivating Community: The Heart of Open Source",
+  "date": "2026-03-12T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community and Open Source",
+      "summary": "A post by Faris emphasizes the essence of open source as a community-driven initiative. It highlights the importance of belonging and collaboration, showcasing how individuals can contribute ideas and support each other in the open source ecosystem.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgvaxu4nqc2y"
+        }
+      ]
+    },
+    {
+      "title": "Open Social Networking Protocols",
+      "summary": "A repost discusses how organizations like @tangled.org, @npmx.dev, and @alt.store are leveraging open social networking protocols. The focus is on community building rather than just code, emphasizing the collaborative nature of software development.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/laurenshof.online/post/3mguwao7ozs24"
+        }
+      ]
+    },
+    {
+      "title": "Translation Updates",
+      "summary": "The completion of the Indonesian (id-ID) translations enhances accessibility for Indonesian users. This update includes translations for various sections and ensures the integrity of placeholders and pluralization formats, contributing to a more inclusive user experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2050"
+        }
+      ]
+    },
+    {
+      "title": "Library Version Updates",
+      "summary": "The project has updated the vue-data-ui library from version 3.15.11 to 3.15.12. This minor update includes the removal of unnecessary type casting in the tooltip's custom format, which may improve code clarity and maintainability.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2040"
+        }
+      ]
+    }
+  ]
+}

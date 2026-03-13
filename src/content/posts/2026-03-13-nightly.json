@@ -1,0 +1,37 @@
+{
+  "title": "Translation Enhancements for Japanese and Indonesian",
+  "date": "2026-03-13T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Translation Updates",
+      "summary": "Recent pull requests have focused on improving translations for Japanese and Indonesian languages. The updates include fixing translation errors, adding missing keys, and ensuring that the translations sound natural to native speakers. These changes enhance the user experience for non-English speakers.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2066"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2065"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx community is actively engaging on social media platforms like Bluesky. Posts highlight the enthusiasm and commitment of contributors, showcasing the positive momentum and collaborative spirit within the project. This engagement reflects the community's dedication to open-source principles.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mgx6wjzwwc2k"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mgx4zjaays2w"
+        }
+      ]
+    }
+  ]
+}

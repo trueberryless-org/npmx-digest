@@ -1,0 +1,86 @@
+{
+  "title": "Bluesky Buzz: Community Celebrates Open Source",
+  "date": "2026-03-15T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Pagination Improvements",
+      "summary": "Recent updates have focused on enhancing pagination number formatting for better consistency and localization. Changes include using Intl.NumberFormat for range formatting and addressing issues with inconsistent displays in search results. These improvements aim to provide a clearer and more user-friendly experience across different locales.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2078"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1921"
+        }
+      ]
+    },
+    {
+      "title": "UI Component Refactoring",
+      "summary": "Refactoring efforts have been made to improve the UI by breaking down larger components into smaller, more manageable ones. This includes moving external links to a dedicated component and refining the layout of the compare grid header to enhance visual coherence and prevent merge conflicts.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2077"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2072"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1627"
+        }
+      ]
+    },
+    {
+      "title": "Bug Fixes and Issue Resolutions",
+      "summary": "Several bug fixes have been implemented, addressing issues related to pagination formatting and visual inconsistencies on the compare page. These resolutions aim to enhance user experience by ensuring a more reliable and visually appealing interface.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2072"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1627"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Enhancements",
+      "summary": "Significant improvements have been made to the internationalization (i18n) aspect of the project. This includes adding missing translation keys and refining existing translations to ensure better accuracy and cultural relevance, particularly for Ukrainian language support.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2073"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement on Bluesky",
+      "summary": "The npmx community has been actively engaging on Bluesky, sharing thoughts and appreciation for open-source contributions. Posts reflect a sense of pride in the project's design and the collaborative spirit of open-source development, emphasizing the importance of community involvement.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mh442y7y4s2s"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/trueberryless.npmx.social/post/3mh3zesynrs2c"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mh3mnryr422s"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "title": "Scroll Position Fix Enhances Package Comparison",
+  "date": "2026-03-16T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Recent Pull Requests",
+      "summary": "Several pull requests have been merged to enhance the npmx platform. Notable changes include the addition of a `bun.lock` file for Bun file association, completion of Portuguese translations, and scroll preservation on the compare page. These updates aim to improve user experience and functionality.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2107"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2103"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2101"
+        }
+      ]
+    },
+    {
+      "title": "Sponsorship and Support",
+      "summary": "The npmx initiative has garnered support from various sponsors, emphasizing the importance of collaboration among core infrastructure companies. This support is crucial for maintaining and enhancing the open ecosystem that benefits all users and developers.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mh6r5tlqn22j"
+        }
+      ]
+    },
+    {
+      "title": "Issue Resolution",
+      "summary": "An issue regarding scroll reset on the Compare Package page has been addressed. The fix allows users to maintain their scroll position when changing inputs, enhancing usability. This change was linked to a recent pull request that implemented scroll preservation features.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2098"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx community is actively engaging through meetups and social media. A recent meetup in Vienna was highlighted, showcasing collaboration among community members. This fosters a sense of belonging and encourages knowledge sharing within the npmx ecosystem.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/mihaizaurus.at/post/3mh6vobjk562f"
+        }
+      ]
+    },
+    {
+      "title": "Social Media Activity",
+      "summary": "The npmx team is active on social media platforms, sharing updates and engaging with the community. Recent posts include expressions of support and collaboration, highlighting the team's commitment to fostering a vibrant and interactive environment.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mh72ql7tr22j"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mh6xhdj2nk2j"
+        }
+      ]
+    }
+  ]
+}

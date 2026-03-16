@@ -8,7 +8,7 @@ const EventSchema = z.object({
   source: z.enum(["github", "bluesky"]),
   title: z.string(),
   description: z.string(),
-  url: z.string().url().optional(),
+  url: z.url().optional(),
   timestamp: z.string(),
 });
 

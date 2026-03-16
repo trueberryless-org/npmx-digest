@@ -2,7 +2,7 @@ import { z } from "zod";
 
 export const SourceSchema = z.object({
   platform: z.string(),
-  url: z.string().url(),
+  url: z.url(),
 });
 
 export const TopicSchema = z.object({

@@ -1,0 +1,37 @@
+{
+  "title": "Celebrating v0.4.0: Community Comes Alive!",
+  "date": "2026-03-16T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Version Release v0.4.0",
+      "summary": "The release of version v0.4.0 of npmx includes numerous features and fixes, such as improved translations, UI enhancements, and accessibility updates. This version aims to enhance user experience and address previous bugs, ensuring a more robust application.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1963"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx community is actively engaging with the latest release, as evidenced by posts celebrating the launch of v0.4.0. Users are sharing their excitement and experiences on platforms like Bluesky, fostering a sense of community around the project.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/rman.dev/post/3mh525ou2hc2r"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/atriiy.dev/post/3mh5oj6gcks26"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mh5p3d7bcs2j"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Embracing Open Source: A Welcoming Journey",
+  "date": "2026-03-17T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Documentation Enhancements",
+      "summary": "The recent merge of PR #2093 adds a custom badge builder to the npmx documentation, enhancing user experience. This feature allows users to create custom badges easily, promoting better engagement with the npmx ecosystem. The addition is aimed at improving the overall documentation quality.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2093"
+        }
+      ]
+    },
+    {
+      "title": "Open Source Contributions",
+      "summary": "A post on Bluesky reflects on the author's first experience contributing to open source software (OSS). The author highlights the supportive community, open discussions, and the importance of accessibility in OSS projects, emphasizing how new contributors are welcomed as peers.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhas76r2ac2f"
+        }
+      ]
+    }
+  ]
+}

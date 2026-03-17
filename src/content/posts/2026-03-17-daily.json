@@ -1,0 +1,40 @@
+{
+  "title": "Multi-Select Feature Transforms Search Experience",
+  "date": "2026-03-17T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "User Interface Enhancements",
+      "summary": "PR #1672 introduces a multi-select feature on the search page, allowing users to select multiple packages for bulk actions. This enhancement includes a persistent selection counter, a floating action bar, and improved accessibility, significantly improving user experience during package comparisons.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1672"
+        }
+      ]
+    },
+    {
+      "title": "Localization Updates",
+      "summary": "The recent merge of PR #2104 addresses synchronization issues in the `pt-BR` locale file, ensuring it aligns with the base `en.json` structure. This update enhances consistency and reduces future discrepancies, benefiting contributors by streamlining localization efforts.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2104"
+        }
+      ]
+    },
+    {
+      "title": "Feature Requests and User Feedback",
+      "summary": "The closure of Issue #1509 highlights user feedback regarding the need for a package comparison feature directly from search results. Users expressed a desire for a more efficient way to compare packages, akin to a shopping experience, enhancing the platform's usability.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1509"
+        }
+      ]
+    }
+  ]
+}

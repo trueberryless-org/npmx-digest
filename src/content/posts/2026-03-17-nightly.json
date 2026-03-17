@@ -1,0 +1,78 @@
+{
+  "title": "Joyful Development: Community at Its Core",
+  "date": "2026-03-17T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Engagement and Contributions",
+      "summary": "Several posts on Bluesky highlight community members encouraging open-source contributions. Users share their experiences and motivate others to participate, emphasizing that even small contributions are valuable.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/paulie.codes/post/3mhbbrymsf22f"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhbbrytux22f"
+        }
+      ]
+    },
+    {
+      "title": "Development Philosophy",
+      "summary": "Posts on Bluesky reflect a philosophy of joy-driven development and the importance of community in open-source projects. Contributors share insights on overcoming imposter syndrome and the value of every contribution.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mhbd3fkrqc2m"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhbbrytux22f"
+        }
+      ]
+    },
+    {
+      "title": "User Interface Improvements",
+      "summary": "Recent updates include the merging of PR #2121, which introduces an opt-in repeated pulse animation for the download graph, and PR #2119, which removes a redundant back button in the selection view. These changes enhance user experience and accessibility.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2121"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2119"
+        }
+      ]
+    },
+    {
+      "title": "Bug Fixes and Issues",
+      "summary": "The closure of Issue #2120 addresses a bug where the connect overlay button was obscured by the package menu on the alpha version. This fix ensures better functionality and user interaction on the package page.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2120"
+        }
+      ]
+    },
+    {
+      "title": "Project Promotion",
+      "summary": "Bluesky posts promote the npmx project, inviting users to explore its features and contributions. These reposts serve to increase visibility and attract potential contributors to the open-source community.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/shaundai.com/post/3mhb756o5mc2b"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/paulie.codes/post/3mhbh427d5c2j"
+        }
+      ]
+    }
+  ]
+}

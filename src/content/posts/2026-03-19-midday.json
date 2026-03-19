@@ -1,0 +1,29 @@
+{
+  "title": "Honoring Contributions: Community Drives npmx Forward",
+  "date": "2026-03-19T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "UI/UX Issues",
+      "summary": "A recent issue was closed regarding a tooltip for copying package names that was obstructed by the package tab navigator. This bug affects user experience across multiple browsers and operating systems, highlighting the need for improved UI design to ensure accessibility of features.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2123"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "A post on Bluesky acknowledges the contributions of a community member, Mohammad, emphasizing the collaborative nature of npmx. This highlights the importance of community support and recognition in fostering a positive environment for developers and users alike.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhfgblc4fk2j"
+        }
+      ]
+    }
+  ]
+}

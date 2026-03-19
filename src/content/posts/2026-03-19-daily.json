@@ -1,0 +1,62 @@
+{
+  "title": "Rapid Team Growth Fuels npm Innovation",
+  "date": "2026-03-19T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Community Collaboration",
+      "summary": "npmx emphasizes the importance of collaboration among its contributors, highlighting the collective effort of over 220 contributors and 23 maintainers. The project fosters an open environment for anyone interested in contributing, reinforcing the idea of community-driven development.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhejdk6vi22h"
+        }
+      ]
+    },
+    {
+      "title": "Open Source Principles",
+      "summary": "npmx is built on the principles of open source, encouraging contributions and collaboration from the community. This approach not only enhances the project but also builds on the successes of previous open-source initiatives, creating a sustainable development model.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhejdk77ak2h"
+        }
+      ]
+    },
+    {
+      "title": "Governance Structure",
+      "summary": "The governance model of npmx is inspired by established organizations like @astro.build and @eslint.org. This structure aims to ensure transparency and collaboration within the community, reflecting the principles of open-source development.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhejdk77ak2h"
+        }
+      ]
+    },
+    {
+      "title": "Collective Effort",
+      "summary": "The npmx project is characterized by a collective effort where contributors work together towards common goals. This collaborative spirit is essential for fostering innovation and improving the npm registry, making it a community-centric initiative.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhejxtv5ks2h"
+        }
+      ]
+    },
+    {
+      "title": "Team Development",
+      "summary": "In just two months, npmx has grown to include 10 core team members, showcasing rapid development and team expansion. This growth signifies the project's commitment to building a robust team dedicated to enhancing the npm registry experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhejdk6vi22h"
+        }
+      ]
+    }
+  ]
+}

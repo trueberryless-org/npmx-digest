@@ -1,0 +1,78 @@
+{
+  "title": "Scoped Package Support Just Got Smarter",
+  "date": "2026-03-19T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Scoped Package Support",
+      "summary": "Improvements have been made to correctly parse and fetch data for scoped packages on the compare page. This enhancement addresses previous issues where stats failed to load, ensuring that users can accurately compare scoped packages without errors.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2135"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2141"
+        }
+      ]
+    },
+    {
+      "title": "Bug Fixes and Issues",
+      "summary": "Several issues have been reported and resolved, including incorrect links to GitHub monorepos and failures in loading stats for scoped packages. These bugs highlight the need for ongoing maintenance and improvements in the npmx platform to ensure a seamless user experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2142"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2141"
+        }
+      ]
+    },
+    {
+      "title": "Ongoing Development and Collaboration",
+      "summary": "The development team is actively collaborating on multiple pull requests and issues, focusing on bug fixes, feature enhancements, and translation improvements. This collaborative effort is crucial for the continuous evolution of the npmx platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2140"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2135"
+        }
+      ]
+    },
+    {
+      "title": "Translation Enhancements",
+      "summary": "Recent updates have focused on improving internationalization (i18n) by adding missing translation keys across various components. This effort aims to enhance the user interface by ensuring that hardcoded text is replaced with translatable terms, making the platform more accessible.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2140"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2128"
+        }
+      ]
+    },
+    {
+      "title": "User Interface Improvements",
+      "summary": "The npmx platform is undergoing various user interface enhancements, including the removal of hardcoded text and the addition of new translation keys. These changes aim to create a more cohesive and user-friendly experience across the application.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2140"
+        }
+      ]
+    }
+  ]
+}

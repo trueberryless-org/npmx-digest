@@ -1,0 +1,37 @@
+{
+  "title": "Building Connections: npmx Community Unites Online",
+  "date": "2026-03-20T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Internationalization Improvements",
+      "summary": "Recent pull requests focused on enhancing internationalization for the npmx platform. This includes fixing number formatting issues and updating translations for Simplified and Traditional Chinese. These changes aim to improve user experience across different languages and locales.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2158"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2147"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx community is actively engaging with users through social media platforms like Bluesky. Posts such as 'every odd day!' reflect ongoing interactions and community-building efforts, fostering a sense of connection among users.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhhgebrbic2j"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhhgb7esj22j"
+        }
+      ]
+    }
+  ]
+}

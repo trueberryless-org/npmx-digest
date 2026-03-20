@@ -1,0 +1,44 @@
+{
+  "title": "Static Values Boost Visual Testing Consistency",
+  "date": "2026-03-20T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "UI Enhancements in Storybook",
+      "summary": "Recent PRs have focused on enhancing the UI of the Storybook documentation for npmx. This includes the addition of a dark theme and the implementation of locale switching through the storybook-i18n addon, improving accessibility and user experience.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2172"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2125"
+        }
+      ]
+    },
+    {
+      "title": "Static Values for Visual Regression Testing",
+      "summary": "A recent PR introduced static values for Storybook to ensure consistency in visual regression testing. This change aims to prevent discrepancies between the main branch and pull requests, enhancing the reliability of UI tests.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2174"
+        }
+      ]
+    },
+    {
+      "title": "Search Functionality Bug Report",
+      "summary": "An issue was reported regarding the search functionality on the landing page, where search results do not display immediately after input. This bug appears intermittently and is under investigation, with potential fixes being considered.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1961"
+        }
+      ]
+    }
+  ]
+}

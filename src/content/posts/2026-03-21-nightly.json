@@ -1,0 +1,78 @@
+{
+  "title": "Streamlined Navigation: New Back Button Launched",
+  "date": "2026-03-21T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "User Interface Improvements",
+      "summary": "Several UI fixes have been merged to enhance user experience, including disambiguating 'compare' buttons, aligning skeleton designs, and relocating the fund button to a more prominent position. These changes aim to reduce confusion and improve the overall usability of the application.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2180"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2177"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2170"
+        }
+      ]
+    },
+    {
+      "title": "Documentation Enhancements",
+      "summary": "Recent PRs have improved documentation by adding links to an advanced badges generator and creating a dedicated page for custom badges. These changes aim to enhance user accessibility and streamline the process of generating badges, making it easier for users to find and utilize these features.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2183"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2152"
+        }
+      ]
+    },
+    {
+      "title": "Navigation Consistency",
+      "summary": "A new reusable back button component has been introduced to standardize navigation across various pages, including the Blog and settings pages. This change aims to create a more consistent user experience throughout the application, enhancing usability.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2024"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Efforts",
+      "summary": "A recent PR focused on extracting untranslated hardcoded strings to facilitate translation into French. This effort is part of a broader initiative to enhance the application's accessibility for non-English speaking users, ensuring a more inclusive experience.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2181"
+        }
+      ]
+    },
+    {
+      "title": "User Feedback and Discussions",
+      "summary": "Closed issues have highlighted user concerns regarding the visibility of the fund link and confusion caused by multiple 'compare' buttons. These discussions are crucial for identifying areas of improvement and ensuring that user feedback is incorporated into future updates.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2156"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1835"
+        }
+      ]
+    }
+  ]
+}

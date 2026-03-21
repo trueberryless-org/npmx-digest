@@ -1,0 +1,86 @@
+{
+  "title": "Polishing Performance: Key Bug Fixes Rolled Out",
+  "date": "2026-03-21T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Markdown Rendering Enhancements",
+      "summary": "Several updates have been made to improve the rendering of Markdown files, particularly in README documents. Changes include fixing inconsistencies in heading and link handling, ensuring a more uniform experience between GitHub and npmx rendering.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1776"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1323"
+        }
+      ]
+    },
+    {
+      "title": "UI Improvements",
+      "summary": "Recent pull requests focus on enhancing the user interface of npmx, including consistent version colors, improved blog layouts, and better handling of nested comments on mobile. These changes aim to create a more cohesive and visually appealing experience for users across different devices.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2171"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2139"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2137"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2136"
+        }
+      ]
+    },
+    {
+      "title": "Bug Fixes and Maintenance",
+      "summary": "Multiple bug fixes have been merged to address various issues, including mobile responsiveness and UI inconsistencies. These updates are crucial for maintaining a smooth user experience and ensuring that the platform functions as intended across all devices.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2018"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1964"
+        }
+      ]
+    },
+    {
+      "title": "Feature Additions",
+      "summary": "New features have been introduced, such as the addition of a WASM label for packages and the display of YAML frontmatter as a table. These enhancements aim to improve user experience and provide clearer information about package types and metadata.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2154"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2166"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Improvements",
+      "summary": "Improvements to the internationalization (i18n) status page have been implemented, optimizing the display of translation statuses and enhancing visual elements. These changes aim to streamline the tracking of localization efforts across different languages.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2064"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Vue-Data-UI 3.16.0 Enhances Chart Accessibility",
+  "date": "2026-03-22T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Package Management History",
+      "summary": "Reflecting on the 10-year anniversary of the left-pad incident, which led to significant changes in npm's package management policies. This event serves as a reminder of the importance of package stability and the impact of package deletions on the ecosystem.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.cat/post/3mho2bi67p22c"
+        }
+      ]
+    },
+    {
+      "title": "Community Milestones",
+      "summary": "Celebrating the achievement of reaching 2K followers on Bluesky, marking a significant milestone for the npmx community. This growth reflects the increasing interest and engagement within the developer community, showcasing the platform's expanding influence.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhof2zd25s2d"
+        }
+      ]
+    },
+    {
+      "title": "Product Updates",
+      "summary": "The release of vue-data-ui v3.16.0 introduces keyboard navigability for all charts, enhancing accessibility. This update reflects ongoing efforts to improve user experience and inclusivity in data visualization tools, catering to a broader audience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/graphieros.npmx.social/post/3mhnkfb6psc2b"
+        }
+      ]
+    },
+    {
+      "title": "Content Sharing and Reposts",
+      "summary": "The community actively shares content through reposts, highlighting collaborative efforts among developers. This practice fosters knowledge sharing and strengthens connections within the developer ecosystem, showcasing the importance of community engagement.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/rman.dev/post/3mho5gcfa522v"
+        }
+      ]
+    }
+  ]
+}

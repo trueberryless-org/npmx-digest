@@ -1,0 +1,70 @@
+{
+  "title": "Outdated Data Removed for Enhanced Accuracy",
+  "date": "2026-03-24T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "UI Improvements",
+      "summary": "Several UI enhancements have been made, including PR #2199, which fixes badge width overestimation, and PR #2115, which improves the search page UX. These changes aim to provide a more intuitive and visually appealing user experience, addressing specific user feedback.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2199"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2115"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Updates",
+      "summary": "Recent updates include the merging of PR #2250, which updates the devdependency schema-dts to version 2.0.0. This change is part of ongoing efforts to keep dependencies current and improve project stability. Users are advised to check the Dependency Dashboard for any unresolved dependencies.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2250"
+        }
+      ]
+    },
+    {
+      "title": "Data Management",
+      "summary": "PR #2155 has been merged to remove outdated npms data from the project. This decision was made to ensure that users are not misled by incorrect information, emphasizing the importance of maintaining accurate and relevant data in the application.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2155"
+        }
+      ]
+    },
+    {
+      "title": "Issue Resolutions",
+      "summary": "Issues related to UI bugs have been addressed, including the closure of Issue #2187 regarding custom badge widths and Issue #2112 concerning layout shifts during typing. These resolutions reflect the team's commitment to improving functionality based on user reports.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2187"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2112"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "A recent post on Bluesky encourages users to explore package options on @npmx.dev. This outreach aims to enhance user engagement and promote the platform as a resource for package comparison and selection, highlighting its utility in the developer community.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/philippeserhal.com/post/3mhqwhbqla22s"
+        }
+      ]
+    }
+  ]
+}

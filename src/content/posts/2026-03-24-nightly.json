@@ -1,0 +1,59 @@
+{
+  "title": "GitHub Workflows Get Fresh New Fixes",
+  "date": "2026-03-24T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Workflow Improvements",
+      "summary": "Recent updates to the GitHub workflows include fixing the first-time contributor welcome workflow by adding a missing token, ensuring new contributors can interact without issues. Additionally, improvements were made to the externals configuration in Chromatic to reduce unnecessary snapshot usage.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2264"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2261"
+        }
+      ]
+    },
+    {
+      "title": "UI Enhancements",
+      "summary": "The UI of the Maintainers section has been improved by adding a top margin to the 'show more/fewer' button, enhancing visual clarity. This change addresses user experience by preventing the button from appearing cramped against the last maintainer's name.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2262"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Updates",
+      "summary": "Missing translations for the Hindi (hi-IN) language have been added to improve accessibility and user experience for Hindi-speaking users. This update ensures that the application is more inclusive and caters to a broader audience.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2254"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "Engagement with the community is highlighted through posts on Bluesky, including a new blog post announcement and an invitation to explore Vite's new plugin registry. These initiatives aim to foster interaction and keep users informed about updates.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhtdatudkc25"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/graphieros.npmx.social/post/3mhszw4hke22d"
+        }
+      ]
+    }
+  ]
+}

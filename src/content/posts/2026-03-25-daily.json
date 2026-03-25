@@ -1,0 +1,29 @@
+{
+  "title": "Knip Upgrade Boosts Stability and Performance",
+  "date": "2026-03-25T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Dependency Updates",
+      "summary": "Merged PR #2223 updates the devdependency 'knip' to version 6.0.5, addressing various issues and improvements. The update includes fixes for broken links, enhancements in documentation, and adjustments to the ecosystem pipeline. This is crucial for maintaining project stability and performance.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2223"
+        }
+      ]
+    },
+    {
+      "title": "Personal Blog Insights",
+      "summary": "A new post on a personal blog discusses three often overlooked areas in software development. The author aims to clarify the existence of certain packages and emphasizes that while they are valid, most developers should not bear the associated costs.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mhk7h4zv4k2i"
+        }
+      ]
+    }
+  ]
+}

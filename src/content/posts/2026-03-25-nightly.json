@@ -1,0 +1,70 @@
+{
+  "title": "Faster Chart Loads Revolutionize Data Analysis",
+  "date": "2026-03-25T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Code Improvements and Bug Fixes",
+      "summary": "Recent pull requests have focused on enhancing the codebase by fixing bugs and improving performance. Notable changes include fixing the package name stripping issue, adjusting cache settings for ungh, and enhancing type detection in badges. These updates aim to streamline functionality and improve user experience.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2274"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2272"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2173"
+        }
+      ]
+    },
+    {
+      "title": "Performance Enhancements",
+      "summary": "Performance optimizations have been implemented to improve loading times for charts and data fetching. By parallelizing chunked chart download fetches, the overall latency has been reduced, enhancing the user experience for those analyzing larger datasets.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2269"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility Improvements",
+      "summary": "Significant enhancements have been made to the accessibility of the compare facet selector. Changes include simplifying semantics, improving focus management, and clearer labeling for screen readers, ensuring a more inclusive experience for all users.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1536"
+        }
+      ]
+    },
+    {
+      "title": "Branding and Media Resources",
+      "summary": "A new brand page has been introduced, providing essential resources for media and community use. This includes logo showcases, customization options, color palettes, and typography specimens, aimed at ensuring consistent branding across various platforms.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2197"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "Community engagement is on the rise, with increased visitors and contributors noted at recent events like #AtmosphereConf. This highlights the growing interest and collaboration within the npmx ecosystem, fostering a vibrant community.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/bmann.ca/post/3mhvuace5222f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Links Fixed for Smoother Navigation Experience",
+  "date": "2026-03-26T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Code Improvements and Fixes",
+      "summary": "Recent merges include a fix for lint errors and type check failures, enhancing code quality. Additionally, a new Tab component was introduced, complete with tests, to improve functionality and maintainability. These updates contribute to a more robust codebase for the project.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2285"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2282"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The community has shown support for npmx.dev through shoutouts and contributions to collaborative projects. Posts on Bluesky highlight the positive reception and engagement from users, indicating a growing interest in the platform and its initiatives.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mhyapvivdk25"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/willow.sh/post/3mhy6bw42d22s"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/philippeserhal.com/post/3mhxzarat3k2y"
+        }
+      ]
+    },
+    {
+      "title": "Documentation Issues",
+      "summary": "An issue was closed regarding non-functional self-links in package READMEs, which hindered navigation. This problem affects user experience and may require further investigation to ensure all links function correctly and enhance documentation usability.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1909"
+        }
+      ]
+    }
+  ]
+}

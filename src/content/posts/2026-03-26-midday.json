@@ -1,0 +1,18 @@
+{
+  "title": "Concerns Emerge Over External Service Access",
+  "date": "2026-03-26T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Access to External Services",
+      "summary": "A recent discussion on GitHub raised concerns about npmx requesting access to other applications and services. Users are questioning the necessity and implications of this access, particularly in relation to privacy and security. The conversation highlights the need for transparency regarding data usage.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2251"
+        }
+      ]
+    }
+  ]
+}

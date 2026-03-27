@@ -1,0 +1,62 @@
+{
+  "title": "User Emotion Fuels npmx Community Growth",
+  "date": "2026-03-27T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Chart Enhancements",
+      "summary": "The recent merge of PR #2273 introduces a split view option for download charts on the compare page, enhancing accessibility for color vision deficiency. This update allows users to toggle between combined and split views, improving data comparison through synchronized sparkline charts.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2273"
+        }
+      ]
+    },
+    {
+      "title": "Integration Updates",
+      "summary": "The latest release of @fast-check/vitest has integrated native support for beforeEach and afterEach hooks, streamlining the testing process. This update eliminates the need for manual connections, enhancing the functionality of the connector package available on npmx.dev.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/fast-check.dev/post/3mhzhthdufk2c"
+        }
+      ]
+    },
+    {
+      "title": "Issue Resolution",
+      "summary": "Issue #2270 has been closed following the implementation of a split view for line charts. This feature allows users to view multiple series in individual sparklines, addressing user requests for improved data visualization.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2270"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "A post on Bluesky expresses excitement about the npm Dependency Links VSCode extension, which now allows direct navigation to npmx.dev from package.json. This feature enhances user experience by simplifying access to package information.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/remcohaszing.nl/post/3mhzytwi2js2o"
+        }
+      ]
+    },
+    {
+      "title": "User Feedback",
+      "summary": "A simple post on Bluesky captures a user's emotional response, indicating engagement and connection with the npmx community. Such interactions highlight the importance of user sentiment in fostering a vibrant developer ecosystem.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mi25knjr6c2v"
+        }
+      ]
+    }
+  ]
+}

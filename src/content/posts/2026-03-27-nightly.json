@@ -1,0 +1,82 @@
+{
+  "title": "Global Reach: New Languages Unlocked Today",
+  "date": "2026-03-27T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Performance Improvements",
+      "summary": "Recent merges focus on enhancing performance by increasing ISR revalidation intervals and replacing ISR with CDN caching for versioned routes. These changes aim to reduce compute usage and improve efficiency, with expected reductions of up to 80% in write volume and significant compute savings.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2298"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2297"
+        }
+      ]
+    },
+    {
+      "title": "Release Management",
+      "summary": "The recent release of version 0.6.0 includes numerous features and fixes, such as new translations, performance enhancements, and UI improvements. This release marks a significant update, deploying various changes to production and improving the overall functionality of the platform.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2240"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization (i18n) Enhancements",
+      "summary": "Multiple pull requests have been merged to improve internationalization support, including adding translations for Vietnamese and Norwegian, and fixing missing keys in Ukrainian. These updates enhance accessibility and usability for non-English speaking users, ensuring a more inclusive experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2291"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2293"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2271"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility Fixes",
+      "summary": "Accessibility improvements have been implemented, including removing dark-mode overrides that affected readability and addressing keyboard navigation issues in popup selectors. These changes are crucial for ensuring compliance with accessibility standards and enhancing usability for all users.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2287"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/553"
+        }
+      ]
+    },
+    {
+      "title": "User Interface (UI) Improvements",
+      "summary": "Several UI enhancements have been made, including fixing spacing issues between elements and increasing the maximum number of packages that can be compared. These changes aim to improve user experience and accessibility, ensuring a more intuitive interface.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2296"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2294"
+        }
+      ]
+    }
+  ]
+}

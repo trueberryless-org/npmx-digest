@@ -1,0 +1,40 @@
+{
+  "title": "Russian Interface Fully Translated and Polished",
+  "date": "2026-03-28T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Accessibility Page Documentation",
+      "summary": "PR #2301 adds stories for the Accessibility page, enabling storybook mock pages and visual regression tests. This enhancement improves accessibility checks and documentation, ensuring that the application meets accessibility standards and provides a better user experience.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2301"
+        }
+      ]
+    },
+    {
+      "title": "Vue Data UI Update",
+      "summary": "The merged PR #2304 updates vue-data-ui from version 3.16.5 to 3.17.1, addressing a critical issue with the chart's minimap in Firefox, where range handles were not draggable. This update enhances user experience and ensures compatibility across browsers.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2304"
+        }
+      ]
+    },
+    {
+      "title": "Russian Localization Enhancement",
+      "summary": "Merged PR #2302 introduces missing Russian translations for various UI components, ensuring that the Russian interface is fully localized. This update prevents untranslated keys from appearing and aligns placeholders and pluralization patterns with the English source.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2302"
+        }
+      ]
+    }
+  ]
+}

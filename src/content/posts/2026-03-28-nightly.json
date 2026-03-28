@@ -1,0 +1,29 @@
+{
+  "title": "VS Code Extension Elevates Developer Experience",
+  "date": "2026-03-28T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Security Enhancements",
+      "summary": "The recent merge of PR #2075 introduces critical security features to the HTML pages of npmx, including a Content Security Policy and various security headers. This update aims to protect against common vulnerabilities and improve overall application security.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2075"
+        }
+      ]
+    },
+    {
+      "title": "User Experience Improvements",
+      "summary": "A user on Bluesky praised the npmx.dev VS Code extension for its superior package.json intellisense compared to previous tools. This feedback highlights the positive reception of the extension and its impact on user experience for developers.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/malstrom.me/post/3mi4xw5e2gk2h"
+        }
+      ]
+    }
+  ]
+}

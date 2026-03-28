@@ -1,0 +1,18 @@
+{
+  "title": "Outdated Links Revamped for User Convenience",
+  "date": "2026-03-28T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Documentation Updates",
+      "summary": "The recent merge of PR #2300 addresses outdated links in the README.md of the npmx project. It replaces references to an archived redirect extension with a link to a newly published extension available on Chrome and Firefox, ensuring users have access to current resources.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2300"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "title": "Egyptian Arabic Translations Boost User Experience",
+  "date": "2026-03-29T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Package Route Parsing Fixes",
+      "summary": "Merged PR #2280 addresses a critical issue in package route parsers that misinterpreted scoped packages named 'v'. The fix ensures correct parsing for both scoped and unscoped packages, enhancing the reliability of the Nitro segment parser and documentation routes.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2280"
+        }
+      ]
+    },
+    {
+      "title": "Translation Enhancements",
+      "summary": "Merged PR #2315 introduces 314 missing translation keys for the Egyptian Arabic locale, enhancing user experience for Arabic speakers. The update covers various sections including settings, profiles, and error messages, ensuring proper pluralization and technical terms are preserved.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2315"
+        }
+      ]
+    },
+    {
+      "title": "Atmosphere Conference Highlights",
+      "summary": "Multiple posts from Bluesky highlight key takeaways and interactions from the Atmosphere Conference. Discussions focus on the importance of balance in online and offline time, as well as the community-driven nature of open source development.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mi7z3qsuz22v"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/willow.sh/post/3mi7wzv22pc2m"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/jimray.locket.computer/post/3mi7lay4muk2z"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/ngerakines.me/post/3mi7l3mcbm222"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/brittanyellich.com/post/3mi7lfc7aes2x"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/sarah11918.rainsberger.ca/post/3mi7mnvie5k26"
+        }
+      ]
+    }
+  ]
+}

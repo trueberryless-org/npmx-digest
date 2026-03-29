@@ -1,0 +1,18 @@
+{
+  "title": "Documentation Revamp Ensures Clarity and Consistency",
+  "date": "2026-03-29T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Documentation Updates",
+      "summary": "Recent changes have been made to the documentation, specifically replacing the archived redirect extension with a new one across the platform. This update follows a previous pull request and aims to ensure consistency and accuracy in the documentation provided to users.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2311"
+        }
+      ]
+    }
+  ]
+}

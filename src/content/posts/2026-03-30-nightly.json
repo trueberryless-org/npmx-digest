@@ -1,0 +1,44 @@
+{
+  "title": "Badges Reimagined: Customization Just Got Easier",
+  "date": "2026-03-30T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Custom Badge Functionality",
+      "summary": "Recent updates have improved the custom badge feature in the documentation generator. A merged pull request addressed an issue where the custom badge value was not preserved, ensuring that users can now create badges with specific values effectively. This enhancement is crucial for user experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2335"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2326"
+        }
+      ]
+    },
+    {
+      "title": "Issue Resolution in Documentation",
+      "summary": "The closure of Issue #2326 indicates that the problem with custom badge values not displaying correctly has been resolved. This issue was linked to the documentation and has now been addressed, enhancing the overall functionality and reliability of the documentation site.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2326"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement on Discord",
+      "summary": "A post on Bluesky highlights a discussion about the use of Discord for scheduled events. The author seeks to understand pain points experienced by users, indicating a focus on improving community interaction and event management within the platform.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mic525zhck23"
+        }
+      ]
+    }
+  ]
+}

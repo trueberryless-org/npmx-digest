@@ -1,0 +1,33 @@
+{
+  "title": "Typo Tamed: Chart Configuration Enhanced",
+  "date": "2026-03-30T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Code Fixes and Improvements",
+      "summary": "Recent code changes include the merging of PR #2328, which fixed a typo in the chart configuration attribute of FacetBarChart.vue. This correction resolves issue #2327, where a misspelled attribute led to default labels being used in the chart's context menu buttons.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2328"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2327"
+        }
+      ]
+    },
+    {
+      "title": "Community Contributions",
+      "summary": "A recent post on Bluesky highlights a $5K contribution from @t3.gg to @e18e.dev, emphasizing the potential for collaboration with @npmx.dev. This financial support aims to enhance web performance and simplicity, showcasing community engagement and investment in development.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/philippeserhal.com/post/3miangh3iw226"
+        }
+      ]
+    }
+  ]
+}

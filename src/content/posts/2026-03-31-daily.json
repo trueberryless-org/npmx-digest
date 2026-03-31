@@ -1,0 +1,18 @@
+{
+  "title": "Trust Policies Reinvented for Safer Packages",
+  "date": "2026-03-31T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Trust Policy Enhancements",
+      "summary": "Recent discussions highlight the importance of trust policy visibility and preventability in package management. The integration of @pnpm.io and @npmx.dev is emphasized as a solution to improve user trust and security in package installations.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/haoqun.dev/post/3midbguwx522d"
+        }
+      ]
+    }
+  ]
+}

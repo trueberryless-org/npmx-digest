@@ -1,0 +1,18 @@
+{
+  "title": "Connecting Developers: Atmosphere Conference Insights",
+  "date": "2026-04-01T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Community Engagement at Atmosphere Conference",
+      "summary": "The atmosphere conference highlighted the potential of @npmx.dev to engage developers who may not be inclined to explore Bluesky. This optimistic perspective emphasizes the importance of social interactions in promoting new technologies and protocols within the developer community.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/beau.house/post/3mieuvdhdg22r"
+        }
+      ]
+    }
+  ]
+}

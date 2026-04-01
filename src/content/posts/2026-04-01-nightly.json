@@ -1,0 +1,70 @@
+{
+  "title": "User Voices Shape Design for Better Experience",
+  "date": "2026-04-01T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "User Experience Research Findings",
+      "summary": "The recent user experience research revealed significant insights, leading to the decision to remove the dark theme from npmx. With 97% of users supporting this change, the focus will now be on optimizing a single light mode for better usability and consistency across the interface.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2353"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/alexdln.com/post/3mihbwq3bcs2c"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement and Feedback",
+      "summary": "The npmx team has actively engaged with users during the research phase, gathering feedback that significantly influenced design decisions. The community's input was crucial in determining the effectiveness of the dark theme versus light mode, showcasing the importance of user involvement.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2353"
+        }
+      ]
+    },
+    {
+      "title": "Logo Addition to OAuth Metadata",
+      "summary": "A new feature has been merged to add a logo to the OAuth metadata for npmx. This enhancement aims to improve the visual identity of the application in account management settings, addressing a previous inconsistency with other applications that already displayed logos.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2355"
+        }
+      ]
+    },
+    {
+      "title": "Visual Design Changes",
+      "summary": "The decision to remove the dark theme and focus solely on light mode reflects a strategic shift in visual design. This change aims to enhance readability and user satisfaction, aligning the interface with user preferences observed during research.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2353"
+        }
+      ]
+    },
+    {
+      "title": "Development Updates and Progress",
+      "summary": "Recent development efforts have focused on implementing user feedback and refining the application. The merging of PRs indicates ongoing progress, with the team committed to enhancing user experience based on thorough research and testing.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2355"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2353"
+        }
+      ]
+    }
+  ]
+}

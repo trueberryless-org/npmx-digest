@@ -1,0 +1,33 @@
+{
+  "title": "Documentation Upgrade: Favicon Enhances Branding",
+  "date": "2026-04-02T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Vue Data UI Enhancements",
+      "summary": "Recent updates to the vue-data-ui library include the integration of a built-in pattern component, enhancing the visual representation of data in charts on the compare page. This update centralizes pattern configuration and improves readability for various datasets, ensuring consistency across future charts.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2359"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2358"
+        }
+      ]
+    },
+    {
+      "title": "Documentation Updates",
+      "summary": "The documentation site for npmx has been enhanced with the addition of a favicon, improving brand visibility and user experience. This update follows standard practices for asset placement in documentation, ensuring a professional appearance.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2330"
+        }
+      ]
+    }
+  ]
+}

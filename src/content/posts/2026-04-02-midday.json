@@ -1,0 +1,70 @@
+{
+  "title": "Mobile Makeover: User Experience Revamped",
+  "date": "2026-04-02T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Mobile Version Enhancements",
+      "summary": "The mobile version of the package code page has been under scrutiny, with several proposed improvements to address usability issues. Suggestions include redesigning buttons, improving navigation, and ensuring a smoother loading experience, all aimed at enhancing mobile accessibility.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1942"
+        }
+      ]
+    },
+    {
+      "title": "User Experience Improvements",
+      "summary": "Recent updates focus on enhancing user experience, particularly for mobile users. Changes include restoring color modes and addressing issues with the package code page's mobile view. These adjustments aim to create a more intuitive and visually appealing interface for users across devices.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2361"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2217"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1942"
+        }
+      ]
+    },
+    {
+      "title": "Advisory Support from Badrap",
+      "summary": "Badrap has announced its advisory support for npmx.dev, emphasizing the importance of a better developer experience. This partnership aims to enhance security by providing easier access to trust signals and guidance on managing dependencies effectively.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/badrap.io/post/3mij3t7ltus2f"
+        }
+      ]
+    },
+    {
+      "title": "Code Page Improvements",
+      "summary": "The code page has undergone significant improvements, including better mobile compatibility and visual enhancements. Key changes involve the introduction of a container toggle button, improved loading states, and a more organized layout, all aimed at improving code maintenance and user interaction.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2217"
+        }
+      ]
+    },
+    {
+      "title": "Restoration of Color Modes",
+      "summary": "In response to user feedback, the decision was made to restore color modes on the site. This change reflects the team's commitment to user preferences and aims to enhance the overall user experience, particularly for those who favor dark mode.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2361"
+        }
+      ]
+    }
+  ]
+}

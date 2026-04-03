@@ -1,0 +1,29 @@
+{
+  "title": "Empowering Open Source Through Community Collaboration",
+  "date": "2026-04-03T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "A Cappella Contributions in Open Source",
+      "summary": "A cappella contributions to open source projects are often overlooked but crucial to achieving community objectives. These non-code contributions play a fundamental role in the long-term success of projects, highlighting the importance of diverse participation in the open source ecosystem.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3milzxuvrxk2u"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement in Open Source",
+      "summary": "Engaging the community is vital for the sustainability of open source projects. Contributions, whether code or non-code, foster collaboration and innovation, ensuring that projects meet the needs of their users and maintain relevance in a rapidly evolving tech landscape.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3milzxuvvuk2u"
+        }
+      ]
+    }
+  ]
+}

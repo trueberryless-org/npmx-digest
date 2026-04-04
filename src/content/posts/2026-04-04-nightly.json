@@ -1,0 +1,101 @@
+{
+  "title": "Deno Command Revamp Streamlines Package Creation",
+  "date": "2026-04-04T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Code Refactoring and Improvements",
+      "summary": "Recent pull requests focus on refactoring code for better readability and consistency. Changes include using Node's built-in APIs for promises and globbing, simplifying header shortcuts, and enhancing async delay handling. These updates aim to streamline the codebase and align with modern Node.js practices.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2378"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2377"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2375"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2372"
+        }
+      ]
+    },
+    {
+      "title": "Deno Command Fixes",
+      "summary": "A recent pull request corrected the Deno command for creating packages, addressing an issue where the command was incorrectly set to 'deno run'. The fix ensures that users can now use 'deno create npm:example' for proper functionality, enhancing the Deno experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2357"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2337"
+        }
+      ]
+    },
+    {
+      "title": "Version Comparison Logic Update",
+      "summary": "A fix was implemented to improve the logic for comparing prerelease versions against previous stable versions. This change ensures accurate size comparisons, preventing misleading warnings about size increases for older prerelease versions.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2324"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2313"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization and Localization Updates",
+      "summary": "Significant updates have been made to improve Spanish translations within the project, adding missing strings and refining existing translations. Additionally, Arabic font support has been introduced to enhance accessibility for Arabic-speaking users.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2318"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1511"
+        }
+      ]
+    },
+    {
+      "title": "Security and Development Enhancements",
+      "summary": "Updates to security headers have been made to accommodate Nuxt DevTools during development. The changes relax specific security restrictions while maintaining overall security, allowing for a smoother development experience without compromising safety.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2331"
+        }
+      ]
+    },
+    {
+      "title": "User Interface Improvements",
+      "summary": "Recent updates have improved the user interface, including fixes to the version selector for better navigation and visibility of older package versions. Enhancements also include adding stories for the Privacy page to facilitate testing and accessibility checks.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2276"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2319"
+        }
+      ]
+    }
+  ]
+}

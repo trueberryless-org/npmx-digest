@@ -1,0 +1,44 @@
+{
+  "title": "Regex Escaping Revamped for Enhanced Safety",
+  "date": "2026-04-05T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Semver Filtering Fix",
+      "summary": "A bug related to the display of the 'latest' tag in version filtering has been resolved. The fix ensures that the 'latest' tag respects the active semver filter, preventing non-matching versions from appearing in the results, thus improving predictability.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2389"
+        }
+      ]
+    },
+    {
+      "title": "UI Enhancements for Readme",
+      "summary": "Recent changes have been made to improve the UI of the `<details>` element in the readme section. A subtle color and size adjustment was implemented to enhance user experience, making it easier to notice important information without overwhelming the reader.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2392"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2391"
+        }
+      ]
+    },
+    {
+      "title": "Regex Escaping Improvements",
+      "summary": "A significant update has been made to enhance regex escaping consistency and safety. The implementation of a polyfill for `RegExp.escape()` ensures that regex calls are handled correctly, reducing potential errors and improving code reliability.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1439"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Header Anchoring Glitch Disrupts Navigation Experience",
+  "date": "2026-04-05T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "README Normalization Fix",
+      "summary": "A recent pull request addressed an issue where README heading links were not matching the normalized casing of generated heading IDs. The fix ensures that links use lowercase slugs, improving navigation consistency on package pages. A regression test was added to verify the changes.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2385"
+        }
+      ]
+    },
+    {
+      "title": "Header Anchoring Bug Report",
+      "summary": "An issue was reported regarding broken anchoring to headers on the package README page. The problem stemmed from header IDs being lowercased while the links were not, causing navigation issues. Users had to manually adjust the URL to access the correct section.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2381"
+        }
+      ]
+    }
+  ]
+}

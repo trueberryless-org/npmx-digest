@@ -1,0 +1,29 @@
+{
+  "title": "Boost Your Links with Stunning Previews",
+  "date": "2026-04-06T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Dependency Management",
+      "summary": "Recent updates to the lock files have been made to ensure all dependencies are refreshed. This maintenance is crucial for keeping the project up-to-date and secure. However, some dependencies could not be resolved, necessitating further checks on the Dependency Dashboard.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2398"
+        }
+      ]
+    },
+    {
+      "title": "Social Media Enhancements",
+      "summary": "A new feature has been added to improve the social media preview for compare pages by including Open Graph images. This enhancement aims to provide a better visual representation when links are shared on social platforms, potentially increasing engagement.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2277"
+        }
+      ]
+    }
+  ]
+}

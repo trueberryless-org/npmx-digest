@@ -1,0 +1,18 @@
+{
+  "title": "Dependency Digest Refresh for Enhanced Stability",
+  "date": "2026-04-06T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Dependency Updates",
+      "summary": "The merged PR #2396 updates the digest for the voidzero-dev/setup-vp package. This change is part of regular maintenance to ensure dependencies are up-to-date. Users are advised to check the Dependency Dashboard for any unresolved dependencies.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2396"
+        }
+      ]
+    }
+  ]
+}

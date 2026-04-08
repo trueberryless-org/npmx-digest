@@ -1,0 +1,18 @@
+{
+  "title": "PR Review Process Gets a Smart Boost",
+  "date": "2026-04-08T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "CI Workflow Enhancements",
+      "summary": "A new CI workflow has been implemented to automatically remove the `needs review` label from PRs once a maintainer submits a review. This aims to improve the reliability of the label for filtering PRs and enhances the overall review process.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2402"
+        }
+      ]
+    }
+  ]
+}

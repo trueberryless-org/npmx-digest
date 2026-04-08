@@ -1,0 +1,18 @@
+{
+  "title": "Intuitive Labels Revamp Compare Page Experience",
+  "date": "2026-04-08T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "UI Improvements",
+      "summary": "The recent merge of PR #2416 enhances the labels of the quadrant chart on the compare page, making them more intuitive for developers. This change aims to reduce misinterpretation and improve user experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2416"
+        }
+      ]
+    }
+  ]
+}

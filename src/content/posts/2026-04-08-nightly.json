@@ -1,0 +1,78 @@
+{
+  "title": "Version 0.8.1 Unleashes Exciting New Features",
+  "date": "2026-04-08T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Release Updates",
+      "summary": "The recent merges include the deployment of version 0.8.1 and 0.8.0 of npmx, featuring various improvements and new functionalities. These updates enhance user experience and introduce new features like custom noodles and improved UI elements, ensuring the platform remains competitive and user-friendly.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2427"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2354"
+        }
+      ]
+    },
+    {
+      "title": "UI Improvements",
+      "summary": "Several pull requests focus on enhancing the user interface, including improvements to section sizes for mobile devices and the addition of tooltip hints for quadrant axes. These changes aim to create a more intuitive and visually appealing experience for users navigating the platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2426"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2419"
+        }
+      ]
+    },
+    {
+      "title": "Feature Development",
+      "summary": "New features such as custom noodles and enhancements to the compare page are being developed. These features are designed to improve functionality and user engagement, showcasing the team's commitment to continuous improvement and innovation within the npmx platform.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2421"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2422"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx team is actively engaging with the community to highlight important events and themes through initiatives like 'noodles'. This approach aims to foster a sense of community and inclusivity, encouraging user participation and collaboration in future developments.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2417"
+        }
+      ]
+    },
+    {
+      "title": "Social Media Announcements",
+      "summary": "The npmx team is utilizing platforms like Bluesky to announce new releases and features, such as the launch of version 0.8. These announcements aim to keep users informed and engaged, promoting the platform's capabilities and collaborative spirit.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3miz7wjmyqs2g"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/philippeserhal.com/post/3mizbmrbnjs2b"
+        }
+      ]
+    }
+  ]
+}

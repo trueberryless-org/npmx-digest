@@ -1,0 +1,89 @@
+{
+  "title": "Building Community Through Collaborative Projects",
+  "date": "2026-04-09T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Performance Enhancements",
+      "summary": "Several PRs have been merged to improve performance, including parallelizing README fallback probes and optimizing documentation rendering. These changes aim to reduce latency and improve the efficiency of loading and rendering processes within the application.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2384"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2382"
+        }
+      ]
+    },
+    {
+      "title": "Localization Improvements",
+      "summary": "Recent PRs have focused on enhancing localization, particularly by adding missing French translations for key terms. This effort aims to improve user experience for French-speaking users by ensuring that essential phrases are accurately represented in the application.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2441"
+        }
+      ]
+    },
+    {
+      "title": "Vercel Integration Fixes",
+      "summary": "A fix was implemented to ensure that query parameters are correctly passed to the OG image ISR function on Vercel. This addresses an issue where the compare page OG image rendered an empty state due to stripped query parameters.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2432"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2431"
+        }
+      ]
+    },
+    {
+      "title": "Continuous Integration Adjustments",
+      "summary": "A recent PR reverted a previous change to the CI process that automatically removed review labels from PRs. The reversion was necessary due to permission issues with forked PRs, highlighting the need for a more robust solution in the CI workflow.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2440"
+        }
+      ]
+    },
+    {
+      "title": "Documentation and Tooling Updates",
+      "summary": "Recent updates include the manual addition of pre-commit hooks and an upgrade to the vite-plus package. These changes aim to enhance the development workflow and ensure that the latest security fixes are applied to the project.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2436"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2434"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement and Collaboration",
+      "summary": "Recent posts on Bluesky highlight community engagement and collaboration within the npmx ecosystem. Users express enthusiasm for working together on projects and sharing data stories, fostering a sense of community and shared purpose.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/graphieros.npmx.social/post/3mj3joe4yfs2a"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/alexdln.com/post/3mj3br67txk24"
+        }
+      ]
+    }
+  ]
+}

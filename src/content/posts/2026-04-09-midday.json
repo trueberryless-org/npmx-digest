@@ -1,0 +1,62 @@
+{
+  "title": "Unearth Treasures with Interactive Quadrant Graphs",
+  "date": "2026-04-09T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Quadrant Graphs Introduction",
+      "summary": "npmx 0.8 introduces experimental quadrant graphs, showcasing a scatter plot of selected packages. The x-axis represents traction metrics like downloads and freshness, while the y-axis focuses on developer ergonomics, including install size and vulnerabilities. Feedback is encouraged for further improvements.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mj2reqeaz22x"
+        }
+      ]
+    },
+    {
+      "title": "Discovering Hidden Gems",
+      "summary": "Users are encouraged to explore quadrant graphs to uncover hidden gems by experimenting with various package sets. This interactive feature aims to enhance user experience and package discovery within the npm ecosystem.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mj2reqqses2x"
+        }
+      ]
+    },
+    {
+      "title": "Performance Alternatives Feature",
+      "summary": "A new feature in @npmx.dev suggests faster and more performant alternatives for packages, enhancing user efficiency. This functionality has received positive feedback for its effectiveness in improving package selection.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/atinux.com/post/3mj2mi5bloj2t"
+        }
+      ]
+    },
+    {
+      "title": "User Experience Feedback",
+      "summary": "Users have shared their experiences with the latest updates, highlighting features like 'Press and Go' that streamline package management. Feedback indicates a significant improvement in usability compared to previous versions.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/alexdln.com/post/3mizcc3kmsk2r"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The npm community is actively engaging with new features and updates, sharing insights and suggestions. This collaborative approach fosters a sense of community and encourages continuous improvement of the npmx platform.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mj2mwsd6222r"
+        }
+      ]
+    }
+  ]
+}

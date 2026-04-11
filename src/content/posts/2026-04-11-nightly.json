@@ -1,0 +1,18 @@
+{
+  "title": "ATmosphereConf Shines in JavaScript Spotlight",
+  "date": "2026-04-11T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "ATmosphereConf Highlights",
+      "summary": "The ATmosphereConf received recognition in Bytes, a prominent platform in the JavaScript community. Patak and Zeu presented a 35-minute talk about their npmx project, which focuses on creating a fast, modern browser for the npm registry. This exposure may attract new developers to the atproto ecosystem.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.cat/post/3mjadnrtfas2s"
+        }
+      ]
+    }
+  ]
+}

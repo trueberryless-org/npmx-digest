@@ -1,0 +1,40 @@
+{
+  "title": "Chinese Translations Get Major Enhancements",
+  "date": "2026-04-12T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Security Enhancements",
+      "summary": "Merged PR #2488 addresses a security issue by encoding usernames in the gravatar URL construction. This prevents crafted usernames from altering the request path and potentially accessing unintended endpoints. The fix involves using encodeURIComponent to ensure safe URL construction.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2488"
+        }
+      ]
+    },
+    {
+      "title": "Caching Mechanism Optimization",
+      "summary": "Merged PR #2469 improves the caching mechanism for replacement suggestions on the compare page. It ensures that only successful fetch results are cached, allowing for retries after transient fetch failures, thus preventing suppression of suggestions due to temporary issues.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2469"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Improvements",
+      "summary": "Merged PR #2485 introduces updates to Simplified and Traditional Chinese translations, enhancing the application's accessibility for Chinese-speaking users. This effort reflects a commitment to internationalization and user inclusivity within the npmx platform.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2485"
+        }
+      ]
+    }
+  ]
+}

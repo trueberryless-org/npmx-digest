@@ -1,0 +1,18 @@
+{
+  "title": "Consistency Matters: i18n Module Refined",
+  "date": "2026-04-12T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Internationalization Improvements",
+      "summary": "The recent merge of PR #2482 addresses inconsistencies in the casing of 'view on' keys within the internationalization (i18n) module. This change ensures uniformity in the presentation of these keys, enhancing the overall user experience and maintaining a professional appearance across the application.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2482"
+        }
+      ]
+    }
+  ]
+}

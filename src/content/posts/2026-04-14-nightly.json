@@ -1,0 +1,86 @@
+{
+  "title": "npmx Unveils User-Friendly Feature Enhancements",
+  "date": "2026-04-14T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Internationalization Improvements",
+      "summary": "Recent updates to the npmx project have focused on enhancing internationalization, including the addition of missing Chinese and Dutch translations. These changes aim to improve user experience for non-English speakers, ensuring that all relevant application strings are accurately translated and accessible.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2521"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2428"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/wilco.npmx.social/post/3mji735vn6c2i"
+        }
+      ]
+    },
+    {
+      "title": "User Profile Enhancements",
+      "summary": "A significant fix was implemented to ensure that user profile pages display packages based on npm maintainership rather than repository ownership. This change addresses previous issues where unrelated packages appeared on user profiles, enhancing the accuracy of displayed data.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2513"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2504"
+        }
+      ]
+    },
+    {
+      "title": "Feature Additions and Improvements",
+      "summary": "The npmx project has introduced several new features, including the ability to prefill package managers from query parameters and enhancements to the comparison page. These updates aim to streamline user interactions and improve overall functionality.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2520"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2428"
+        }
+      ]
+    },
+    {
+      "title": "Chart and Data Visualization Fixes",
+      "summary": "Recent merges have improved the functionality of charts within the npmx application, addressing issues such as overlapping labels in scatter charts and ensuring proper data formatting for sparkline charts. These enhancements contribute to a more user-friendly data visualization experience.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2519"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2512"
+        }
+      ]
+    },
+    {
+      "title": "Documentation and UI Enhancements",
+      "summary": "Documentation updates and UI enhancements have been made, including the addition of stories for various pages in the application. These changes aim to improve accessibility and provide better guidance for users interacting with the npmx platform.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2514"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2428"
+        }
+      ]
+    }
+  ]
+}

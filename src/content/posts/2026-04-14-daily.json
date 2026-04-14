@@ -1,0 +1,78 @@
+{
+  "title": "Revamped Comparison Page Delivers Deeper Insights",
+  "date": "2026-04-14T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Feature Enhancements for Comparison Page",
+      "summary": "New features have been added to the comparison page, including GitHub stars, issues, and creation date. These enhancements were implemented based on user requests and aim to provide more comprehensive insights into package comparisons.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2479"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2460"
+        }
+      ]
+    },
+    {
+      "title": "UI Improvements and Fixes",
+      "summary": "Recent pull requests have focused on enhancing the user interface, including fixing the 'copy as markdown' button behavior, improving the scatter chart legend, and refining anchor parsing in readmes. These changes aim to provide a smoother user experience and better data representation.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2506"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2493"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2486"
+        }
+      ]
+    },
+    {
+      "title": "Issue Resolutions and User Feedback",
+      "summary": "Several issues have been closed, including those related to the 'copy table as markdown' functionality and the request for additional comparison metrics. These resolutions demonstrate responsiveness to user feedback and ongoing improvements to the platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2390"
+        }
+      ]
+    },
+    {
+      "title": "Documentation and Storybook Integration",
+      "summary": "The addition of stories for the Recharging page enhances documentation and testing capabilities. This integration allows for better accessibility checks and visual regression testing, ensuring that UI components function as intended.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2496"
+        }
+      ]
+    },
+    {
+      "title": "Code Settings and User Preferences",
+      "summary": "A new feature allows users to disable code ligatures, enhancing customization options. This change addresses user feedback and provides a more tailored coding experience, reflecting the platform's commitment to user preferences.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2476"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2423"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "GitHub Actions Receives Powerful Upgrades",
+  "date": "2026-04-14T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "GitHub Actions Updates",
+      "summary": "Recent updates to GitHub Actions include major version upgrades for both actions/download-artifact and actions/upload-artifact. These updates introduce new features, such as support for direct uploads and enhanced handling of artifact names, while also ensuring compatibility with Node.js 24. Users are advised to review the changes carefully.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2500"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement on Bluesky",
+      "summary": "The npmx community is actively engaging on Bluesky, with posts expressing appreciation for pnpm and sharing updates about new features. Notable interactions include reposts from pnpm.io and personal expressions of excitement, highlighting the community's enthusiasm for recent developments.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mjhimdk6522f"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/pnpm.io/post/3mjhihoyjwc2w"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mjhchnaku22u"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mjhcgiqe222u"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/alexdln.com/post/3mjh5ecfwic2o"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "title": "Sparkline Clarity: Data Visualization Fixes Ahead",
+  "date": "2026-04-15T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Download Graph Discrepancies",
+      "summary": "Several issues have been raised regarding discrepancies in download graph values between npmx and npmjs. Users have reported significant differences in package download statistics, prompting investigations into the data sources and potential updates needed for accuracy.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2510"
+        }
+      ]
+    },
+    {
+      "title": "Data Visualization Issues",
+      "summary": "Recent issues and pull requests address problems with data visualization in the npmx platform, particularly regarding sparkline graphs. Users reported fractional values appearing due to data smoothing settings, prompting fixes to ensure clearer representation of download trends.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2539"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2537"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2535"
+        }
+      ]
+    },
+    {
+      "title": "Package Attribution Errors",
+      "summary": "Multiple issues have been reported concerning misattributed packages on the npmx platform. Users have noted discrepancies in package ownership and counts, leading to confusion about published packages and prompting discussions on improving data retrieval methods.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1888"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1882"
+        }
+      ]
+    },
+    {
+      "title": "Localization and Pre-commit Hook Fixes",
+      "summary": "Issues related to the lunaria pre-commit hook and localization files have been addressed. A recent pull request ensures that the hook functions correctly by bypassing stale cache, improving the workflow for developers working on internationalization.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2528"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2527"
+        }
+      ]
+    }
+  ]
+}

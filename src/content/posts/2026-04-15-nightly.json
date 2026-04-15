@@ -1,0 +1,55 @@
+{
+  "title": "Sticker Collection Boosts Community Engagement",
+  "date": "2026-04-15T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Feature Development: Timeline Tab",
+      "summary": "The addition of a timeline tab to the package page allows users to view the evolution of a package over time. It highlights significant changes in versions, including positive and negative aspects such as dependency counts and install sizes, enhancing user awareness of package history.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2245"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2244"
+        }
+      ]
+    },
+    {
+      "title": "Security Awareness",
+      "summary": "npmx.dev emphasizes the importance of security by encouraging users to report vulnerabilities through a dedicated channel. This proactive approach aims to maintain a secure environment for users and fosters a community commitment to safety in web development.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mjkao7icik2v"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement: Merging Updates",
+      "summary": "The community is actively engaged in the development process, as evidenced by the merging of a new branch related to the timeline feature. This reflects a collaborative effort to enhance the npmx.dev platform and encourages further contributions from users.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mjkq44j2ak23"
+        }
+      ]
+    },
+    {
+      "title": "Promotional Activities",
+      "summary": "Promotional efforts are underway, as seen in posts inviting users to collect stickers. This initiative aims to enhance community interaction and brand visibility, contributing to a vibrant ecosystem around npmx.dev.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/willow.sh/post/3mjkigcjgr22q"
+        }
+      ]
+    }
+  ]
+}

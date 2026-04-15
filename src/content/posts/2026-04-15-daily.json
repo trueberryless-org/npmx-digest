@@ -1,0 +1,18 @@
+{
+  "title": "Boosted Accessibility: Brazilian Portuguese Added",
+  "date": "2026-04-15T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Translation Updates",
+      "summary": "The recent merge of PR #2532 addresses the lack of Brazilian Portuguese translations for the 'shortcuts' feature in the application. This update adds missing keys to ensure full coverage, enhancing accessibility for Portuguese-speaking users.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2532"
+        }
+      ]
+    }
+  ]
+}

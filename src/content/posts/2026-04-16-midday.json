@@ -1,0 +1,29 @@
+{
+  "title": "London Meetup: Connect with the npmx Community",
+  "date": "2026-04-16T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "npmx Meetup in London",
+      "summary": "Plans for an @npmx.dev meetup are underway this evening in London, providing an opportunity for community engagement and networking among developers and enthusiasts.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mjm6lkkiok2s"
+        }
+      ]
+    },
+    {
+      "title": "npmx Social Gathering",
+      "summary": "An npmx social event is scheduled for tonight in London, inviting participants to enjoy conversation, food, beer, and stickers, fostering a sense of community among attendees.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/willow.sh/post/3mjmelcxnas2m"
+        }
+      ]
+    }
+  ]
+}

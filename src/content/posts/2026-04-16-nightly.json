@@ -1,0 +1,71 @@
+{
+  "title": "Global Language Support Expands with New Updates",
+  "date": "2026-04-16T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Internationalization Updates",
+      "summary": "The project has made significant strides in internationalization by adding missing translations for both French and Brazilian Portuguese. These updates ensure that users from different linguistic backgrounds can access the platform in their preferred language, enhancing inclusivity.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2547"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2542"
+        }
+      ]
+    },
+    {
+      "title": "UI Improvements and Fixes",
+      "summary": "Recent merges include fixes for displaying integer values in tooltips for trends charts and enhancements to the timeline performance by using fast-npm-meta. These changes aim to improve user experience by ensuring accurate data representation and faster loading times for package information.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2550"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2546"
+        }
+      ]
+    },
+    {
+      "title": "Documentation and Storybook Enhancements",
+      "summary": "A new pull request has added stories for the Settings page, facilitating better documentation and visual regression testing through Storybook. This enhancement aims to improve the development workflow and ensure that UI changes are well-documented and tested.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2545"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement on Bluesky",
+      "summary": "Engagement on Bluesky has been active with various reposts discussing npmx.dev links and ideas for open-source projects. The community is sharing thoughts and suggestions, indicating a vibrant interaction and interest in collaborative development.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mjmwlz4pts2l"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/jimray.locket.computer/post/3mjmst6bx7s2c"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/ematipico.xyz/post/3mjmjklchnc2r"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/andrewnez.bsky.social/post/3mjmalft4cc2d"
+        }
+      ]
+    }
+  ]
+}

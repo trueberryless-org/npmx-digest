@@ -1,0 +1,18 @@
+{
+  "title": "Streamlined Issue Templates Boost Clarity",
+  "date": "2026-04-16T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Issue Template Enhancements",
+      "summary": "Recent updates to issue templates in the npmx repository include the addition of a 'type' field to better categorize issues and the introduction of a 'pending triage' label for bug reports. These changes aim to streamline issue management and improve clarity for maintainers.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2544"
+        }
+      ]
+    }
+  ]
+}

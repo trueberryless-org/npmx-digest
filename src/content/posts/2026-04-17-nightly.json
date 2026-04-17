@@ -1,0 +1,29 @@
+{
+  "title": "npmx.dev Team Hits 250 Members Milestone",
+  "date": "2026-04-17T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Team Growth",
+      "summary": "The npmx.dev team has reached a significant milestone, now comprising 250 members. This growth reflects the increasing demand for their services and the expansion of their community. The team's strength is crucial for driving innovation and support within the npmx ecosystem.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mjpijkok3s2k"
+        }
+      ]
+    },
+    {
+      "title": "Data Migration Success",
+      "summary": "A user successfully migrated their data to a private Personal Data Store (PDS) using PDS MOOver, now hosted on npmx.social. This achievement highlights the effectiveness of the migration tools provided by npmx and the growing adoption of decentralized data management solutions.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/th3s4mur41.me/post/3mjoyjzbues2k"
+        }
+      ]
+    }
+  ]
+}

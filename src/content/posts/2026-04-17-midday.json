@@ -1,0 +1,51 @@
+{
+  "title": "README Loading Message Gets Smart Update",
+  "date": "2026-04-17T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Introduction of New OG Images",
+      "summary": "Merged PR #2292 reintroduces new Open Graph (OG) images after resolving previous stability issues. The update aligns the UI with recent branding changes and enhances the visual presentation of the platform across various pages.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2292"
+        }
+      ]
+    },
+    {
+      "title": "README Rendering Improvements",
+      "summary": "Merged PR #2473 addresses an issue where the message 'No README is available' was shown prematurely during the loading of README files. The update ensures that this message only appears after a successful fetch with empty content, enhancing user experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2473"
+        }
+      ]
+    },
+    {
+      "title": "Bug Fixes in README Loading",
+      "summary": "Closed Issue #2467 reported that the 'No README available' message appeared while the README was still loading. This issue has been acknowledged and addressed, improving the loading experience for users accessing package documentation.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2467"
+        }
+      ]
+    },
+    {
+      "title": "Error Handling for Nonexistent Package Versions",
+      "summary": "Closed Issue #2342 highlighted a bug where navigating to a nonexistent package version did not trigger an error. This issue has been documented, indicating a need for improved error handling in the package version navigation.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2342"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Safari Clipboard Gets Markdown Makeover",
+  "date": "2026-04-17T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Clipboard Functionality in Safari",
+      "summary": "Recent updates address issues with the 'Copy as Markdown' functionality in Safari, where the clipboard API fails due to security restrictions on async operations. A custom solution has been implemented to ensure proper copying of README content.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2554"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2151"
+        }
+      ]
+    }
+  ]
+}

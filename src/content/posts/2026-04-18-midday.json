@@ -1,0 +1,40 @@
+{
+  "title": "French Translations Get Major Update Fixes",
+  "date": "2026-04-18T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Stale PR Management",
+      "summary": "The implementation of PR #2555 introduces an automated stale workflow to manage inactive pull requests. This system will tag stale PRs after 30 days and auto-close them 14 days later, helping maintain a tidy repository and improving project management.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2555"
+        }
+      ]
+    },
+    {
+      "title": "Localization Updates",
+      "summary": "The recent merge of PR #2560 addresses missing French localizations and corrects inaccuracies in AI-generated translations. This update enhances the user experience for French-speaking users by ensuring accurate and complete translations in the application.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2560"
+        }
+      ]
+    },
+    {
+      "title": "Chart Data Improvements",
+      "summary": "PR #2556 introduces a fix for rounding chart numbers in the `applyDataCorrection` function. This change ensures that download numbers are displayed as whole numbers, improving clarity and consistency for users interacting with the download charts.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2556"
+        }
+      ]
+    }
+  ]
+}

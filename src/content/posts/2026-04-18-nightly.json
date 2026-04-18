@@ -1,0 +1,78 @@
+{
+  "title": "Seamless Switch: Navigating Personal Data Spaces",
+  "date": "2026-04-18T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Workflow Improvements",
+      "summary": "Recent changes to the npmx workflow include the removal of a stale bot due to its noise and an increase in operations per run from 100 to 500. These adjustments aim to enhance efficiency in processing issues and pull requests, ensuring better management of the project's workload.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2566"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2564"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx team is actively engaging with the community on Bluesky, expressing gratitude for follows and initiating discussions. Posts include light-hearted interactions and invitations for feedback, showcasing a friendly approach to building relationships within the ecosystem.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mjrplf2a7c2k"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mjrrphrcx22y"
+        }
+      ]
+    },
+    {
+      "title": "PDS Movement Insights",
+      "summary": "Discussions on Bluesky highlight the ease of moving between Personal Data Spaces (PDSs), with suggestions for alternating between npmx.social and Eurosky.social. This reflects a growing interest in flexible data management options within the community.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mjrnenhruc2k"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.cat/post/3mjqufun7t22n"
+        }
+      ]
+    },
+    {
+      "title": "Collaborative Opportunities",
+      "summary": "The npmx community is encouraged to support the Eurosky PDS and engage in atproto projects. This call to action emphasizes collaboration and the potential for shared growth within the ecosystem, inviting users to explore new opportunities.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.cat/post/3mjqufun7t22n"
+        }
+      ]
+    },
+    {
+      "title": "General Updates",
+      "summary": "Various posts on Bluesky reflect general updates and interactions from the npmx team, including casual conversations and acknowledgments of community members. These updates contribute to a vibrant community atmosphere and keep followers informed.",
+      "relevanceScore": 5,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mjrtrjblek2k"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mjrrphrcx22y"
+        }
+      ]
+    }
+  ]
+}

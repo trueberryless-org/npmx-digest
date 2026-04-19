@@ -1,0 +1,18 @@
+{
+  "title": "New Language Support Enhances User Experience",
+  "date": "2026-04-19T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Internationalization Updates",
+      "summary": "The recent merge of PR #2567 introduces hi-IN and mr-IN translations for the npmx tagline, enhancing accessibility for Hindi and Marathi speakers. This update aims to improve user experience by providing localized content, reflecting npmx's commitment to inclusivity in its platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2567"
+        }
+      ]
+    }
+  ]
+}

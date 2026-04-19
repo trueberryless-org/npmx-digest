@@ -1,0 +1,62 @@
+{
+  "title": "Celebrating Community: Gratitude Sparks Connection",
+  "date": "2026-04-19T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Automated Issue Management",
+      "summary": "The introduction of an automated system for managing stale issues and PRs focuses on tagging and closing 'Bug' issues after a period of inactivity. This aims to maintain project cleanliness and efficiency by automating the stale-tagging process.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2580"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Updates",
+      "summary": "A recent PR updates the Nuxt dependency from version 4.3.1 to 4.4.2. This update is part of ongoing maintenance to ensure the project utilizes the latest features and security patches, although some dependencies could not be verified.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2047"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "Community members express appreciation for contributors and the positive energy they bring to projects. Posts highlight the importance of connecting theoretical concepts to practical applications, fostering a supportive environment.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/bnewbold.net/post/3mjuqahncac2p"
+        }
+      ]
+    },
+    {
+      "title": "User Experiences",
+      "summary": "Community members share their experiences with npmx, highlighting its user-friendly nature and the enjoyment derived from exploring its features. This feedback contributes to a positive perception of the platform.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/j4ck.xyz/post/3mjukoizaf22u"
+        }
+      ]
+    },
+    {
+      "title": "Project Enthusiasm",
+      "summary": "Users share their excitement about engaging with the npmx project, emphasizing that it's never too late to start exploring new technologies. This reflects a growing interest in the platform and its capabilities.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mjunx5la4k2y"
+        }
+      ]
+    }
+  ]
+}

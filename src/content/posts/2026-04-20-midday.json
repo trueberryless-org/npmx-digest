@@ -1,0 +1,85 @@
+{
+  "title": "Revamping Storybook: Streamlined Directory Ahead",
+  "date": "2026-04-20T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Brand Page Enhancements",
+      "summary": "Improvements to the brand page include fixing PNG download issues and layout shifts during server-side rendering. These changes ensure that the correct assets are downloaded and enhance user experience by preventing visual discrepancies.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2595"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2565"
+        }
+      ]
+    },
+    {
+      "title": "Storybook Directory Management",
+      "summary": "Recent PRs focus on optimizing the `.storybook` directory by removing unnecessary files and improving cache management. This includes moving non-config files to reduce cache busting and enhancing the overall structure for better maintainability.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2598"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2597"
+        }
+      ]
+    },
+    {
+      "title": "User Interface Enhancements",
+      "summary": "Enhancements to the user interface include adding a loading state for translation status and preventing duplicate icons in the file tree sprite. These changes aim to improve visual consistency and user feedback during data loading.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2589"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2586"
+        }
+      ]
+    },
+    {
+      "title": "Translation Status Bug Fix",
+      "summary": "A bug was identified where the Translation Status page displayed the current date while loading data. This has been addressed by implementing a loading state, improving accuracy and reducing visual regression test failures.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2588"
+        }
+      ]
+    },
+    {
+      "title": "Continuous Integration Improvements",
+      "summary": "Recent updates to the CI process include disabling redundant comments from the e18e action, which were deemed unhelpful. This aims to streamline the review process by providing more actionable feedback on PRs.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2593"
+        }
+      ]
+    },
+    {
+      "title": "New Authentication Provider",
+      "summary": "A new ATProto better-auth provider has been introduced, allowing for seamless integration of Bluesky authentication alongside other providers. This enhancement aims to simplify user authentication processes within the npmx ecosystem.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/nickthesick.com/post/3mjurs2bo2k2j"
+        }
+      ]
+    }
+  ]
+}

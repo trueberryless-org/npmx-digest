@@ -1,0 +1,51 @@
+{
+  "title": "Russian Translations Expand Global Reach",
+  "date": "2026-04-21T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Enhanced Package Comparison Features",
+      "summary": "The platform now allows users to compare up to 10 packages visually using scatter charts. This feature aims to facilitate informed decision-making by enabling users to map various facets to each axis, thus enhancing the analytical capabilities of the platform.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/graphieros.npmx.social/post/3mjzlmesrts2f"
+        }
+      ]
+    },
+    {
+      "title": "Module Replacements Version 3",
+      "summary": "PR #2068 introduces significant updates to the module replacements feature, including the upgrade to version 3. This update involves various component modifications, removal of outdated locales, and the addition of new tests, enhancing the overall functionality and reliability of the module replacement system.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2068"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Updates",
+      "summary": "The recent merge of PR #2607 adds missing Russian translations to the project, enhancing its internationalization efforts. This update ensures that non-English speaking users can better understand and utilize the platform, thereby broadening its accessibility and user base.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2607"
+        }
+      ]
+    },
+    {
+      "title": "User Feedback and Customization",
+      "summary": "A recent post highlights the importance of user feedback in refining the platform's features. The decision to allow users to create their own graphs addresses previous concerns about the platform's opinionated nature, promoting user autonomy and creativity in data visualization.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/philippeserhal.com/post/3mjzszhekns2y"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Nuxt Scripts Upgrade Boosts Functionality and Fixes",
+  "date": "2026-04-21T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Dependency Updates",
+      "summary": "Merged PR #2591 updates the @nuxt/scripts dependency from v0.13.2 to v1.0.1, addressing various bug fixes and improvements. This update enhances functionality, including better handling of proxying self-hosted domains and resolving conflicts in Google Maps integration. Manual merge is required as automerge is disabled.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2591"
+        }
+      ]
+    },
+    {
+      "title": "Community Sponsorship",
+      "summary": "A heartfelt thank you to @antfu.me for sponsoring the development of Vue Data UI and ./npmx. This sponsorship enables the redistribution of funds to @willow.sh, recognizing her significant contributions to open-source software. Such community support fosters collaboration and innovation in the developer ecosystem.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/graphieros.npmx.social/post/3mjy4xrkyd222"
+        }
+      ]
+    }
+  ]
+}

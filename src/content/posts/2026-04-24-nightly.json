@@ -1,0 +1,29 @@
+{
+  "title": "Three Months In: A Milestone Celebration!",
+  "date": "2026-04-24T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "npmx Development Milestone",
+      "summary": "@npmx.dev celebrates its 3-month anniversary, reflecting on the rapid changes and progress made in a short time. The community is encouraged to engage as the platform evolves, marking a significant milestone in its development journey.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.cat/post/3mkb7hl5tyk24"
+        }
+      ]
+    },
+    {
+      "title": "Modern Package Management",
+      "summary": "Users appreciate how @npmx.dev highlights adherence to modern practices in package management. This feature enhances transparency and encourages developers to follow best practices, contributing to a healthier ecosystem for package development.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/vinnymac.dev/post/3mkaumz7z6c2p"
+        }
+      ]
+    }
+  ]
+}

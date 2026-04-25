@@ -1,0 +1,33 @@
+{
+  "title": "Download Counts Simplified for Clarity",
+  "date": "2026-04-25T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Download Count Formatting Issues",
+      "summary": "Recent issues have been raised regarding the formatting of download counts in the npmx.dev platform. Users reported that both the interpolated download counts and weekly downloads display decimals, which can lead to confusion. These issues have been closed with proposed solutions to round counts to whole numbers.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2624"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2608"
+        }
+      ]
+    },
+    {
+      "title": "Celebration Messages for Package Improvements",
+      "summary": "A user on Bluesky noted the prevalence of warning-level notices on npmx.dev compared to success notices. To address this, they have proposed adding celebration messages for packages that achieve size reductions, aiming to foster a more positive community atmosphere in future releases.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mkd7legnsc2x"
+        }
+      ]
+    }
+  ]
+}

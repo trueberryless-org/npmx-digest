@@ -1,0 +1,29 @@
+{
+  "title": "New Features Amplify User Engagement on npmx",
+  "date": "2026-04-25T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Feature Enhancements",
+      "summary": "Recent updates to npmx include the introduction of the npmx-likes badge and enhancements to the compare page, showcasing GitHub Stars, Issues, and package creation dates. These features aim to improve user engagement and provide more insights into package popularity and activity.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/t128n.dev/post/3mkcs3jrag22p"
+        }
+      ]
+    },
+    {
+      "title": "Celebrating Package Size Reductions",
+      "summary": "A new feature has been merged that celebrates package size reductions when there are no increases in dependencies. This addition aims to encourage developers by highlighting positive changes in package management, fostering a culture of improvement within the community.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2620"
+        }
+      ]
+    }
+  ]
+}

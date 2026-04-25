@@ -1,0 +1,33 @@
+{
+  "title": "Vue Dependency Upgrade Enhances Stability and Performance",
+  "date": "2026-04-25T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Image Loading Issues",
+      "summary": "A recent merge addressed image loading problems caused by mismatched checks in the client and CSP settings. The fix ensures that images load correctly by adjusting the parser to check for exact matches, resolving related bugs that caused CSP errors for certain images.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2622"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2611"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Updates",
+      "summary": "The project has updated the Vue dependency from version 3.5.32 to 3.5.33. This update includes several bug fixes and improvements, ensuring better performance and stability. It is crucial for maintaining compatibility and leveraging the latest features of the Vue framework.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2615"
+        }
+      ]
+    }
+  ]
+}

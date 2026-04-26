@@ -1,0 +1,51 @@
+{
+  "title": "Portuguese Locale Revamp Improves User Experience",
+  "date": "2026-04-26T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "CI Security Enhancements",
+      "summary": "Merged PR #2632 implements security checks using zizmor in GitHub Actions workflows. This configuration aims to prevent vulnerabilities by applying the principle of least privilege, documenting permissions, and fixing identified issues, thereby enhancing the security posture of the project.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2632"
+        }
+      ]
+    },
+    {
+      "title": "Vue Data UI Update",
+      "summary": "Merged PR #2633 updates vue-data-ui from version 3.17.13 to 3.18.0, introducing type definitions for slots and fixing a drag issue on zoom range handles with large datasets. This update enhances the functionality and usability of the component library.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2633"
+        }
+      ]
+    },
+    {
+      "title": "Localization Update for pt-BR",
+      "summary": "Merged PR #2625 updates the pt-BR locale by adding missing translations and cleaning up invisible characters. This enhancement ensures better accessibility and user experience for Portuguese-speaking users, aligning the application with localization best practices.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2625"
+        }
+      ]
+    },
+    {
+      "title": "Workflow Naming Improvement",
+      "summary": "Merged PR #2631 adds a name to the deploy-canary.yml workflow, addressing a previous oversight. This change improves the clarity and organization of the CI/CD pipeline, making it easier to identify workflows at a glance.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2631"
+        }
+      ]
+    }
+  ]
+}

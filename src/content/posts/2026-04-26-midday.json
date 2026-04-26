@@ -1,0 +1,18 @@
+{
+  "title": "Revamped Deployment Strategy Boosts Control",
+  "date": "2026-04-26T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Deployment Strategies",
+      "summary": "The recent merge of PR #2627 introduces a new deployment strategy for the canary environment, allowing for manual deployments triggered by pushes to the main branch. This change addresses limitations of the previous branch tracking method, enhancing deployment reliability and control.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2627"
+        }
+      ]
+    }
+  ]
+}

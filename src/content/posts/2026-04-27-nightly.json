@@ -1,0 +1,29 @@
+{
+  "title": "Nuxt Test Utils Get Performance Boost",
+  "date": "2026-04-27T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Dependency Updates",
+      "summary": "Merged PR #2642 updates the @nuxt/test-utils package from version 4.0.2 to 4.0.3. This patch release includes several fixes and improvements, such as lazy imports and enhanced configuration options. The update aims to improve the overall functionality and performance of the testing utilities.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2642"
+        }
+      ]
+    },
+    {
+      "title": "New Mini-Site Launch",
+      "summary": "A new mini-site, replacements.fyi, has been launched by @e18e.dev. This site serves as a simple frontend for module replacements data, enhancing discoverability for users seeking alternatives, particularly native ones. The initiative aims to streamline the lookup process for module alternatives.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mkietfufb22f"
+        }
+      ]
+    }
+  ]
+}

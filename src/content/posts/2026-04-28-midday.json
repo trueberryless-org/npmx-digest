@@ -1,0 +1,29 @@
+{
+  "title": "pnpm v11.0.0: Elevating Package Management Experience",
+  "date": "2026-04-28T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "pnpm Version Update",
+      "summary": "pnpm v11.0.0 has been released, although the 'latest' dist-tag still points to v10. Users are advised to update to the latest version using the command 'pnpm self-update latest-11'. This release signifies ongoing improvements in package management.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/pnpm.io/post/3mkkgxmxcuk2s"
+        }
+      ]
+    },
+    {
+      "title": "Vue Data UI Enhancements",
+      "summary": "The recent merge of PR #2647 introduces a smooth path utility from vue-data-ui, enhancing the functionality for generating og images. This update follows a previous pull request and aims to streamline the development process by utilizing existing utilities.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2647"
+        }
+      ]
+    }
+  ]
+}

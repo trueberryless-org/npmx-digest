@@ -1,0 +1,44 @@
+{
+  "title": "Decimal Bug Squashed: Clarity Restored",
+  "date": "2026-04-29T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Feature Additions to Command Palette",
+      "summary": "A new feature has been added to the command palette, allowing users to access the package timeline page directly. This enhancement ensures that all functionalities are easily accessible, improving user experience and navigation within the application.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2636"
+        }
+      ]
+    },
+    {
+      "title": "Bug Fixes and Improvements",
+      "summary": "Recent updates include the resolution of a bug where weekly downloads displayed decimal digits instead of rounded integers. The fix involves restoring the maximum fraction digits in the number formatter. Additionally, minor text improvements were identified and addressed to enhance clarity and accuracy.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2656"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2654"
+        }
+      ]
+    },
+    {
+      "title": "Text and Documentation Enhancements",
+      "summary": "A recent pull request merged improvements to text descriptions based on suggestions from community members. This effort aims to ensure clarity and correctness in the documentation, reflecting a commitment to quality and user understanding.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2655"
+        }
+      ]
+    }
+  ]
+}

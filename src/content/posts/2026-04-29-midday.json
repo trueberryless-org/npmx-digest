@@ -1,0 +1,44 @@
+{
+  "title": "European Portuguese Locale Expands Global Accessibility",
+  "date": "2026-04-29T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Internationalization Updates",
+      "summary": "The addition of the European Portuguese locale to npmx marks a significant step in internationalization efforts. This update includes a new JSON file for translations, making the platform more accessible to Portuguese-speaking users and expanding its global reach.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2639"
+        }
+      ]
+    },
+    {
+      "title": "Spelling and Grammar Improvements",
+      "summary": "Recent updates focused on fixing spelling and grammar errors in the npmx project. A merged PR addressed standalone spelling fixes, resolving an identified issue. This enhances overall code quality and readability, ensuring a better experience for users and contributors.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2651"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2650"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements to Scatter Chart Interactivity",
+      "summary": "A recent PR improved the interactivity of the scatter chart legend on the compare page. It includes features like highlighting data points on legend hover and a CSS transition for smoother visual updates, enhancing user engagement with data visualization.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2649"
+        }
+      ]
+    }
+  ]
+}

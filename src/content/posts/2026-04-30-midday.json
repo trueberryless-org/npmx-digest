@@ -1,0 +1,18 @@
+{
+  "title": "Exciting New Product Unveiled by @griff.dev",
+  "date": "2026-04-30T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Product Announcement",
+      "summary": "A new product has been announced on the platform, generating interest among users. The announcement was made by @griff.dev, indicating a significant development in the npm ecosystem. The product details can be found at the provided link.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/griff.dev/post/3mkoi5u3xf22u"
+        }
+      ]
+    }
+  ]
+}

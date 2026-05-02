@@ -1,0 +1,18 @@
+{
+  "title": "Noodle Launched for World Press Freedom Day",
+  "date": "2026-05-02T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Press Freedom Initiatives",
+      "summary": "The recent merge of PR #2666 introduces a noodle dedicated to World Press Freedom Day, emphasizing the critical role of journalism in society. It highlights the decline of press freedom and its implications for overall freedom, aiming to raise awareness through historical articles and significant events.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2666"
+        }
+      ]
+    }
+  ]
+}

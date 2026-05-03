@@ -1,0 +1,18 @@
+{
+  "title": "Top Liked Packages: Engage and Discover!",
+  "date": "2026-05-03T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "User Engagement Features",
+      "summary": "The recent merge of PR #2459 introduces a badge for top liked packages, enhancing user engagement by linking to a leaderboard. This feature aims to foster community interaction and package discovery, while ensuring data reliability through effective caching strategies.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2459"
+        }
+      ]
+    }
+  ]
+}

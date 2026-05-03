@@ -1,0 +1,59 @@
+{
+  "title": "Vercel Integration Powers Up Nuxt Performance",
+  "date": "2026-05-03T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Vercel Speed Insights Integration",
+      "summary": "The successful installation and configuration of Vercel Speed Insights for a Nuxt.js project was completed. Key changes include adding the module to the Nuxt configuration and updating dependencies. The integration aims to enhance performance metrics collection and reporting through Vercel's dashboard.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2671"
+        }
+      ]
+    },
+    {
+      "title": "Press Freedom Day Initiatives",
+      "summary": "In celebration of Press Freedom Day, various posts highlight the importance of open source and a free press. The initiatives emphasize the role of transparency and openness in fostering a free society, with contributions from notable figures in the community.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mkxp3cz45k2r"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mkxoxckda22r"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/alexdln.com/post/3mky4lfsgw22i"
+        }
+      ]
+    },
+    {
+      "title": "Open Source Advocacy",
+      "summary": "A repost discusses the significance of open source development in maintaining transparency and accessibility in technology. The message reinforces the belief that open source is essential for a free press and, by extension, a free society.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/alexdln.com/post/3mky4lfsgw22i"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Management Innovations",
+      "summary": "A repost introduces the concept of a 'GitHub for maintainers', suggesting a new approach to managing dependencies in software development. This idea aims to provide maintainers with better tools and practices for handling project dependencies effectively.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/andrewnez.bsky.social/post/3mkv5tgexjc2b"
+        }
+      ]
+    }
+  ]
+}

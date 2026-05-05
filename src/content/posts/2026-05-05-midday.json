@@ -1,0 +1,18 @@
+{
+  "title": "Inline Code Bug Disrupts Rendering Clarity",
+  "date": "2026-05-05T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Code Rendering Issues",
+      "summary": "The recent closure of Issue #2678 highlights a bug where inline code blocks incorrectly replace certain operators with single-symbol characters. This issue affects the clarity of code examples and documentation, emphasizing the need for accurate rendering of text within backticks.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2678"
+        }
+      ]
+    }
+  ]
+}

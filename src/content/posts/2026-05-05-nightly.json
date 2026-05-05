@@ -1,0 +1,18 @@
+{
+  "title": "Norwegian Translations Enhanced for Better Usability",
+  "date": "2026-05-05T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Localization Improvements",
+      "summary": "The recent merge of PR #2677 addresses missing translations in the Norwegian language file for the project. This update enhances the user experience for Norwegian speakers by ensuring all necessary keys are translated, thus improving accessibility and usability of the application.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2677"
+        }
+      ]
+    }
+  ]
+}

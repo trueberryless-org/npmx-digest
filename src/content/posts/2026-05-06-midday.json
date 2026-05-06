@@ -1,0 +1,18 @@
+{
+  "title": "Vue.js Boosts Stability with Latest Update",
+  "date": "2026-05-06T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Vue.js Dependency Update",
+      "summary": "The recent merge of PR #2680 updates the Vue.js dependency from version 3.5.33 to 3.5.34. This update includes several bug fixes related to the compiler, reactivity, and runtime core, enhancing the overall stability and performance of the framework.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2680"
+        }
+      ]
+    }
+  ]
+}

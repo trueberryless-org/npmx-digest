@@ -1,0 +1,18 @@
+{
+  "title": "Valita Goes ESM-Only: A Modern Leap",
+  "date": "2026-05-06T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "ESM Transition in Packages",
+      "summary": "The transition of @badrap/valita to ESM-only is a significant step in modernizing JavaScript packages. This change highlights the importance of package size reduction and improved performance, which is celebrated by the community, particularly by npmx.dev.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/jviide.iki.fi/post/3ml6xwt2puc2y"
+        }
+      ]
+    }
+  ]
+}

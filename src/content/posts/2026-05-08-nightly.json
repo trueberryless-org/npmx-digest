@@ -1,0 +1,66 @@
+{
+  "title": "Proposal Boosts Resource Referencing Reliability",
+  "date": "2026-05-08T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Feature Proposal for Resource Referencing",
+      "summary": "A closed issue discusses the need for a service to generate atproto records for centralized resources like npm packages and GitHub repositories. This proposal aims to create a more reliable way to reference these resources, addressing potential future challenges.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2584"
+        }
+      ]
+    },
+    {
+      "title": "Chart Improvements",
+      "summary": "Recent pull requests have focused on enhancing line charts, including fixing zoom state persistence and repositioning tooltips for better visibility. These updates aim to improve user experience by ensuring that interactions with charts are more intuitive and visually appealing.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2689"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2688"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Updates",
+      "summary": "A recent merge has added missing European Portuguese translations for various strings related to leaderboard and likes. This enhancement ensures that users in Portuguese-speaking regions have a complete and accurate experience when interacting with the platform.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2682"
+        }
+      ]
+    },
+    {
+      "title": "Code Maintenance",
+      "summary": "Several pull requests have been merged to improve code quality, including explicit imports of node processes and other minor fixes. These changes contribute to the overall stability and maintainability of the codebase, ensuring smoother development processes.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2685"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "A post on Bluesky highlights the availability of a package on npmx.dev, showcasing community interaction and the promotion of new features. This engagement reflects the platform's efforts to connect with users and share updates effectively.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/tolin.ski/post/3mle3azliv223"
+        }
+      ]
+    }
+  ]
+}

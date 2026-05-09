@@ -1,0 +1,62 @@
+{
+  "title": "Progressive Loading Streamlines Package Access",
+  "date": "2026-05-09T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "License Change Notifications",
+      "summary": "Merged PR #2188 introduces a warning system for package license changes, providing users with clear notifications when a license is altered. This feature enhances transparency and includes support for Turkish language, ensuring broader accessibility for users.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2188"
+        }
+      ]
+    },
+    {
+      "title": "Progressive Loading for Organization Packages",
+      "summary": "Merged PR #1953 resolves issues with loading large organization packages by implementing progressive loading. This change batches requests to avoid timeouts and improves user experience by ensuring that all packages are fetched efficiently without UI disruptions.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1953"
+        }
+      ]
+    },
+    {
+      "title": "Chart Component Refactoring",
+      "summary": "Merged PR #2696 focuses on refactoring the `useColors` composable for charts, enhancing code efficiency by reducing repetition. It also addresses a regression related to zoom state in download charts, ensuring that the zoom resets appropriately when data granularity changes.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2696"
+        }
+      ]
+    },
+    {
+      "title": "HTML Validation Improvements",
+      "summary": "Merged PR #1658 addresses HTML validation errors reported in the console, ensuring compliance with accessibility standards. The changes include fixing aria attributes and disabling certain linting rules to enhance the user interface's functionality.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1658"
+        }
+      ]
+    },
+    {
+      "title": "User Feedback on Timeline Feature",
+      "summary": "A user expressed appreciation for the timeline feature of @npmx.dev on Bluesky, highlighting its utility in tracking package changes across projects. This feedback underscores the importance of user-friendly features in enhancing project management and dependency tracking.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/antleth.fr/post/3mlgmhyrows2d"
+        }
+      ]
+    }
+  ]
+}

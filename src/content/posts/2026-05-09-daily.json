@@ -1,0 +1,48 @@
+{
+  "title": "Footer and Palette Revamp Enhances Navigation",
+  "date": "2026-05-09T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Meta Tag Optimization",
+      "summary": "Recent changes have addressed the issue of duplicate og:image meta tags on package pages, enhancing how links are rendered on platforms like Discord and WhatsApp. The fix ensures only one og:image tag is present, improving user experience when sharing package URLs.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2693"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2691"
+        }
+      ]
+    },
+    {
+      "title": "Footer and Command Palette Enhancements",
+      "summary": "The restoration of the brand link in both the footer and command palette improves navigation and accessibility for users. This change addresses previous design oversights and ensures that users can easily find the brand page.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2692"
+        }
+      ]
+    },
+    {
+      "title": "Connection Timeout Adjustments",
+      "summary": "A recent update has increased the connection request timeout from 5 seconds to 30 seconds, addressing issues related to premature timeouts. This change aims to enhance the reliability of connections and improve overall user experience.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2684"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2683"
+        }
+      ]
+    }
+  ]
+}

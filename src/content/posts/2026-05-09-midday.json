@@ -1,0 +1,40 @@
+{
+  "title": "Revamped Likes Leaderboard Elevates User Experience",
+  "date": "2026-05-09T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Accessibility Improvements",
+      "summary": "The recent upgrade of vite-plus to version 0.1.20 addressed 14 WCAG AA color-contrast violations. This change ensures that styles render correctly and highlights pre-existing contrast issues, enhancing overall accessibility. The upgrade also includes fixes from upstream vitest, improving user experience significantly.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2697"
+        }
+      ]
+    },
+    {
+      "title": "UI Enhancements for Likes Leaderboard",
+      "summary": "Follow-up improvements to the likes leaderboard include design tweaks such as circular medal badges, muted likes count, and enhanced mobile layout. Additionally, the API fetching mechanism has been optimized with ISR and SSR, improving performance and user experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2681"
+        }
+      ]
+    },
+    {
+      "title": "Tooltip Z-Index Correction",
+      "summary": "A fix was implemented to adjust the z-index of tooltips, ensuring they remain behind the header on mobile devices. This change resolves a visual issue where tooltips were incorrectly displayed above the header, enhancing the user interface's usability.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2628"
+        }
+      ]
+    }
+  ]
+}

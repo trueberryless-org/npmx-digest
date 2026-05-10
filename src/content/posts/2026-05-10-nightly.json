@@ -1,0 +1,29 @@
+{
+  "title": "Command Palette Upgrade Simplifies Navigation",
+  "date": "2026-05-10T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Workflow Updates",
+      "summary": "Recent updates to the setup-vp action have been merged, upgrading it from version 1.6.0 to 1.10.0. This change aims to enhance the functionality and performance of workflows across the project, ensuring better integration and efficiency in the development process.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2703"
+        }
+      ]
+    },
+    {
+      "title": "Command Palette Enhancements",
+      "summary": "A new feature has been added to the command palette, introducing a package timeline page. This update improves internal navigation by adhering to documented guidelines, allowing for more robust route handling and enhancing user experience within the application.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2635"
+        }
+      ]
+    }
+  ]
+}

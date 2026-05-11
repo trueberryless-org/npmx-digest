@@ -1,0 +1,70 @@
+{
+  "title": "Scoped Package Bug Fix Improves Repository Access",
+  "date": "2026-05-11T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Version Release",
+      "summary": "The merging of PR #2670 marks the release of version 0.11.0 of npmx, introducing several new features such as a package timeline page, progressive loading for organization packages, and improved UI elements. This release aims to enhance user engagement and functionality.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2670"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Updates",
+      "summary": "Multiple PRs have been merged to update dependencies, including validate-npm-package-name to v8, vite-plugin-pwa to v1.3.0, and nuxt to v4.4.5. These updates are crucial for maintaining compatibility and leveraging new features and improvements in the respective libraries.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2707"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2706"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2705"
+        }
+      ]
+    },
+    {
+      "title": "Localization Updates",
+      "summary": "Recent changes include the merging of PR #2712, which updates the zh-CN locale by adding 48 missing values. This enhancement aims to improve the localization experience for Chinese users of npmx, ensuring better accessibility and usability of the platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2712"
+        }
+      ]
+    },
+    {
+      "title": "Changelog Integration",
+      "summary": "PR #1233 introduces a feature that allows users to view a package's changelog and releases directly within npmx. This integration simplifies access to important updates and changes, improving user experience by reducing the need to navigate away from the platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1233"
+        }
+      ]
+    },
+    {
+      "title": "Issue Resolution",
+      "summary": "The closure of Issue #2709 highlights a bug where repository information was not displayed for a scoped package. This issue has been addressed, ensuring that users can access repository details for all packages, enhancing the overall user experience on npmx.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2709"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Sorting Bug Fixed for Org Page Clarity",
+  "date": "2026-05-11T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Fix for Sorting Desynchronization",
+      "summary": "A pull request was merged to address the sorting desynchronization issue on the org pages. The default sorting method was changed to align with the expected behavior, ensuring that users experience consistent sorting when navigating back and forth.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2477"
+        }
+      ]
+    },
+    {
+      "title": "Default Sorting Issue on Org Page",
+      "summary": "A bug was identified where the default sorting on the org page did not align with the query parameters, causing confusion for users. The issue was reported and subsequently closed after a fix was implemented to ensure consistency in sorting behavior.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2471"
+        }
+      ]
+    }
+  ]
+}

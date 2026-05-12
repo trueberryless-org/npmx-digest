@@ -1,0 +1,18 @@
+{
+  "title": "Russian Translations Expand Project's Global Reach",
+  "date": "2026-05-12T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Internationalization Updates",
+      "summary": "Recent updates to the internationalization (i18n) of the project include the addition of missing Russian translations and updates to existing translations. This enhances the accessibility of the project for Russian-speaking users, ensuring a broader reach and improved user experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2724"
+        }
+      ]
+    }
+  ]
+}

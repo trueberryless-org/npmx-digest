@@ -1,0 +1,29 @@
+{
+  "title": "Bluesky Sparks Vibrant Developer Connections",
+  "date": "2026-05-12T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Package Management Issues",
+      "summary": "A closed issue on GitHub highlights a bug where the `gstwebrtc-api` package is incorrectly marked as unclaimed despite being published. This raises concerns about the reliability of package search functionalities within the npmx platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2623"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "A brief post on Bluesky from npmx.dev indicates ongoing community engagement. The post, while minimal, suggests an active presence and interaction with users, which is essential for fostering a supportive developer community.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mlncski6a22l"
+        }
+      ]
+    }
+  ]
+}

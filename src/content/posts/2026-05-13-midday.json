@@ -1,0 +1,70 @@
+{
+  "title": "Blog Update: Fresh Insights and Clarity",
+  "date": "2026-05-13T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Timeline Chart Enhancements",
+      "summary": "A new feature was added to the timeline chart, allowing users to toggle the display of stable versions. This enhancement improves user experience by enabling better filtering of version data.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2728"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2725"
+        }
+      ]
+    },
+    {
+      "title": "Blog Post Updates",
+      "summary": "Recent merges include updates to blog post descriptions and the addition of a new blog post about the latest project release. These changes aim to enhance content clarity and provide insights into major project updates for the community.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2736"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2729"
+        }
+      ]
+    },
+    {
+      "title": "Open Graph Image Logic Fix",
+      "summary": "A fix was merged to address issues with Open Graph image definitions. The update ensures that blog pages correctly utilize their designated images, improving social media sharing and visibility.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2735"
+        }
+      ]
+    },
+    {
+      "title": "User Feedback and Feature Requests",
+      "summary": "User feedback has led to the identification of a need for filtering capabilities on the timeline. This input is crucial for guiding future development and ensuring the platform meets user needs.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2725"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "A post celebrating 100 days of npmx was shared on Bluesky, highlighting community engagement and ongoing development efforts. This initiative fosters a sense of community and encourages user participation.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mlqg5atfzk23"
+        }
+      ]
+    }
+  ]
+}

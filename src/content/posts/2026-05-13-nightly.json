@@ -1,0 +1,29 @@
+{
+  "title": "Documentation URL Refresh Boosts Accuracy",
+  "date": "2026-05-13T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "CI Improvements and Deprecation Handling",
+      "summary": "Merged PR #2702 addresses deprecation warnings in the CI pipeline by replacing outdated Codecov actions with the recommended 'codecov-action'. It also improves the setup for uploading test results and coverage reports, ensuring compatibility with future Node.js versions.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2702"
+        }
+      ]
+    },
+    {
+      "title": "URL Updates in Documentation",
+      "summary": "Merged PR #2741 updates the osscar URL in the crystal chronicle blog post to ensure it points correctly to the intended resource. This change enhances the accuracy of the documentation and improves user experience by providing a fully qualified link.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2741"
+        }
+      ]
+    }
+  ]
+}

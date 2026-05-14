@@ -1,0 +1,29 @@
+{
+  "title": "npmx Rises as Open Source Leader",
+  "date": "2026-05-14T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "npmx Growth Recognition",
+      "summary": "npmx.dev has been recognized as the fastest-growing emerging open source organization in Q1 2026, according to osscar.dev. It notably stands out as the only non-AI tool in the top 10, highlighting its unique position in the open source community.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.cat/post/3mlslbg2rvk2x"
+        }
+      ]
+    },
+    {
+      "title": "Community Support for npmx",
+      "summary": "The community has shown strong support for the npmx.dev team, as evidenced by shoutouts on social media platforms. This reflects the positive reception and engagement from users and contributors within the open source ecosystem.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/jsheroes.io/post/3mlsgmw6sxc2a"
+        }
+      ]
+    }
+  ]
+}

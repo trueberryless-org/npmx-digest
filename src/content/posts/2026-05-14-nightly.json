@@ -1,0 +1,40 @@
+{
+  "title": "Copy Package Name Feature Now Visible",
+  "date": "2026-05-14T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Vue Data UI Update",
+      "summary": "The recent merge of PR #2744 updates vue-data-ui to version 3.19.7, addressing issues with the line chart's stacking behavior and improving y-axis label layouts. This update enhances user experience on the compare page without affecting other line chart instances.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2744"
+        }
+      ]
+    },
+    {
+      "title": "CopyToClipboardButton Fix",
+      "summary": "PR #2701 resolves an issue with the z-index of the CopyToClipboardButton, ensuring it displays correctly above other elements. This fix enhances the usability of the button, which was previously obscured, as shown in the before-and-after images.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2701"
+        }
+      ]
+    },
+    {
+      "title": "Issue Closure: Copy Package Name Visibility",
+      "summary": "Issue #2700, which reported that the copy package name feature was hidden behind tabs, has been closed. The problem was likely introduced by a previous merge, and the resolution is linked to the recent z-index fix for the CopyToClipboardButton.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2700"
+        }
+      ]
+    }
+  ]
+}

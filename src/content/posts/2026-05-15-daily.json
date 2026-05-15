@@ -1,0 +1,29 @@
+{
+  "title": "Japanese Translations Get Major Boost",
+  "date": "2026-05-15T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "UI Enhancements",
+      "summary": "Merged PR #2748 introduces a visual improvement by ensuring that replaceable packages are consistently colored orange. This change enhances user experience by providing clearer visual cues in the interface, making it easier for users to identify these packages at a glance.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2748"
+        }
+      ]
+    },
+    {
+      "title": "Localization Updates",
+      "summary": "Merged PR #2745 updates Japanese translations, adding 326 new keys to ensure the application is accessible to Japanese-speaking users. This effort reflects a commitment to inclusivity and enhances the overall user experience by providing accurate and timely translations.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2745"
+        }
+      ]
+    }
+  ]
+}

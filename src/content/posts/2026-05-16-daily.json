@@ -1,0 +1,29 @@
+{
+  "title": "Key Updates: Vite Plus and Linting Insights",
+  "date": "2026-05-16T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Community Engagement in Development",
+      "summary": "The new @atproto.com Off Protocol podcast highlights community efforts in software development, showcasing how collaboration led to 1K PRs in just two weeks for npmx.dev. This emphasizes the importance of community in driving innovation and progress in tech projects.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mlwz4gho5s2n"
+        }
+      ]
+    },
+    {
+      "title": "Monthly Development Highlights",
+      "summary": "A recap of significant updates from the previous month includes the introduction of Vite Plus lazyPlugins API, sneak peeks of @vitest.dev 5, and discussions on linting for various frameworks. This summary serves as a valuable resource for developers to stay informed.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/voidzero.dev/post/3mlwiltskuj2f"
+        }
+      ]
+    }
+  ]
+}

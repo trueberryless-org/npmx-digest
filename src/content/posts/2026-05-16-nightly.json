@@ -1,0 +1,29 @@
+{
+  "title": "Celebrating Community: npmx's Inclusive Spirit",
+  "date": "2026-05-16T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Localization Improvements",
+      "summary": "The recent merge of PR #2757 addresses missing Spanish translations in the npmx UI. This enhancement improves accessibility for Spanish-speaking users by ensuring that key interface elements are properly localized, including command palette and settings.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2757"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "A post on Bluesky highlights the strength of the npmx community, emphasizing their ability to celebrate achievements. This culture fosters participation from new contributors, showcasing the community's welcoming nature and encouraging ongoing involvement in open source projects.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/monkchips.com/post/3mly3by5y2k2l"
+        }
+      ]
+    }
+  ]
+}

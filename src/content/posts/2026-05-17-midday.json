@@ -1,0 +1,33 @@
+{
+  "title": "Test Flakiness Fixed for Greater Stability",
+  "date": "2026-05-17T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "UI Improvements for Package Comparison",
+      "summary": "Recent updates have addressed issues with the package comparison functionality on organization and user pages. A fix was implemented to ensure the action bar and selection state are rendered correctly on the org page, while the user page was simplified to avoid unnecessary complexity.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2758"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2746"
+        }
+      ]
+    },
+    {
+      "title": "Test Flakiness Resolution",
+      "summary": "A recent pull request merged to fix test flakiness indicates ongoing efforts to enhance the reliability of the testing framework. This change aims to ensure that tests pass consistently, contributing to overall code quality and stability in the npmx project.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2760"
+        }
+      ]
+    }
+  ]
+}

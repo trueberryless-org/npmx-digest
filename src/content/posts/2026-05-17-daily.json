@@ -1,0 +1,18 @@
+{
+  "title": "Line Charts Get Sleek New Makeover",
+  "date": "2026-05-17T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "UI Improvements for Line Charts",
+      "summary": "The recent merge of PR #2759 enhances the layout of line charts by optimizing space usage. The update addresses previous layout issues, allowing for better coexistence of lines and bars, particularly when only line types are displayed. This change improves visual clarity and user experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2759"
+        }
+      ]
+    }
+  ]
+}

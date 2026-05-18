@@ -1,0 +1,18 @@
+{
+  "title": "Streamlined Code Enhancements for Improved Efficiency",
+  "date": "2026-05-18T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Code Refactoring",
+      "summary": "The recent merge of PR #2764 focuses on refactoring the repository metadata utilities from the `useRepoMeta` nuxt composable. This change aims to eliminate code duplication in the Likes Leaderboard page and improve the handling of star counts for non-GitHub repositories.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2764"
+        }
+      ]
+    }
+  ]
+}

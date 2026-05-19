@@ -1,0 +1,29 @@
+{
+  "title": "Boosting Code Quality with Strategic Merges",
+  "date": "2026-05-19T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Code Quality Improvements",
+      "summary": "Recent merges include updates to the codecov action and version comments, enhancing the project's code quality and maintainability. These changes ensure better tracking of code coverage and provide clarity on versioning, which is crucial for ongoing development and collaboration.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2773"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Enhancements",
+      "summary": "The addition of Dutch translations aims to achieve 100% completion for the language within the project. This update includes various terms and phrases, ensuring that Dutch-speaking users have a fully localized experience, which is essential for user engagement and accessibility.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2772"
+        }
+      ]
+    }
+  ]
+}

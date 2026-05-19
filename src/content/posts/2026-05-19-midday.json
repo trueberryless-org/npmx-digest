@@ -1,0 +1,18 @@
+{
+  "title": "Node Modules Inspector Gains New Action Hub",
+  "date": "2026-05-19T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Node Modules Inspector Update",
+      "summary": "The recent update to node-modules-inspector@2.1.0 introduces a new report page titled 'Maintainer Actions'. This feature provides package maintainers with actionable changes and pre-constructed prompts to facilitate ecosystem improvements.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/antfu.me/post/3mm73535n6c27"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Empowering Developers: Essential Tools Unveiled",
+  "date": "2026-05-20T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Dependency Management in npm",
+      "summary": "The importance of dependency minimization in npm is highlighted, focusing on the challenges posed by transitive dependencies. Users are encouraged to utilize tools like npmx.dev and npmgraph.js.org to assess dependency counts and to choose minimal tools rather than popular ones.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/en.sitnik.es/post/3mmc6tu44u325"
+        }
+      ]
+    },
+    {
+      "title": "Useful Tools and Advice for Developers",
+      "summary": "A thread sharing valuable advice and tools for developers has been reposted, emphasizing the significance of community knowledge sharing. This resource aims to equip developers with practical insights and tools to enhance their workflow and project management.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mmcgcfkzsc2q"
+        }
+      ]
+    }
+  ]
+}

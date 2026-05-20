@@ -1,0 +1,40 @@
+{
+  "title": "Join the TypeScript 7.0 Beta Test Today!",
+  "date": "2026-05-20T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "GitHub Actions Best Practices",
+      "summary": "A call to action for GitHub actions publishers to adopt immutable releases, ensuring stability and reliability in their workflows. This practice is crucial for maintaining consistent builds and avoiding unexpected changes in production environments.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/rman.dev/post/3mmbmc2pi5c2c"
+        }
+      ]
+    },
+    {
+      "title": "TypeScript 7.0 Beta Testing",
+      "summary": "An invitation to the community to assist the TypeScript team in testing the beta version of TS 7.0. Engaging with beta releases helps identify bugs and improve the overall quality of the language before its official launch.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mmbnlveo6k2a"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement in Development",
+      "summary": "Encouraging developers to participate in community-driven initiatives, such as testing new software versions and sharing best practices. This fosters collaboration and enhances the development ecosystem, leading to better tools and resources for all.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mmbnlveuzc2a"
+        }
+      ]
+    }
+  ]
+}

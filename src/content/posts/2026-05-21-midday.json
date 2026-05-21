@@ -1,0 +1,18 @@
+{
+  "title": "New Gold Standard for Secure Publishing",
+  "date": "2026-05-21T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Trusted Publishing Standards",
+      "summary": "The introduction of a new gold standard for trusted publishing emphasizes the importance of having a maintainer with two-factor authentication (2FA). This initiative aims to enhance security and reliability in the publishing process, ensuring that only verified individuals can publish updates.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mmcusm6b4s2b"
+        }
+      ]
+    }
+  ]
+}

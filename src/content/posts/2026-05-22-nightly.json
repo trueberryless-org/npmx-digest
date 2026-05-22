@@ -1,0 +1,18 @@
+{
+  "title": "Secure Your Releases with Uppt Action",
+  "date": "2026-05-22T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "GitHub Actions for Secure Releases",
+      "summary": "A new GitHub action named `uppt` has been released, designed to streamline the release workflow for maintainers. It emphasizes security with features like trusted publishing on npmjs.com, GitHub environment protection, and automatic release generation upon merging.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mmhe7aa46c2y"
+        }
+      ]
+    }
+  ]
+}

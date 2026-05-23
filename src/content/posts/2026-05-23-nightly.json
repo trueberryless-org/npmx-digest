@@ -1,0 +1,62 @@
+{
+  "title": "From Pull Requests to Project Stewardship",
+  "date": "2026-05-23T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Celebrating Open Source Contributions",
+      "summary": "Reflecting on the past year, a developer shares their journey from making small pull requests to becoming a maintainer in multiple projects. The emphasis is on the importance of communication and collaboration in open source, showcasing the community's potential.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mmk6wdrjxk2k"
+        }
+      ]
+    },
+    {
+      "title": "Trust Issues in npm Publishing",
+      "summary": "Staged publishes in npm are showing up as a trust downgrade in npmx and pnpm, raising concerns about the publisher's identity. The issue stems from the publisher being the approver instead of npm's trusted account, indicating a need for fixes on npm's side.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mmk7olmfwc2k"
+        }
+      ]
+    },
+    {
+      "title": "Enhancements in Dependency Management",
+      "summary": "The replacements.fyi site has introduced a feature allowing users to upload a package.json file to identify which dependencies can be replaced with native functionality or more efficient alternatives, promoting better performance in projects.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mmjniwdzhc2m"
+        }
+      ]
+    },
+    {
+      "title": "Inspiration in the Community",
+      "summary": "A heartfelt message recognizing Roman as an inspiration to the open source community. This highlights the impact of individuals who contribute positively and motivate others within the ecosystem.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mmk6dzabqs2k"
+        }
+      ]
+    },
+    {
+      "title": "Addressing LLM-Generated PRs",
+      "summary": "A call to action for open source friends facing unwanted LLM-generated pull requests or comments. The post encourages community members to unite and find ways to combat these challenges in the open source landscape.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/danielroe.dev/post/3mmjiuda4dk2j"
+        }
+      ]
+    }
+  ]
+}

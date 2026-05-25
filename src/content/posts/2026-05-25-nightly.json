@@ -1,0 +1,70 @@
+{
+  "title": "Revamping Tests: pnpm's New Framework Unleashed",
+  "date": "2026-05-25T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx community is actively engaging with new contributors. Recent posts highlight merged PRs and positive feedback on issue and PR templates, showcasing a welcoming environment for developers.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/t128n.dev/post/3mmoip57xac2p"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/pdewey.com/post/3mmn4p5vhxk2h"
+        }
+      ]
+    },
+    {
+      "title": "User Interface Enhancements",
+      "summary": "The npmx project is focusing on improving user experience with features like dark mode and new UI components. A recent issue was closed proposing a dark mode toggle, while a PR was merged to add a new 'nodejs noodle' UI element.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2795"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2778"
+        }
+      ]
+    },
+    {
+      "title": "Feature Announcements",
+      "summary": "Upcoming features in the npmx ecosystem include a new button for published npm packages that will link directly to @npmx.dev, enhancing visibility and integration for users.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/amirsakhravi.bsky.social/post/3mmontnhjec2f"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Updates",
+      "summary": "Regular maintenance is crucial for project stability. A recent PR was merged to update the vue-data-ui library from version 3.19.8 to 3.20.10, ensuring that the project benefits from the latest features and fixes.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2793"
+        }
+      ]
+    },
+    {
+      "title": "Testing Improvements",
+      "summary": "The pnpm project is enhancing its testing framework by transitioning to a 'pnpm registry' for end-to-end tests, aiming to improve performance and reliability in future releases.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/pnpm.io/post/3mmottzbmzk2m"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Streamlined Searches: Version Details Stripped Away",
+  "date": "2026-05-25T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Repository Metadata Fixes",
+      "summary": "Merged PR #2769 addresses a bug in the repository metadata fetch options by adjusting the order of object spreading. This change ensures that the default User-Agent header is preserved while allowing custom headers to be included, thus improving the reliability of metadata fetching.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2769"
+        }
+      ]
+    },
+    {
+      "title": "Documentation Enhancements",
+      "summary": "Merged PR #2789 introduces Storybook documentation and visual regression tests for the Likes Leaderboard page, enhancing the project's documentation and testing capabilities. This addition aims to improve the developer experience by providing clear examples and ensuring visual consistency across updates.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2789"
+        }
+      ]
+    },
+    {
+      "title": "Search Query Improvements",
+      "summary": "Merged PR #2763 enhances the search functionality by stripping version information from package queries. This change aims to improve search results, making them more relevant and useful, especially when users copy package names with version details from package managers.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2763"
+        }
+      ]
+    },
+    {
+      "title": "Issue Resolution on Header Management",
+      "summary": "Closed Issue #2765 highlights a bug in the header management of fetch options, where the spread order caused the default User-Agent header to be overwritten. The issue was identified during a review and has been addressed in a recent PR, ensuring proper header management.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2765"
+        }
+      ]
+    }
+  ]
+}

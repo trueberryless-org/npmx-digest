@@ -1,0 +1,62 @@
+{
+  "title": "npmx.dev v0.13.0 Boosts Performance and Usability",
+  "date": "2026-05-26T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Version Release v0.13.0",
+      "summary": "Merged PR #2713 introduces version v0.13.0 of npmx.dev, featuring new functionalities like nodejs noodle and improved UI elements. It also includes numerous bug fixes and updates to dependencies, enhancing overall performance and user experience.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2713"
+        }
+      ]
+    },
+    {
+      "title": "Font Provider Fix",
+      "summary": "The recent merge of PR #2803 addresses issues with the Geist Mono font, which had broken ligatures. By switching to a local font provider, the fix aims to enhance stability and performance, ensuring users experience correct font rendering without caching issues.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2803"
+        }
+      ]
+    },
+    {
+      "title": "Changelog Viewing Feature",
+      "summary": "A new feature on @npmx.dev allows users to view package changelogs, currently supporting packages hosted on GitHub. This enhancement aims to improve transparency and accessibility of package updates, with plans for broader support in the future.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/wilco.npmx.social/post/3mmrihvusqk2b"
+        }
+      ]
+    },
+    {
+      "title": "NPM Publishing Guide Update",
+      "summary": "The @e18e.dev npm publishing guide has been updated to recommend the new `npm stage` feature. This guide provides templates and best practices for secure and efficient package publishing, aiding developers in setting up their projects quickly.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mmqx2yfckc2r"
+        }
+      ]
+    },
+    {
+      "title": "Packumeta Utility Release",
+      "summary": "The release of packumeta introduces a lightweight set of utilities for managing package documents. Currently focused on inferring a 'trust level' from package versions, this tool aims to enhance package management and security for developers.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mmr5p24ogs2r"
+        }
+      ]
+    }
+  ]
+}

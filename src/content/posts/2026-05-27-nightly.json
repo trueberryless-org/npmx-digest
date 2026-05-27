@@ -1,0 +1,22 @@
+{
+  "title": "Bluesky Celebrates Node.js Birthday Bash",
+  "date": "2026-05-27T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Celebratory Messages",
+      "summary": "Recent posts on Bluesky highlight celebratory messages, including a birthday greeting for Node.js. These messages reflect community engagement and appreciation for significant milestones within the developer ecosystem.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mmtoryxtos2d"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mmtorxthms2d"
+        }
+      ]
+    }
+  ]
+}

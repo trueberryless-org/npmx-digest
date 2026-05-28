@@ -1,0 +1,33 @@
+{
+  "title": "Romanian Language Support Enhances Accessibility",
+  "date": "2026-05-28T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Internationalization Updates",
+      "summary": "Recent updates to the npmx project include the addition of Romanian translations, addressing a previously missing locale. This enhancement improves accessibility for Romanian-speaking users and aligns with the project's commitment to internationalization.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2809"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2774"
+        }
+      ]
+    },
+    {
+      "title": "New Package Release",
+      "summary": "A new package, pnpm dlx setup-trusted-publishing, has been released, enabling users to publish a no-code stub for their packages. This tool simplifies the configuration of trusted publishing and updates package.json with necessary access and provenance information.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/thisismissem.social/post/3mmuse2gvwc2u"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Trust Levels Reimagined for Consistency",
+  "date": "2026-05-28T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "URL Redirection for Versions View",
+      "summary": "A new feature has been implemented to redirect users from the npmjs versions tab to the corresponding versions view on npmx. This ensures a seamless experience for users transitioning between the two platforms.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2800"
+        }
+      ]
+    },
+    {
+      "title": "Performance Improvements",
+      "summary": "The latest release of @rspack/core has resulted in a significant size reduction, enhancing performance. The new npmx graph feature allows users to visualize this trend effectively, showcasing the ongoing commitment to optimization.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/chenjiahan.bsky.social/post/3mmvj4gq4h22s"
+        }
+      ]
+    },
+    {
+      "title": "Version Updates and Fixes",
+      "summary": "Recent merges include updates to vue-data-ui, addressing chart zoom issues, and a fix for header overflow in comparison grids. These enhancements improve user experience by ensuring better visual representation and functionality in the application.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2812"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2805"
+        }
+      ]
+    },
+    {
+      "title": "Trust Level Refactoring",
+      "summary": "The trust level logic has been refactored to utilize the new packumeta package, aligning with other ecosystem tools. This change aims to unify trust level scales, enhancing consistency across platforms.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2804"
+        }
+      ]
+    },
+    {
+      "title": "Feature Requests and User Feedback",
+      "summary": "Users have expressed interest in viewing download statistics by package version on npmx, similar to npmjs. This feedback highlights the demand for enhanced data visualization and user engagement features.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2781"
+        }
+      ]
+    }
+  ]
+}

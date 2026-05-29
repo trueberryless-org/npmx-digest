@@ -1,0 +1,18 @@
+{
+  "title": "Dependency Upgrade: Boosting Project Performance",
+  "date": "2026-05-29T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Dependency Management Updates",
+      "summary": "The recent merge of PR #2814 focuses on updating dependencies by switching to the new staging signal released by npm. This change is crucial for maintaining compatibility and improving the overall functionality of the project.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2814"
+        }
+      ]
+    }
+  ]
+}

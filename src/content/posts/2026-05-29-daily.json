@@ -1,0 +1,44 @@
+{
+  "title": "Global Reach: Enhancing Language Support",
+  "date": "2026-05-29T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Internationalization Improvements",
+      "summary": "Recent pull requests have focused on enhancing internationalization by adding missing translations for Turkish and Bangla. These updates aim to improve user experience for non-English speakers, ensuring that the UI is consistent and accessible across different languages.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2813"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2807"
+        }
+      ]
+    },
+    {
+      "title": "Noodle Date Logic Fix",
+      "summary": "A recent fix addressed an issue with noodle date detection in American time zones, which previously displayed dates incorrectly. The logic was simplified to enhance accuracy, ensuring that users receive the correct date information based on their settings.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2808"
+        }
+      ]
+    },
+    {
+      "title": "Download Count Tooltip Update",
+      "summary": "An update to the versions page has improved the clarity and accuracy of download count tooltips and titles. This change also included relevant translations in Chinese, enhancing the overall user interface and experience for users accessing download statistics.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2695"
+        }
+      ]
+    }
+  ]
+}

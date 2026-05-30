@@ -1,0 +1,29 @@
+{
+  "title": "Cultivating Community: Strengthening Supportive Connections",
+  "date": "2026-05-30T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Combating Burnout",
+      "summary": "In light of recent tech news, the discussion focuses on combating burnout by engaging with supportive communities. The message encourages individuals to connect with real people rather than AI agents to regain motivation and drive.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/matteogabriele.bsky.social/post/3mn2ruxzwd22p"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The importance of community involvement in maintaining healthy communication channels is emphasized. Acknowledgment is given to individuals who contribute to these communities, highlighting their role in fostering a supportive environment.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mn2zszz24k2h"
+        }
+      ]
+    }
+  ]
+}

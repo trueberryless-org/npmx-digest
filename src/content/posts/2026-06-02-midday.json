@@ -1,0 +1,44 @@
+{
+  "title": "npmx Noodles Foster Community Collaboration",
+  "date": "2026-06-02T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Color Scheme Updates",
+      "summary": "Recent updates to the `useColors` composable allow for dynamic changes in response to the `prefers-color-scheme` media query. This enhancement ensures that chart colors update in real-time when the system theme changes, improving user experience and accessibility.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2839"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2819"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "Community members are actively discussing the significance of npmx noodles, which highlight major contributors and projects within the ecosystem. This engagement reflects a growing appreciation for the collaborative nature of the npmx community and its contributions to the broader tech landscape.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/antleth.fr/post/3mnc2xfu3us26"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Management Insights",
+      "summary": "A recent discussion highlighted the value of outdated dependency indicators on npmx.dev. These indicators not only serve as warnings but also present opportunities for new contributors to engage with the project, fostering a more vibrant development community.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/gu5.org/post/3mnat3pd6ds2p"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "First Contribution Merged: Community Thrives!",
+  "date": "2026-06-03T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Versions Page Improvements",
+      "summary": "Recent updates to the versions page include fixes for mobile scrolling, increased text size, and improved layout for better usability. These enhancements aim to resolve issues related to the filter functionality and overall user experience on the versions page.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2844"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2796"
+        }
+      ]
+    },
+    {
+      "title": "Documentation Enhancements",
+      "summary": "Improvements have been made to the documentation parsing process, specifically for hyphenated language names in code examples. This fix ensures that examples render correctly without breaking due to regex limitations, enhancing the overall quality of the documentation.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2734"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2437"
+        }
+      ]
+    },
+    {
+      "title": "Leaderboard Optimization",
+      "summary": "The npmx leaderboard has transitioned from using Tap to a fork that utilizes Jetstream over Firehose. This change has resulted in significant reductions in CPU, memory, and data transfer usage, optimizing performance and resource management.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/pds.dad/post/3mnfcx4d2hc23"
+        }
+      ]
+    },
+    {
+      "title": "Community Contributions",
+      "summary": "A user celebrated their first contribution to the npmx project, which was successfully merged. This highlights the active participation of the community in enhancing the npmx platform and encourages further contributions from other developers.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/jp-knj.bsky.social/post/3mnfe2qrcuc2u"
+        }
+      ]
+    }
+  ]
+}

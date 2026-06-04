@@ -1,0 +1,51 @@
+{
+  "title": "Fixing the Stale Workflow Bug: Key Insights",
+  "date": "2026-06-04T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Feature Enhancements",
+      "summary": "Merged PR #2849 introduces support for HTML description elements in readmes, addressing a previously overlooked feature. This enhancement resolves issue #2776, improving the rendering of description lists in Markdown, which is crucial for user documentation clarity.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2849"
+        }
+      ]
+    },
+    {
+      "title": "Workflow Improvements",
+      "summary": "Merged PR #2846 fixes the stale workflow issue by implementing distinct labels for marking and closing stale issues and PRs. This addresses the problem of automatic closure after inactivity, ensuring better management of project contributions.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2846"
+        }
+      ]
+    },
+    {
+      "title": "Stale Workflow Issues",
+      "summary": "Closed Issue #2845 highlights a bug in the stale workflow where labels were being removed immediately due to conflicting job configurations. This issue emphasizes the need for careful management of automation processes in project workflows.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2845"
+        }
+      ]
+    },
+    {
+      "title": "User Feature Requests",
+      "summary": "Closed Issue #2776 requests the addition of HTML description lists support in Markdown. The user reported incorrect rendering on npmx compared to NPM, highlighting the importance of accurate documentation rendering for user experience.",
+      "relevanceScore": 5,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2776"
+        }
+      ]
+    }
+  ]
+}

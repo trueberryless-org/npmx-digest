@@ -1,0 +1,18 @@
+{
+  "title": "Badge Documentation Revamped for Developers",
+  "date": "2026-06-05T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Documentation Updates",
+      "summary": "Recent changes include the merging of PR #2853, which corrects the example usage of the value parameter in the badge documentation. This update aims to enhance clarity and usability for developers utilizing the badge feature in their projects.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2853"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Canary Build Update: Fetch Depth Improved",
+  "date": "2026-06-06T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Canary Build Configuration",
+      "summary": "The recent merge of PR #2860 addresses issues with missed translations in the canary build by enabling fetch depth. This change is expected to improve the build process and resolve related issues identified in previous discussions.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2860"
+        }
+      ]
+    },
+    {
+      "title": "CORS Implementation for Chart Endpoint",
+      "summary": "PR #2859 introduces CORS support for the chart embed endpoint, allowing for SVG string retrieval. This enhancement also includes a tooltip feature to clarify query parameters, improving user experience and functionality for data retrieval.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2859"
+        }
+      ]
+    }
+  ]
+}

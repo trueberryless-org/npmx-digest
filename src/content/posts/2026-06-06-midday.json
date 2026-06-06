@@ -1,0 +1,56 @@
+{
+  "title": "Code Link Fix Enhances Navigation Experience",
+  "date": "2026-06-06T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Large File Diff Handling",
+      "summary": "Recent updates have improved the handling of diffs for large files in npmx. A merged PR allows modified file diffs up to 1MiB, addressing issues where diffs were not displayed for files over 250KiB. This enhancement aims to improve user experience when viewing large file changes.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2730"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2698"
+        }
+      ]
+    },
+    {
+      "title": "Code Link Corrections",
+      "summary": "A recent fix has been implemented to correct the handling of aliased links in the code view of npmx. This addresses issues where dynamic links led to non-existent pages when aliases were used, enhancing navigation within the code preview for users.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2056"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2044"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "npmx has been actively engaging with its community on Bluesky, sharing milestones and celebrating achievements. Recent posts highlight the connection between projects and community support, fostering a sense of belonging among users and contributors.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnmqxtayoc2n"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnmqxrgnic2n"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/amirsakhravi.bsky.social/post/3mnm55romb22j"
+        }
+      ]
+    }
+  ]
+}

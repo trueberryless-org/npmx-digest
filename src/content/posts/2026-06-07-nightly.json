@@ -1,0 +1,41 @@
+{
+  "title": "Chart Clarity Boosts Download Insights",
+  "date": "2026-06-07T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Chart Improvements",
+      "summary": "Recent pull requests have focused on enhancing the compare downloads chart by addressing label collisions and improving label placement. These changes ensure that data labels are more readable and visually appealing, enhancing user experience when interpreting download statistics.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2874"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2870"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2868"
+        }
+      ]
+    },
+    {
+      "title": "Tooltip Enhancements",
+      "summary": "Improvements have been made to the tooltip functionality on the npmx homepage. The tooltip now displays correctly above the navbar, ensuring that all content is visible and enhancing the overall readability of the information presented to users.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2867"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2864"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Language Switch Bug Resolved for Instant Updates",
+  "date": "2026-06-07T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Language Switch Bug Fix",
+      "summary": "Closed Issue #2526 addresses a bug where the language switch in Settings does not fully apply without a page refresh. The fix ensures that the language change is reflected immediately across the UI, improving usability for multilingual users.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2526"
+        }
+      ]
+    },
+    {
+      "title": "Documentation Updates",
+      "summary": "Merged PR #2866 adds the missing keyboard shortcut for opening the Timeline tab to the documentation. This ensures that the Keyboard Shortcuts page is consistent with the available shortcuts in the UI, enhancing user experience and accessibility.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2866"
+        }
+      ]
+    }
+  ]
+}

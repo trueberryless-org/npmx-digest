@@ -1,0 +1,29 @@
+{
+  "title": "ESM Adoption Soars in JavaScript Ecosystem",
+  "date": "2026-06-08T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "ESM vs CJS Growth",
+      "summary": "The adoption of ECMAScript Modules (ESM) continues to rise, with 38.0% of popular npm packages now supporting ESM, up from 33.4% six months ago. ESM-only packages have also increased from 12.6% to 16.0%, indicating a significant shift towards modern JavaScript module standards.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/wooorm.com/post/3mns7g46pss2z"
+        }
+      ]
+    },
+    {
+      "title": "Upcoming Talk at Web Engines Hackfest",
+      "summary": "A talk about npmx.dev will be presented by @patak.cat and @danielroe.dev at the Web Engines Hackfest in A Coruña. This event aims to connect with browser engine developers and share insights about npmx and its developments in the community.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.cat/post/3mnrxwrpz4k2q"
+        }
+      ]
+    }
+  ]
+}

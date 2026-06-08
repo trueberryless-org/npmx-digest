@@ -1,0 +1,18 @@
+{
+  "title": "Noodles Archive Welcomes New Entries and Guide",
+  "date": "2026-06-08T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Noodles Archive Update",
+      "summary": "The recent merge of PR #2863 enhances the noodles archive by including Tetris and Pride entries, which were previously only featured on the homepage. This update also introduces a guide for adding noodles and improves the menu icon for better consistency.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2863"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Enhanced Insights: New Stats Page Launched",
+  "date": "2026-06-08T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Feature Development",
+      "summary": "The recent merge of PR #2872 introduces a new statistics page to the npmx platform, featuring key data and visualizations of downloads and likes. This enhancement aims to provide users with better insights into usage metrics, contributing to improved user experience and engagement.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2872"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "A repost highlights a talk by @danielroe.dev discussing community building and achieving product market fit in open source. The talk includes insights into the journey of npmx.dev, emphasizing the importance of community involvement in the development process.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/maxwellcohen.bsky.social/post/3mnq4rjwijk23"
+        }
+      ]
+    }
+  ]
+}

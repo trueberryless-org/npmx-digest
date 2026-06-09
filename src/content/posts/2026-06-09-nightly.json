@@ -1,0 +1,29 @@
+{
+  "title": "Fueling Passion for JavaScript and TypeScript",
+  "date": "2026-06-09T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "JavaScript/TypeScript Enthusiasm",
+      "summary": "The excitement around using JavaScript and TypeScript is highlighted by a user expressing how @npmx.dev inspires them to write more in these languages, despite their job not primarily involving them. This reflects a growing interest in modern web development tools.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/ethanholz.com/post/3mnuv36j3lk2n"
+        }
+      ]
+    },
+    {
+      "title": "Cloudflare Pages Deployment",
+      "summary": "A user has updated the cloudflare-pages-deploy package on npm, which allows for programmatic deployment to Cloudflare Pages. This package extracts deployment logic from the Cloudflare Wranglers CLI into a JavaScript SDK, enhancing developer experience and efficiency.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/littlefair.ca/post/3mnuqqtg5s22p"
+        }
+      ]
+    }
+  ]
+}

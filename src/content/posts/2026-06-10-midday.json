@@ -1,0 +1,18 @@
+{
+  "title": "NPM's Security Shift: Safer Install Practices",
+  "date": "2026-06-10T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Security Incidents in Dependency Management",
+      "summary": "A recent revelation highlights that the common practice of running 'npm install' may have been a security risk. The introduction of opt-in dependency install scripts in v12 aims to address these concerns, reflecting a shift towards safer package management practices.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/jamiemagee.bsky.social/post/3mnv4fseoek2u"
+        }
+      ]
+    }
+  ]
+}

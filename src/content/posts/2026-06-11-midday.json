@@ -1,0 +1,59 @@
+{
+  "title": "npmx Connects with Community on Bluesky",
+  "date": "2026-06-11T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Verification of Maintainers",
+      "summary": "npmx has initiated the verification of its maintainers on the new mu.social platform. This move aims to foster trust within the community by providing verified badges, while also prompting discussions on the best strategies for verification in open-source projects.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnypt2c5dc2v"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement Improvements",
+      "summary": "A recent PR merged on GitHub focuses on clarifying community-related wording in replacement suggestions. The change aims to reduce ambiguity and enhance user understanding by simplifying the language used in warnings, thereby improving overall community engagement and communication.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2875"
+        }
+      ]
+    },
+    {
+      "title": "Microblogging Innovations",
+      "summary": "The announcement of mu.social, a new microblogging app by @eurosky.social, aims to explore the future of social interactions. This initiative encourages users to engage in conversations and share experiences, potentially reshaping how communities communicate online.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/eurosky.social/post/3mnyoeuenq225"
+        }
+      ]
+    },
+    {
+      "title": "Social Media Engagement",
+      "summary": "Multiple posts on Bluesky, including simple expressions of affection and reposts, highlight the ongoing engagement of npmx with its audience. These interactions reflect the community's vibrancy and the importance of maintaining a lively social media presence.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnzbbobah22e"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnyxb255e22e"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/bnb.im/post/3mnzb2x2ans2d"
+        }
+      ]
+    }
+  ]
+}

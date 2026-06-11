@@ -1,0 +1,67 @@
+{
+  "title": "Spreading Joy: Positivity Takes Center Stage",
+  "date": "2026-06-11T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Positive Expressions",
+      "summary": "A series of posts expressing positivity and affection, including emojis like hearts and thumbs up. These interactions foster a sense of community and support among users.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnznaxztvs2g"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnzju3zylc2f"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnzjm5wpfs27"
+        }
+      ]
+    },
+    {
+      "title": "Confusion and Uncertainty",
+      "summary": "Users express confusion regarding certain topics, highlighting the challenges of understanding complex information. This reflects a common sentiment in discussions where clarity is needed.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnzmrrap5s2g"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnzljqn3is2e"
+        }
+      ]
+    },
+    {
+      "title": "Profile Recognition",
+      "summary": "A user notes the presence of a pink badge on another's profile, indicating recognition or achievement within the community. This highlights the importance of status symbols in social interactions.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnzjx2ogqc2f"
+        }
+      ]
+    },
+    {
+      "title": "Emotional Reactions",
+      "summary": "Various posts feature simple emotional reactions, such as emojis representing love and affection. These reactions contribute to the overall emotional tone of the community.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnzju3zylc2f"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mnzjm5wpfs27"
+        }
+      ]
+    }
+  ]
+}

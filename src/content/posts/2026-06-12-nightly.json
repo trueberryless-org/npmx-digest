@@ -1,0 +1,33 @@
+{
+  "title": "Join the Excitement: npmx Community Meet-Up!",
+  "date": "2026-06-12T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Engagement",
+      "summary": "npmx is actively engaging with its community through various events and announcements. The excitement is palpable as they invite users to join them in London for a meet-up, fostering connections and collaboration within the community.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mo4f4t3sis2p"
+        }
+      ]
+    },
+    {
+      "title": "Celebratory Announcements",
+      "summary": "npmx has shared celebratory posts, indicating positive milestones or events. These announcements, marked by emojis, reflect the team's enthusiasm and the vibrant culture within the organization, encouraging community participation.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mo4mtjfk3c2w"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mo4fhusloc2e"
+        }
+      ]
+    }
+  ]
+}

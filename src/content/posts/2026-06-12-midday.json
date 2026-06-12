@@ -1,0 +1,51 @@
+{
+  "title": "Building Trust: npmx Launches Verification Initiative",
+  "date": "2026-06-12T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "npmx Verification Initiative",
+      "summary": "npmx is launching a verification initiative for NPM maintainers and projects, marking a significant step towards enhancing social coding. This initiative aims to improve trust and transparency within the open-source community.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/zeu.dev/post/3mo3evkiegk2w"
+        }
+      ]
+    },
+    {
+      "title": "Development of Open Source Lexicons",
+      "summary": "npmx is developing lexicons to better represent open source project roles, moving beyond flat verifications. This initiative aims to provide more nuanced information about project governance and community involvement.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mo357le2gs25"
+        }
+      ]
+    },
+    {
+      "title": "Feedback-Driven Verification Process",
+      "summary": "In response to community feedback, npmx is proceeding with the verification of maintainers and projects within the npm ecosystem. This initiative will also allow larger projects to become verifiers, fostering community engagement.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mo357lccrk25"
+        }
+      ]
+    },
+    {
+      "title": "Bug in Verification Bot",
+      "summary": "A bug has been identified in the verification bot affecting the account @rafaelgss.dev. This issue highlights potential flaws in the verification process that need to be addressed to ensure reliability and trust in the system.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mo3uiywc422e"
+        }
+      ]
+    }
+  ]
+}

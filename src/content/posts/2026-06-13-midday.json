@@ -1,0 +1,18 @@
+{
+  "title": "Keyboard Shortcuts Documentation Receives Key Update",
+  "date": "2026-06-13T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Documentation Updates",
+      "summary": "The recent closure of Issue #2865 highlights the need for updates in the Keyboard Shortcuts documentation. The missing 't' shortcut for opening the Timeline tab was addressed, ensuring that documentation aligns with UI functionalities. This enhances user experience and maintains consistency across the platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2865"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "London Meetup: Uniting the npmx Community!",
+  "date": "2026-06-13T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Documentation Alignment Issues",
+      "summary": "Recent discussions and fixes have focused on the alignment of the documentation pages on npmx.dev. Issues were raised regarding the inconsistent alignment of the 'Docs not available' state, leading to a merged PR that aimed to standardize the layout across different states.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2903"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2897"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2894"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx community is actively engaging with its members through meetups and events. A recent post announced an upcoming meet in London, highlighting the project's commitment to fostering connections among users and contributors.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mo6i3gbks22a"
+        }
+      ]
+    }
+  ]
+}

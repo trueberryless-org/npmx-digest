@@ -1,0 +1,55 @@
+{
+  "title": "Strengthening CI/CD: Security Updates Unveiled",
+  "date": "2026-06-14T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Continuous Integration Improvements",
+      "summary": "Recent PRs have focused on enhancing the CI/CD pipeline, including fixing issues with the deploy-canary workflow and implementing Socket Firewall Free to block compromised npm packages. These changes aim to improve security and reliability in package deployment processes.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2909"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2889"
+        }
+      ]
+    },
+    {
+      "title": "Package Comparison Enhancements",
+      "summary": "A new feature has been added to the package comparison view, displaying GitHub fork counts. This addition allows users to better gauge community interest and adoption of packages, enhancing the overall user experience when comparing different packages.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2907"
+        }
+      ]
+    },
+    {
+      "title": "Documentation Updates",
+      "summary": "Recent changes have improved the documentation by adding missing routes for package changelog and timeline pages. This ensures that contributors have clear guidance on navigating the project's structure and enhances the overall documentation quality.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2906"
+        }
+      ]
+    },
+    {
+      "title": "User Experience Issues",
+      "summary": "An issue was reported regarding the URL not updating when navigating to a package from the search results. This can lead to confusion when sharing links, as users may end up on the search page instead of the intended package page.",
+      "relevanceScore": 5,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1210"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "title": "Smooth Sailing: Chart Animations Refined",
+  "date": "2026-06-16T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Chart Animation Fixes",
+      "summary": "A fix was implemented to disable transitions on dots when resizing the zoom range in Downloads charts. This addresses an issue where points and lines behaved inconsistently during animations, improving the overall user experience.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2918"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2916"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Updates",
+      "summary": "Recent pull requests have focused on updating translations for Italian and Japanese, enhancing the user experience for non-English speakers. These updates correct errors and improve terminology, ensuring clarity in the application's interface.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2923"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2902"
+        }
+      ]
+    },
+    {
+      "title": "Documentation Enhancements",
+      "summary": "A recent pull request improved documentation regarding badge color customization, clarifying the correct usage of hex codes in URL parameters. This aims to prevent common mistakes and enhance user understanding of the feature.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2922"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "Recent discussions and talks about the npmx project have highlighted its history, community, and engineering culture. These engagements aim to unite individuals and enhance the JavaScript ecosystem's performance.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/marinaaisa.com/post/3mofvsvb3cc2m"
+        }
+      ]
+    },
+    {
+      "title": "Social Media Presence",
+      "summary": "The npmx project is actively engaging with the community on social media platforms like Bluesky. Posts highlight project updates and personal experiences, fostering a sense of community among users and contributors.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/willow.sh/post/3moge3qhhts2i"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/marinaaisa.com/post/3mofy6x77qk2e"
+        }
+      ]
+    }
+  ]
+}

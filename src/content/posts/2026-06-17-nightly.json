@@ -1,0 +1,18 @@
+{
+  "title": "npm's Evolving Defaults: A New Era",
+  "date": "2026-06-17T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Package Manager Defaults",
+      "summary": "Discussion on how different package managers handle default settings, with a focus on npm's evolving stance. The conversation highlights npm's historical approach and recent changes in version 12 that require developers to approve install scripts, indicating a shift in policy.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/marypcbuk.bsky.social/post/3moixmo6dbs2a"
+        }
+      ]
+    }
+  ]
+}

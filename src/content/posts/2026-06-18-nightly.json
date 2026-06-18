@@ -1,0 +1,29 @@
+{
+  "title": "Download Discrepancies Spark User Confusion",
+  "date": "2026-06-18T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "User Profile and Package Page Inconsistency",
+      "summary": "A bug was reported regarding the discrepancy in the `downloads/week` statistics between user profile pages and individual package pages. This inconsistency affects both current and older packages, leading to confusion among users regarding the actual download counts.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2921"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement and Celebrations",
+      "summary": "The npmx community expressed joy and encouragement through a celebratory post, promoting positivity and engagement among users. This reflects the community's vibrant culture and the importance of fostering a supportive environment for developers and users alike.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mol5uxzi4c22"
+        }
+      ]
+    }
+  ]
+}

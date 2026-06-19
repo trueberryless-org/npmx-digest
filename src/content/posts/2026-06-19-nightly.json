@@ -1,0 +1,75 @@
+{
+  "title": "Building Bonds: npmx Community Unites!",
+  "date": "2026-06-19T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "UI Enhancements",
+      "summary": "Recent pull requests have focused on improving the user interface of the npmx platform. Notable changes include adding visible keyboard shortcut hints to the command palette and stabilizing the file tree scroll position during navigation, enhancing overall user experience and accessibility.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2911"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2288"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx community has been actively engaging through meetups and social media. Positive feedback from attendees highlights the welcoming atmosphere, with gratitude expressed towards hosts and participants, fostering a sense of camaraderie and collaboration within the developer community.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3moobc2x22s2r"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/monkchips.com/post/3monzw45rbk22"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mooba7d4e22r"
+        }
+      ]
+    },
+    {
+      "title": "Event Announcements",
+      "summary": "Upcoming events for npmx have been announced, including live streams and meetups. The community is encouraged to join and participate, with details shared across social media platforms to ensure maximum engagement and attendance.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3monwsxfgzk2b"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3monwsxfc5c2b"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3monwldbln72m"
+        }
+      ]
+    },
+    {
+      "title": "Social Media Interactions",
+      "summary": "Social media interactions have been vibrant, with users sharing their experiences and excitement about npmx events. Posts include countdowns to meetups and acknowledgments of community members, showcasing the active participation and enthusiasm within the npmx ecosystem.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/sylwia.bsky.social/post/3monmjqd5ws22"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/ag-grid.bsky.social/post/3monm7thddc22"
+        }
+      ]
+    }
+  ]
+}

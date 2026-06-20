@@ -1,0 +1,29 @@
+{
+  "title": "Shaping JavaScript's Future: Insights Unveiled",
+  "date": "2026-06-20T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "JavaScript Package Management Insights",
+      "summary": "An enjoyable evening with talented individuals hosted by @sylwia.bsky.social and @willow.sh focused on the future of JavaScript package management. The event fostered insightful conversations that could influence upcoming trends and practices in the field.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/robpalmer.bsky.social/post/3moogiwxkt22a"
+        }
+      ]
+    },
+    {
+      "title": "Streaming Experiences on @stream.place",
+      "summary": "A personal reflection on the first streaming experience by @willow.sh on @stream.place. The post shares thoughts and insights gained from the experience, highlighting the evolving nature of content creation and audience engagement in digital spaces.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/willow.sh/post/3mooqwyfuxk2p"
+        }
+      ]
+    }
+  ]
+}

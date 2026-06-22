@@ -1,0 +1,29 @@
+{
+  "title": "London Meetup: Networking and Night Rides!",
+  "date": "2026-06-22T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "London Meetup Experience",
+      "summary": "A positive reflection on a first-time visit to London, emphasizing a successful meetup organized by @npmx.dev. The post captures the joy of networking and the fun of a late-night cycling tour with fellow developers.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/erus.dev/post/3mougbdvk522n"
+        }
+      ]
+    },
+    {
+      "title": "High Budget Interview",
+      "summary": "A humorous take on a high-budget interview for @npmx.dev, featuring notable figures in the tech community. The post highlights the excitement and anticipation surrounding the interview, showcasing the personalities involved.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/jonkuperman.com/post/3mouvpu2ln22e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Floating UI Vue Upgrade: Embrace the Future!",
+  "date": "2026-06-23T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Dependency Updates",
+      "summary": "PR #2943 updates the @floating-ui/vue dependency to version 2.0.0, which includes significant changes such as dropping support for Vue 2. This update is essential for maintaining compatibility with the latest Vue features and ensuring optimal performance.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2943"
+        }
+      ]
+    },
+    {
+      "title": "Vue Data UI Composables Update",
+      "summary": "Recent updates include the merging of PR #2952, which replaces the custom `useChartTooltipPosition` with the built-in `useTooltipPosition` from vue-data-ui, enhancing code efficiency. This change resolves issue #2950, allowing for cleaner code and improved maintainability.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2952"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2950"
+        }
+      ]
+    },
+    {
+      "title": "Czech Translations Update",
+      "summary": "Merged PR #2946 introduces missing Czech translations, ensuring better localization support for users. This update is crucial for enhancing user experience and accessibility for Czech-speaking audiences, reflecting the project's commitment to inclusivity.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2946"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "A post on Bluesky highlights a positive community interaction, showcasing the importance of social engagement within the developer community. Such interactions foster collaboration and strengthen relationships among developers, contributing to a vibrant ecosystem.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/alexdln.com/post/3moxtr72z3k2y"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Chart Updates: Ensuring Data Consistency!",
+  "date": "2026-06-23T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Embed Chart Improvements",
+      "summary": "The recent merge of PR #2951 addresses discrepancies in the downloads embed version of the chart. Key fixes include correcting the `averageWindow` data and aligning the end date with the main chart. This ensures consistency in data representation across different views.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2951"
+        }
+      ]
+    }
+  ]
+}

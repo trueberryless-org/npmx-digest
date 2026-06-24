@@ -1,0 +1,22 @@
+{
+  "title": "Timeline Chart Upgrade: Clarity in Data Trends",
+  "date": "2026-06-24T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Timeline Chart Enhancements",
+      "summary": "Recent updates to the timeline chart feature include a shift from spline to step-after curve types. This change aims to accurately represent data increments occurring only at release points, enhancing clarity and user understanding of data trends.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2954"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2953"
+        }
+      ]
+    }
+  ]
+}

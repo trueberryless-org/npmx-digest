@@ -1,0 +1,29 @@
+{
+  "title": "Boost OpenAPI-Python: Support with Likes!",
+  "date": "2026-06-24T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "New Package Promotion",
+      "summary": "The openapi-python package is being promoted on npmx.dev, encouraging users to support it with likes. This initiative aims to increase visibility and adoption of the package within the developer community.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/heyapi.dev/post/3mozuodfdlk2z"
+        }
+      ]
+    },
+    {
+      "title": "Event Recap: npmx London",
+      "summary": "A recap of the npmx London event is shared, highlighting experiences and insights from participants. This post serves to engage the community and reflect on the event's impact.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/alexdln.com/post/3mozbn22bec2v"
+        }
+      ]
+    }
+  ]
+}

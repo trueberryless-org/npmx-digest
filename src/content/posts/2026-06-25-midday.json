@@ -1,0 +1,18 @@
+{
+  "title": "Vite's New Transformer Slashes Build Time!",
+  "date": "2026-06-25T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Performance Improvements",
+      "summary": "The recent merge of PR #2956 introduces the Lightning CSS transformer in Vite, enhancing build efficiency. This update reduces build time from 9.16 seconds to 8.57 seconds, marking a 6.4% improvement. Such optimizations are crucial for developers seeking faster build processes.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2956"
+        }
+      ]
+    }
+  ]
+}

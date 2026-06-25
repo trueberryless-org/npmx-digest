@@ -1,0 +1,18 @@
+{
+  "title": "Sisteransi Goes ESM: Performance Boost Ahead!",
+  "date": "2026-06-25T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Sisteransi Transition to ESM",
+      "summary": "The library sisteransi has transitioned to ESM (ECMAScript Module) only, marking a significant update for its users. With 56 million downloads per week, this change is expected to enhance performance and compatibility for developers utilizing this library in their projects.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mp4pmrhfss2j"
+        }
+      ]
+    }
+  ]
+}

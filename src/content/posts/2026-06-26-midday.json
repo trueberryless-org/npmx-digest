@@ -1,0 +1,18 @@
+{
+  "title": "Deno Icon Joins UI for Better Clarity",
+  "date": "2026-06-26T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "UI Enhancements",
+      "summary": "The recent merge of PR #2965 introduces a Deno icon to the engine compatibility table on the package page. This enhancement improves visual representation for users, ensuring that Deno is recognized alongside other runtimes like Node and npm. The change aims to enhance user experience and clarity.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2965"
+        }
+      ]
+    }
+  ]
+}

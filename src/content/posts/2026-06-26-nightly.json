@@ -1,0 +1,62 @@
+{
+  "title": "Simple-Statistics Hits 1 Million Weekly Downloads!",
+  "date": "2026-06-26T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Engagement and Feedback",
+      "summary": "Users are expressing their appreciation for npmx.dev on social media platforms. Positive feedback highlights the platform's value and effectiveness, indicating a growing community of satisfied users who are actively engaging with the service.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/desertthunder.dev/post/3mp7leopb5s2e"
+        }
+      ]
+    },
+    {
+      "title": "Milestones in Package Popularity",
+      "summary": "The package 'simple-statistics' has achieved a significant milestone, reaching 1 million downloads per week. This achievement underscores the package's popularity and the effectiveness of npmx.dev in promoting widely-used libraries.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/macwright.com/post/3mp74m5gkk226"
+        }
+      ]
+    },
+    {
+      "title": "User Interface Enhancements",
+      "summary": "Recent updates include the addition of keyboard shortcut hints to the command palette footer, enhancing user navigation. This feature aims to improve accessibility by displaying shortcuts directly in the UI, making it easier for users to utilize keyboard navigation effectively.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2910"
+        }
+      ]
+    },
+    {
+      "title": "Web Development Community Events",
+      "summary": "The npmx team participated in a unique event hosted by @webengineshackfest.org, fostering discussions about web advancements. The event provided a platform for sharing insights and experiences, further strengthening the community around web development.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mp75vauw322e"
+        }
+      ]
+    },
+    {
+      "title": "Package Comparison Improvements",
+      "summary": "A new feature has been proposed to add repository fork counts to the package comparison view. This addition will provide users with a clearer understanding of community interest and adoption rates for various packages, facilitating better decision-making.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2884"
+        }
+      ]
+    }
+  ]
+}

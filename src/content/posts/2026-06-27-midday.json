@@ -1,0 +1,18 @@
+{
+  "title": "Bluesky Video Player Sees Speedy Upgrade!",
+  "date": "2026-06-27T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Performance Improvements",
+      "summary": "The recent merge of PR #2958 introduces lazy loading for the Bluesky video player, enhancing performance by preventing unnecessary loading of the full HLS player for non-video embeds. This optimization reduces the overall size of the embed chunk, improving load times and user experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2958"
+        }
+      ]
+    }
+  ]
+}

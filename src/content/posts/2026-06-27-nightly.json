@@ -1,0 +1,51 @@
+{
+  "title": "Vue Dependency Boost: Performance Unleashed!",
+  "date": "2026-06-27T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Vue Dependency Update",
+      "summary": "Merged PR #2963 updates the Vue dependency from version 3.5.38 to 3.5.39, addressing several bug fixes and improvements. Key changes include enhancements in hydration, reactivity, and runtime core functionalities. This update aims to improve overall performance and stability of the Vue framework.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2963"
+        }
+      ]
+    },
+    {
+      "title": "Norwegian Translations Added",
+      "summary": "Merged PR #2960 introduces missing Norwegian translations in the application. The update ensures that all keys in 'en.json' are now reflected in 'nb-NO.json', enhancing accessibility for Norwegian users. This change was made after a thorough review and translation process.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2960"
+        }
+      ]
+    },
+    {
+      "title": "File Tree Navigation Bug Fix",
+      "summary": "Closed Issue #2286 addresses a bug where the file tree scroll position resets to the top during navigation. A proposed fix has been submitted to enhance user experience by maintaining the scroll position, thereby improving usability within the package code view.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2286"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement on Bluesky",
+      "summary": "A post on Bluesky highlights the connection between Knip and npmx.dev, showcasing community engagement and support for the platform. The mention by @trueberryless.org emphasizes collaborative efforts and innovative ideas within the developer community.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/trueberryless.org/post/3mpbjrvlt2s2u"
+        }
+      ]
+    }
+  ]
+}

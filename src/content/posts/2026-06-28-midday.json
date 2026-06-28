@@ -1,0 +1,62 @@
+{
+  "title": "Commit Clarity Enhanced with New Scope!",
+  "date": "2026-06-28T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Sponsorship Improvements",
+      "summary": "Improvements to the sponsorship structure were implemented, introducing tiers for sponsors. This includes a new Gold Sponsor category and enhancements to the visibility of sponsors on various pages, aiming to attract more support for the project.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2966"
+        }
+      ]
+    },
+    {
+      "title": "Workflow Optimization",
+      "summary": "A recent pull request merged to make autofix workflow steps run in parallel enhances efficiency in GitHub actions. This change utilizes GitHub's new parallel feature, reducing execution time for independent steps in the autofix process.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2971"
+        }
+      ]
+    },
+    {
+      "title": "Sponsorship Tiers Discussion",
+      "summary": "A discussion on introducing sponsorship tiers was initiated, allowing companies to support the project at different levels. This includes a proposal for a Gold Sponsor tier and changes to how sponsors are displayed across the project.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2962"
+        }
+      ]
+    },
+    {
+      "title": "Commit Scope Enhancements",
+      "summary": "The addition of `ci` as a valid commit scope was proposed to improve clarity in commit messages. This change aims to help developers categorize their commits more effectively, especially when dealing with workflow changes in GitHub actions.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2972"
+        }
+      ]
+    },
+    {
+      "title": "URL Updates",
+      "summary": "A minor update was made to correct a URL in the project repository. This change ensures that links point to the correct resources, maintaining the integrity of the documentation and references within the project.",
+      "relevanceScore": 5,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2970"
+        }
+      ]
+    }
+  ]
+}

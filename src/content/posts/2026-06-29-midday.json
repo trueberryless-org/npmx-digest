@@ -1,0 +1,33 @@
+{
+  "title": "npmx Enhancements: Bug Fixes Galore!",
+  "date": "2026-06-29T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Bug Fixes and Improvements",
+      "summary": "Recent pull requests have focused on fixing bugs and improving functionality within the npmx project. Notable fixes include deduplication of the 'provenance' ID and ensuring query options are passed correctly in the Nuxt configuration. These changes aim to enhance the overall user experience.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2976"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2975"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Updates",
+      "summary": "The project is actively maintaining its dependencies, as evidenced by the recent update of the 'eslint-plugin-regexp' to version 3.1.1. Keeping dependencies up to date is crucial for security and performance, ensuring that the codebase remains robust and compliant with best practices.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2974"
+        }
+      ]
+    }
+  ]
+}

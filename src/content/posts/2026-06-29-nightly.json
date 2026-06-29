@@ -1,0 +1,40 @@
+{
+  "title": "Noodle Pages Credibility Boost with Wikipedia!",
+  "date": "2026-06-29T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Content Enhancement",
+      "summary": "Recent updates include the addition of Wikipedia references to various noodle-related pages, enhancing the credibility and information available. This change addresses gaps in references, particularly for significant LGBTQ+ events, ensuring users have access to reliable sources.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2977"
+        }
+      ]
+    },
+    {
+      "title": "New Release Announcement",
+      "summary": "A new release titled 'rainbow-comet' has been announced, showcasing a collection of exciting updates and news. This release aims to keep the community informed and engaged with the latest developments within the npmx ecosystem.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2969"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "A user on Bluesky has shared thoughts on potential new features for npmx.dev, indicating ongoing community involvement and feedback. This engagement is crucial for the platform's evolution and responsiveness to user needs.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mpgzk56sus23"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Dutch Translations Revamped for Clarity!",
+  "date": "2026-06-30T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Dutch Translation Improvements",
+      "summary": "Recent updates to the Dutch translations in the project address various inaccuracies and inconsistencies. Key changes include correcting mistranslations, aligning formal pronoun usage, and ensuring clarity in terminology. The review process involved thorough testing to enhance user experience for Dutch-speaking users.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2957"
+        }
+      ]
+    }
+  ]
+}

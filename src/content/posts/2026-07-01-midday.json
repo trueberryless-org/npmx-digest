@@ -1,0 +1,94 @@
+{
+  "title": "Changelog Glitches Hinder User Experience",
+  "date": "2026-07-01T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Changelog Display Issues",
+      "summary": "Multiple issues have been reported regarding the changelog display, including missing tabs when navigating between sections, and incorrect rendering of changelog content. These bugs affect user experience and accessibility of changelogs for various packages.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2908"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2876"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2869"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2861"
+        }
+      ]
+    },
+    {
+      "title": "Bug Fixes and Resolutions",
+      "summary": "Several issues have been closed, indicating successful resolutions to bugs affecting the changelog functionality. These fixes contribute to a more stable and user-friendly experience on the platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2908"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2876"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2869"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2861"
+        }
+      ]
+    },
+    {
+      "title": "Markdown Rendering Improvements",
+      "summary": "Recent updates have focused on improving markdown rendering for changelogs and readme files. Issues related to incorrect header rendering and encoding problems have been addressed, enhancing the overall presentation of changelog content.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2869"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2861"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2717"
+        }
+      ]
+    },
+    {
+      "title": "Feature Enhancements",
+      "summary": "A recent pull request has introduced a shared markdown renderer for both changelogs and readme files, streamlining the codebase and improving consistency. This enhancement aims to reduce redundancy and improve maintainability of the documentation.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2717"
+        }
+      ]
+    },
+    {
+      "title": "Translation Updates",
+      "summary": "The addition of missing French translations has been implemented to improve accessibility for French-speaking users. This update is part of ongoing efforts to enhance the internationalization of the platform.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2947"
+        }
+      ]
+    }
+  ]
+}

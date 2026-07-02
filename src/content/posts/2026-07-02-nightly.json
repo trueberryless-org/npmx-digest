@@ -1,0 +1,51 @@
+{
+  "title": "RubyGems Redesign Mirrors npmx's Style!",
+  "date": "2026-07-02T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Introduction of Sponsors Page",
+      "summary": "A new feature has been introduced with the creation of a dedicated sponsors page on npmx. This page serves as a valuable resource for current and potential sponsors, providing them with essential information in an accessible format.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2967"
+        }
+      ]
+    },
+    {
+      "title": "Updates to npmx Articles",
+      "summary": "Recent updates to the npmx articles include a change in the publish date for the rainbow-comet post. This ensures that the content remains relevant and accurately reflects the latest information for users.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2985"
+        }
+      ]
+    },
+    {
+      "title": "Data Migration for European Users",
+      "summary": "A call to action for European users to migrate their data to eurosky.social has been made. This initiative aims to enhance data management and accessibility for users within Europe, promoting a more localized experience.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.cat/post/3mpohhea6xs2p"
+        }
+      ]
+    },
+    {
+      "title": "New RubyGems Design Feedback",
+      "summary": "Feedback on the new RubyGems design has surfaced, with users noting its resemblance to npmx's design. This highlights the ongoing evolution of design standards within the developer community and the influence of npmx's aesthetic.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/mackuba.eu/post/3mpob2fy2ms2b"
+        }
+      ]
+    }
+  ]
+}

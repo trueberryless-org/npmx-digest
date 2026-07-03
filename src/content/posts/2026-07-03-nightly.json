@@ -1,0 +1,55 @@
+{
+  "title": "Explore Enhanced Features on npmx.dev!",
+  "date": "2026-07-03T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Version Releases",
+      "summary": "The recent release of npmx version 0.16.1 introduces several updates, including minor improvements to the rainbow-comet feature. This release is deployed to production and tagged accordingly, ensuring users have access to the latest features and fixes.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2989"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mpqqdkkvuc2p"
+        }
+      ]
+    },
+    {
+      "title": "Module Updates",
+      "summary": "The module replacements have been updated to stable version 3.0.0, moving away from the beta release. This change is significant for maintaining compatibility and stability within the npmx ecosystem, ensuring that users benefit from the latest stable features.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2987"
+        }
+      ]
+    },
+    {
+      "title": "New Features and Enhancements",
+      "summary": "New features for npmx have been launched, including dedicated pages for each creation on npmx.dev. This enhancement aims to improve user experience by providing more information and accessibility to the platform's offerings.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/lopeadebesin.bsky.social/post/3mpqunjmgnk2x"
+        }
+      ]
+    },
+    {
+      "title": "URL Equivalence with npmjs",
+      "summary": "A new feature has been implemented to ensure URL equivalence with npmjs, allowing users to access version URLs seamlessly. This improvement enhances the integration between npmx and npmjs, making it easier for users to navigate and find relevant information.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/johnnyreilly.com/post/3mpr2kfvt3s2f"
+        }
+      ]
+    }
+  ]
+}

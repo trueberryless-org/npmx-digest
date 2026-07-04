@@ -1,0 +1,18 @@
+{
+  "title": "Site Sync Issues Resolved for Smooth Updates",
+  "date": "2026-07-04T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Site Synchronization Fixes",
+      "summary": "A recent merge (PR #2994) addressed an issue with the standard site synchronization process. The problem arose after a previous update (#1879) that affected blog post avatars, leading to failures in syncing due to outdated schema validation. This fix ensures continued functionality for future posts.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2994"
+        }
+      ]
+    }
+  ]
+}

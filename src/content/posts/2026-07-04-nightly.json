@@ -1,0 +1,18 @@
+{
+  "title": "Command Line Packages: Performance Showdown Unveiled!",
+  "date": "2026-07-04T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Performance Comparisons of CLI Packages",
+      "summary": "A discussion on the performance of various command line parsers, particularly focusing on the 'commander' package and its flagged alternatives. The analysis includes measurements of package size and execution time, raising questions about the criteria for labeling alternatives as more performant.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2995"
+        }
+      ]
+    }
+  ]
+}

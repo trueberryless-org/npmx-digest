@@ -1,0 +1,40 @@
+{
+  "title": "Revolutionize Your Repos with AgentScan!",
+  "date": "2026-07-05T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Dependency Size Visualization",
+      "summary": "The recent merge of PR #2979 introduces a new chart to visualize segmented dependency sizes in the timeline, enhancing the overall package size display. This feature aims to provide users with a clearer understanding of their project's dependencies and their respective sizes.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2979"
+        }
+      ]
+    },
+    {
+      "title": "Package Size History Feature",
+      "summary": "The closure of Issue #1005 highlights the development of a package size history chart, similar to Bundlephobia. This feature will utilize cached data to display historical package sizes, enhancing user experience by providing insights into package size changes over time.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1005"
+        }
+      ]
+    },
+    {
+      "title": "AgentScan GitHub App Launch",
+      "summary": "A new GitHub app for AgentScan has been launched, allowing users to easily manage their repositories and maintain automation. This tool aims to streamline project management for developers who want to keep automation enthusiasts engaged without overwhelming their projects.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/matteogabriele.bsky.social/post/3mpvepamyus22"
+        }
+      ]
+    }
+  ]
+}

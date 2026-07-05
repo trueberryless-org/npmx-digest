@@ -1,0 +1,56 @@
+{
+  "title": "Streamlined Toolchain Boosts Build Efficiency",
+  "date": "2026-07-05T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Dependency Updates",
+      "summary": "Multiple pull requests were merged to update various dependencies, including Playwright, connector CLI, and atproto-related dependencies. These updates aim to keep the project current and avoid issues with Renovate. Notably, the fast-npm-meta dependency was also updated to version 2.1.0.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3006"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3005"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3004"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2944"
+        }
+      ]
+    },
+    {
+      "title": "Chart Improvements",
+      "summary": "A pull request was merged to fix excess white space in PNG prints of XY charts, enhancing the visual output. This was achieved by updating the vue-data-ui library, which now captures the print size accurately without the zoom range component.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3003"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/3002"
+        }
+      ]
+    },
+    {
+      "title": "Toolchain Updates",
+      "summary": "The project has updated its toolchain by bumping vite-plus to version 0.2.2. This change allows the CLI build process to run more efficiently, transitioning from a separate setup to a streamlined process using vp pack, which enhances overall performance.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2990"
+        }
+      ]
+    }
+  ]
+}

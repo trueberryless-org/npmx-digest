@@ -1,0 +1,29 @@
+{
+  "title": "User Shoutout Boosts npmx Social Scene!",
+  "date": "2026-07-07T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Documentation Improvements",
+      "summary": "A closed issue on GitHub discusses the wording used in the npmx.dev commander page regarding alternatives to certain packages. The suggestion is to modify the phrasing to avoid implying that alternatives are objectively better, emphasizing the subjective nature of recommendations instead.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2999"
+        }
+      ]
+    },
+    {
+      "title": "Social Media Presence",
+      "summary": "A user has announced their presence on npmx.social, indicating the platform's growing community and engagement. This highlights the expansion of npmx's social media outreach and the importance of user interaction within the ecosystem.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/atinux.com/post/3mq2aew4pw22i"
+        }
+      ]
+    }
+  ]
+}

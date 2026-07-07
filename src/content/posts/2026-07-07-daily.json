@@ -1,0 +1,33 @@
+{
+  "title": "Navigation Made Easy: UI Update Shines!",
+  "date": "2026-07-07T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Nub Package Manager Integration",
+      "summary": "The integration of the nub package manager into npmx allows users to select it alongside existing options like npm and yarn. This feature enhances the toolkit's versatility, providing users with faster command execution and workspace support, thus improving overall performance.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3014"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/3013"
+        }
+      ]
+    },
+    {
+      "title": "User Interface Enhancements",
+      "summary": "Recent updates have improved the user interface by ensuring that the active file in the code file tree remains visible when selected. This enhancement streamlines navigation and improves user experience by centering the selected file in the view.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/1977"
+        }
+      ]
+    }
+  ]
+}

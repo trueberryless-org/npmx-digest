@@ -1,0 +1,29 @@
+{
+  "title": "Provenance Section Revamp Enhances Clarity!",
+  "date": "2026-07-07T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "UI Improvements",
+      "summary": "The recent merge of PR #3017 addresses a UI issue in the provenance section, enhancing the layout and readability. This change is crucial for improving user experience and ensuring that information is presented clearly. Visual adjustments were made to optimize the section's appearance.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3017"
+        }
+      ]
+    },
+    {
+      "title": "Community Feedback",
+      "summary": "A post on Bluesky highlights a sentiment of frustration towards GitHub, suggesting that community members are experiencing issues with the platform. This reflects ongoing discussions about user experience and the need for improvements in GitHub's functionality and communication.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/graphieros.npmx.social/post/3mq36paavvk2r"
+        }
+      ]
+    }
+  ]
+}

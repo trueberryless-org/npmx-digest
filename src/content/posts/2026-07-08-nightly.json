@@ -1,0 +1,59 @@
+{
+  "title": "Bluesky Community Sparks Joyful Interactions!",
+  "date": "2026-07-08T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Package Management Improvements",
+      "summary": "Recent updates focus on enhancing the package code browser by highlighting files that are often included unnecessarily in published packages. This aims to reduce package bloat and improve clarity for developers regarding which files should be excluded from releases.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2714"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2582"
+        }
+      ]
+    },
+    {
+      "title": "Module Federation Optimization",
+      "summary": "A collaboration with core maintainers at @sanity.io has led to significant optimizations in the Module Federation Vite plugin, reducing its dependency footprint from 72 to 18. This showcases the benefits of teamwork in improving software efficiency.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/stav.dev/post/3mq5xmkgjrs2b"
+        }
+      ]
+    },
+    {
+      "title": "Trusted Verifiers on Bluesky",
+      "summary": "Bluesky has introduced a special checkmark for trusted verifiers, enhancing the credibility of accounts like @eurosky.social and @stewardshiplab.org. This feature aims to improve trust and verification within the platform's community.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mq6354manc2b"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement on Bluesky",
+      "summary": "Engagement within the Bluesky community is evident through various posts, including light-hearted interactions and reposts. This reflects the vibrant and interactive nature of the platform, fostering connections among users.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mq5zyfkkqc2v"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/graphieros.npmx.social/post/3mq5k5fwdpk2t"
+        }
+      ]
+    }
+  ]
+}

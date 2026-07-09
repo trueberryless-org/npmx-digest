@@ -1,0 +1,18 @@
+{
+  "title": "Japanese Translations Revamped for Better Engagement",
+  "date": "2026-07-09T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Internationalization Updates",
+      "summary": "The recent merge of PR #3020 focuses on updating Japanese translations related to sponsorship on the npmx platform. This enhancement aims to improve accessibility for Japanese-speaking users, ensuring they can fully engage with the new sponsor page and its features.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3020"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "npmx Community: A Hub of Positivity!",
+  "date": "2026-07-10T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Library Success Stories",
+      "summary": "A developer celebrated a significant milestone with one of their libraries achieving over 3 million downloads per month on NPM. This highlights the growing popularity and impact of certain libraries within the developer community.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/dmythro.bsky.social/post/3mqaupx26ts2c"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx community is actively engaging with its members through various posts and meetups. A notable event is the upcoming Vienna meetup, which promises to be the largest yet, fostering connections among developers and enthusiasts.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/felixs.dev/post/3mqbk26tnn22x"
+        }
+      ]
+    },
+    {
+      "title": "Platform Announcements",
+      "summary": "Recent announcements highlight the launch of npmx.social, a new platform for developers. This initiative aims to enhance community interaction and provide a dedicated space for sharing resources and updates.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/esm.dev/post/3mqbqkvlyg227"
+        }
+      ]
+    },
+    {
+      "title": "Documentation Updates",
+      "summary": "Updates to the varlock documentation have been made, ensuring that all package links and readmes now direct to npmx.dev. This change aims to streamline access to important resources for developers.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/theozero.bsky.social/post/3mqaobmywks2q"
+        }
+      ]
+    },
+    {
+      "title": "Community Sentiment",
+      "summary": "Expressions of positivity and support are prevalent within the npmx community, as seen in various posts. These sentiments contribute to a welcoming atmosphere, encouraging more developers to participate and share their experiences.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqbkb7ahrc2b"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqbiql3itk2b"
+        }
+      ]
+    }
+  ]
+}

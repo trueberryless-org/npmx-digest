@@ -1,0 +1,18 @@
+{
+  "title": "Bengali Translations Enhanced for Global Reach!",
+  "date": "2026-07-11T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Internationalization Improvements",
+      "summary": "This event highlights the merging of a pull request that adds missing Bengali translations for various keys in the project. The contributor, a native Bengali speaker, focused on filling gaps without addressing existing translation quality issues. The changes ensure that the translation checks report no missing keys.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3026"
+        }
+      ]
+    }
+  ]
+}

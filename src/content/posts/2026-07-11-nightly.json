@@ -1,0 +1,22 @@
+{
+  "title": "UI Refresh: Interactive Controls Just Got Better!",
+  "date": "2026-07-11T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "UI Enhancements",
+      "summary": "Recent updates have improved the user interface by adding pointer cursors to interactive controls, specifically the Card and Table view toggle buttons. This change enhances consistency across the application, ensuring that users receive appropriate feedback when interacting with these elements.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3028"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/3025"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Milestones Shine at LocalFirst Conference!",
+  "date": "2026-07-12T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Engagement in Technology",
+      "summary": "Recent discussions at localfirstconf.com highlight the importance of community in technology development. Talks by @willow.sh and @patak.cat emphasize how community-driven initiatives can enhance user experience and foster collaboration within the npm ecosystem.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/fubits.dev/post/3mqh4lu5qrc2u"
+        }
+      ]
+    },
+    {
+      "title": "npmx: A Community-Built Browser",
+      "summary": "The talk by @willow.sh and @patak.cat at localfirstconf.com introduced 'npmx', a fast community-built browser for the npm registry. This initiative aims to streamline access to npm packages, showcasing the potential of community contributions in software development.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/localfirstconf.com/post/3mqh3z3mimk2u"
+        }
+      ]
+    },
+    {
+      "title": "Celebrating Community Milestones",
+      "summary": "The localfirstconf.com event not only focused on technology but also celebrated personal milestones, such as Willow's birthday. This blend of professional and personal recognition fosters a sense of belonging and community spirit among attendees.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/localfirstconf.com/post/3mqh3z3mimk2u"
+        }
+      ]
+    }
+  ]
+}

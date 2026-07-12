@@ -1,0 +1,62 @@
+{
+  "title": "Berlin Meetup: Unite, Collaborate, Innovate!",
+  "date": "2026-07-12T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx community continues to thrive, with posts emphasizing the importance of community involvement. Recent interactions highlight the collaborative spirit and shared experiences among members, fostering a supportive environment for developers.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqh6p27b7c2j"
+        }
+      ]
+    },
+    {
+      "title": "Celebrating Community Members",
+      "summary": "A heartfelt birthday message was shared for a community member, Willow, recognizing their contributions and involvement with npmx. This reflects the community's appreciation for individual members and their impact on the group.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqgv77nvg22e"
+        }
+      ]
+    },
+    {
+      "title": "Code Viewer Enhancements",
+      "summary": "A recent pull request merged into the npmx project addresses an issue where the diff viewer did not respect the ligature settings. This change ensures that ligatures are applied correctly in the diff viewer, enhancing the user experience for code comparison.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3034"
+        }
+      ]
+    },
+    {
+      "title": "Upcoming Community Events",
+      "summary": "An announcement was made regarding a meetup in Berlin involving npmx, Svelte, and Atmosphere communities. This event aims to strengthen connections and collaboration among developers, showcasing the active engagement within the tech community.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/localfirstconf.com/post/3mqgok3zguk23"
+        }
+      ]
+    },
+    {
+      "title": "Bug Report Closure",
+      "summary": "An issue regarding the ligature settings not being respected in the diff viewer has been closed. This issue highlighted a significant bug affecting user experience, which has now been resolved through the recent code enhancements.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2754"
+        }
+      ]
+    }
+  ]
+}

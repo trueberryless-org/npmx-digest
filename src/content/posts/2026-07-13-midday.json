@@ -1,0 +1,51 @@
+{
+  "title": "Layout Flaw Fixed: UI Enhances Readability!",
+  "date": "2026-07-13T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "UI Improvements",
+      "summary": "Merged PR #3033 addresses a layout issue in the peer dependency section, preventing text overlap and improving readability. The changes allow long package names to wrap and maintain the integrity of the layout without significant structural changes.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3033"
+        }
+      ]
+    },
+    {
+      "title": "Bug Fixes",
+      "summary": "Closed Issue #2886 highlights a bug related to text overlap in the package dependencies sidebar. The issue has been resolved, improving the user experience by ensuring that package names and badges are displayed correctly without overlap.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2886"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "A repost from @fubits.dev promotes a crossover meetup for Svelte enthusiasts at localfirstconf.com, encouraging participation from the community and highlighting collaboration with @npmx.dev.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/fubits.dev/post/3mqjghrq2722i"
+        }
+      ]
+    },
+    {
+      "title": "User Migration",
+      "summary": "A repost from @jonaskruckenberg.de announces their migration to the @npmx.dev platform, indicating user engagement and growth within the community. This reflects a positive trend in user adoption of the platform.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/jonaskruckenberg.de/post/3mqizhdy6ps2z"
+        }
+      ]
+    }
+  ]
+}

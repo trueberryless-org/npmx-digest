@@ -1,0 +1,18 @@
+{
+  "title": "CI Workflow Boost: Streamlined for Efficiency!",
+  "date": "2026-07-13T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "CI Workflow Optimization",
+      "summary": "The merged PR #2896 addresses issues with the CI workflow on the main branch, specifically the cancellation of the `enforce-release-source` action due to rapid commit additions. By removing the `edited` type trigger, the PR aims to streamline the process and prevent concurrent workflow runs from being cancelled.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2896"
+        }
+      ]
+    }
+  ]
+}

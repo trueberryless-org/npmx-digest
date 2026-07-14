@@ -1,0 +1,18 @@
+{
+  "title": "Celebrate World Emoji Day with Interactive Noodles!",
+  "date": "2026-07-14T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "World Emoji Day Feature",
+      "summary": "A new interactive noodle feature has been added to celebrate World Emoji Day on July 17. This animated noodle, designed by @trueberryless, enhances user engagement with emojis that react to pointer movements. The feature will be available from July 17-19, similar to previous event noodles.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3038"
+        }
+      ]
+    }
+  ]
+}

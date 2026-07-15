@@ -1,0 +1,78 @@
+{
+  "title": "Tech Talks: Discover atproto and Svelte!",
+  "date": "2026-07-15T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Meetup Highlights",
+      "summary": "The atproto x npmx x svelte meetup in Berlin showcased various presentations and discussions. Attendees enjoyed networking, learning about atproto, and sharing experiences. The event featured live presentations and was well-received by both in-person and virtual participants.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqpcsmdyo22b"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqpf4sghe225"
+        }
+      ]
+    },
+    {
+      "title": "Technical Presentations",
+      "summary": "Presentations at the meetup included discussions on the benefits of atproto and Svelte. Speakers shared insights on web development and the integration of new technologies, fostering a learning environment for attendees.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqpcsmii7s2b"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqpcsrh7d22b"
+        }
+      ]
+    },
+    {
+      "title": "New Features and Updates",
+      "summary": "A new timeline chart feature was introduced on the npmx platform, providing insights into install size changes across versions. This feature enhances user understanding of package dependencies and their impact on the overall project.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mqp2pef2e22p"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Improvements",
+      "summary": "Recent pull requests focused on enhancing internationalization for the npmx platform. This includes fixing Spanish translations and making tooltip descriptions more explicit. These updates aim to improve user experience and accessibility for non-English speakers.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3046"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3040"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "Community members expressed gratitude for the collaborative efforts during the meetup. Various contributors were acknowledged for their participation and support, highlighting the importance of community in driving the npmx project forward.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqpcsuvjls2b"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqpcsqiros2b"
+        }
+      ]
+    }
+  ]
+}

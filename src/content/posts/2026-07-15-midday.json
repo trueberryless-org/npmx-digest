@@ -1,0 +1,74 @@
+{
+  "title": "Stream Live: Join the Action Anywhere!",
+  "date": "2026-07-15T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Release of Version 0.17.0",
+      "summary": "The release of version 0.17.0 includes numerous features and fixes, such as the addition of color-bridge data anomalies and improvements to the user interface. This update aims to enhance user experience and functionality on the npmx.dev platform.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2992"
+        }
+      ]
+    },
+    {
+      "title": "Community Events in Berlin",
+      "summary": "A series of community events are taking place in Berlin, organized by local contributors. The schedule includes socializing, talks, and opportunities for collaboration, fostering a vibrant community atmosphere. Participants are encouraged to join and engage with others in the tech space.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqolh75cyc2r"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.cat/post/3mqmkdwg2d223"
+        }
+      ]
+    },
+    {
+      "title": "Documentation Updates",
+      "summary": "Recent updates to the documentation include the merging of PR #3043, which updates the star history in the README. This change addresses the need for accurate representation following GitHub's API restrictions. The linked issue #3042 highlights the necessity of these updates for transparency.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3043"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/3042"
+        }
+      ]
+    },
+    {
+      "title": "Live Streaming and Video Content",
+      "summary": "The community events will also be accessible via live streaming and recorded content on platforms like YouTube. This allows broader participation and engagement, ensuring that those unable to attend in person can still benefit from the discussions and presentations.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqolh7ay6c2r"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqolh75gvc2r"
+        }
+      ]
+    },
+    {
+      "title": "Download Anomalies Correction",
+      "summary": "Merged PR #3041 addresses a significant spike in downloads for the color-bridge package, correcting historical data anomalies. This ensures accurate download statistics and maintains the integrity of the data presented to users.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3041"
+        }
+      ]
+    }
+  ]
+}

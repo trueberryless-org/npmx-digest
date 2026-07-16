@@ -1,0 +1,56 @@
+{
+  "title": "npmx Community Sparks Engagement and Connection",
+  "date": "2026-07-16T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Community Engagement",
+      "summary": "The @npmx.dev community is actively engaging with members and attendees at various events, showcasing a strong sense of camaraderie and collaboration. Participants express their appreciation for the community and the connections made during meetups and conferences.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/jensroemer.com/post/3mqrzwzq5gk2a"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/tkdodo.eu/post/3mqryb5mn5k22"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/kandake.africa/post/3mqrh5xvqvs2c"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/fubits.dev/post/3mqr2ahnppk25"
+        }
+      ]
+    },
+    {
+      "title": "Meetups and Conferences",
+      "summary": "Recent meetups and conferences, such as @localfirstconf.com, have provided opportunities for networking and collaboration among developers. Participants share their experiences and highlight the importance of these gatherings in fostering community spirit and innovation.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/jensroemer.com/post/3mqrzwzq5gk2a"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/tkdodo.eu/post/3mqryb5mn5k22"
+        }
+      ]
+    },
+    {
+      "title": "Personal Connections",
+      "summary": "Participants express their admiration for fellow developers and the personal connections formed during events. The joy of meeting idols and influential figures in the tech community is a recurring theme, emphasizing the human aspect of technology.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/fubits.dev/post/3mqr2ahnppk25"
+        }
+      ]
+    }
+  ]
+}

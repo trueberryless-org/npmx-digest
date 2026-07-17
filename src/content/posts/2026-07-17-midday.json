@@ -1,0 +1,77 @@
+{
+  "title": "Unlock Svelte CLI Add-ons Effortlessly",
+  "date": "2026-07-17T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Community Engagement and Events",
+      "summary": "Recent posts highlight community activities around npmx.dev, including a reveal of contributors at a community day in Berlin and an invitation to join the npmx guild for future events, fostering collaboration and engagement.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/fubits.dev/post/3mqtmusha5k27"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqtsiluxuk2h"
+        }
+      ]
+    },
+    {
+      "title": "Svelte CLI Add-ons Discovery",
+      "summary": "A post discusses using npmx.dev to discover community add-ons for the Svelte CLI, enhancing the development experience. This feature allows users to easily find and integrate various tools into their projects.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/fubits.dev/post/3mqtdqylsdc2b"
+        }
+      ]
+    },
+    {
+      "title": "Emoji Day Logo Improvements",
+      "summary": "Merged PR #3055 enhances the World Emoji Day logo's accessibility and interaction on mobile platforms. It introduces styles to prevent pointer events from being misinterpreted and adds necessary accessibility roles and labels, improving user experience significantly.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3055"
+        }
+      ]
+    },
+    {
+      "title": "Version Release v0.17.1",
+      "summary": "Merged PR #3048 announces the release of version v0.17.1 for npmx.dev. This update includes fixes for the Emoji Day logo styles, Spanish translations, and tooltip descriptions, along with deployment to production and publishing to npm.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3048"
+        }
+      ]
+    },
+    {
+      "title": "Module Federation Buzz",
+      "summary": "A repost highlights excitement around Module Federation in the Vite community, indicating growing interest and potential developments in module sharing and collaboration within JavaScript frameworks.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/gioboa.bsky.social/post/3mqtuvl636s2u"
+        }
+      ]
+    },
+    {
+      "title": "Magic-String Optimization",
+      "summary": "A post notes significant size reduction in the magic-string library, showcasing ongoing optimizations in JavaScript tooling that can enhance performance and efficiency for developers.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/antleth.fr/post/3mqrnpqpnvk2q"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "npmx.dev Gains Momentum in Developer Praise",
+  "date": "2026-07-17T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Code Contributions",
+      "summary": "Merged PR #3050 introduces additional patterns for identifying unnecessary files published to npm. This enhancement aims to improve the overall quality and efficiency of package management by reducing clutter in published packages.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3050"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement",
+      "summary": "The npmx.dev profile received positive shoutouts from various users on Bluesky, showcasing community support and appreciation. These interactions highlight the growing recognition and trust in the npmx.dev platform within the developer community.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mqungvgewk2v"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/chatto.run/post/3mqun3pfdwk2b"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/patak.cat/post/3mqu6prcufs2w"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/robin.berjon.com/post/3mqtyyz34sc2e"
+        }
+      ]
+    }
+  ]
+}

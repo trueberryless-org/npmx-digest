@@ -1,0 +1,29 @@
+{
+  "title": "Boosting Community Growth with New Sponsors",
+  "date": "2026-07-19T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Translation Updates",
+      "summary": "Merged PR #3059 addresses incomplete Nepali translations in the npmx project. The update enhances user experience for Nepali speakers by filling in missing translations and refining existing strings. This effort ensures that the UI is more accessible and user-friendly for the Nepali community.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3059"
+        }
+      ]
+    },
+    {
+      "title": "Community Sponsorships",
+      "summary": "A recent post on Bluesky highlights new individual sponsors for the @e18e.dev community. The message expresses gratitude for the support and emphasizes the challenges of securing sponsorships for community-driven projects compared to popular applications. Every contribution is appreciated to enhance performance for all users.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mqyusjexj22m"
+        }
+      ]
+    }
+  ]
+}

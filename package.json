@@ -11,7 +11,7 @@
     "daily",
     "nightly"
   ],
-  "homepage": "https://npmx-digest.trueberryless.org",
+  "homepage": "https://npmx-digest.netlify.app/",
   "bugs": {
     "url": "https://github.com/trueberryless-org/npmx-digest/issues"
   },
@@ -20,7 +20,7 @@
     "url": "https://github.com/trueberryless-org/npmx-digest.git"
   },
   "license": "MIT",
-  "author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
+  "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
   "type": "module",
   "scripts": {
     "astro": "astro",

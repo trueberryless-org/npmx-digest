@@ -1,0 +1,40 @@
+{
+  "title": "PNPM Upgrade Fixes Memory Glitches",
+  "date": "2026-07-19T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "PNPM Upgrade",
+      "summary": "The project has upgraded to pnpm version 11.15.0 to address memory issues that arose after the previous version. This upgrade is expected to resolve the memory usage problems that caused Renovate to stop functioning effectively.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3060"
+        }
+      ]
+    },
+    {
+      "title": "Timeline Chart Improvements",
+      "summary": "A new feature has been implemented to persist the selected timeline metric in the URL for better user experience. This update also resolves issues related to chart loading and visibility, enhancing the overall functionality of the timeline page.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3051"
+        }
+      ]
+    },
+    {
+      "title": "Feature Request for URL State Storage",
+      "summary": "An issue has been closed that proposed storing the selected tab state of the timeline page in the URL instead of just the current session. This feature aims to improve user navigation and experience on the timeline page.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/3049"
+        }
+      ]
+    }
+  ]
+}

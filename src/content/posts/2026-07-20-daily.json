@@ -1,0 +1,18 @@
+{
+  "title": "Streamlining Dependencies: Embracing a New Era",
+  "date": "2026-07-20T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Refactoring Dependencies",
+      "summary": "The recent merge of PR #3061 focuses on refactoring the npmx application by replacing the `semver` package with `verkit`. This change aims to enhance the project's compatibility with ESM while maintaining existing functionalities related to version operations.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3061"
+        }
+      ]
+    }
+  ]
+}

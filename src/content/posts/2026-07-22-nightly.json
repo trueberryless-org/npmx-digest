@@ -1,0 +1,29 @@
+{
+  "title": "Shorthand Git URLs: Seamless Package Access!",
+  "date": "2026-07-22T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Git Provider URL Support",
+      "summary": "The recent merge of PR #3068 introduces support for shorthand git provider URLs, resolving issues that affected package accessibility on npmx.dev. This enhancement ensures that users can access packages seamlessly, improving overall user experience and functionality.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3068"
+        }
+      ]
+    },
+    {
+      "title": "User Engagement on Bluesky",
+      "summary": "A repost from @fubits.dev highlights user engagement with npmx.dev, showcasing interest in package statistics. This reflects the community's active involvement and curiosity about npmx's offerings, indicating a growing user base and potential for further interaction.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/fubits.dev/post/3mrauuv633c2t"
+        }
+      ]
+    }
+  ]
+}

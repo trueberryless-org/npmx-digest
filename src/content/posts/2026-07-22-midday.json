@@ -1,0 +1,93 @@
+{
+  "title": "Global Reach: npmx Enhances Language Support",
+  "date": "2026-07-22T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "User Experience and Interface Updates",
+      "summary": "Several PRs have been merged to enhance user experience on the npmx platform. Notable changes include adding direct links to sponsorship tiers and a 'create new account' button on the PDS page, streamlining user interactions and improving accessibility.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3036"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3022"
+        }
+      ]
+    },
+    {
+      "title": "Accessibility Improvements",
+      "summary": "Efforts to enhance accessibility have led to increased contrast for text and interactive elements, addressing previous concerns about visibility. These changes aim to meet WCAG standards and improve the overall user experience for individuals with visual impairments.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2621"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/1510"
+        }
+      ]
+    },
+    {
+      "title": "Internationalization Improvements",
+      "summary": "Recent updates have focused on enhancing the internationalization of the npmx platform. A merged PR added a missing translation key for the 'noodles 404' page, addressing issues where non-translated strings appeared across various locales. This ensures a more user-friendly experience for non-English speakers.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3065"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/3064"
+        }
+      ]
+    },
+    {
+      "title": "Hydration and Performance Fixes",
+      "summary": "Recent merges have addressed hydration issues on user and organization pages, ensuring consistent rendering between server and client. This improves performance and user experience by preventing mismatches and unexpected behavior during page loads.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/2981"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2753"
+        }
+      ]
+    },
+    {
+      "title": "SEO and Indexing Enhancements",
+      "summary": "The recent merge of a PR has improved the site's SEO by updating the robots.txt file. This change allows the leaderboard and noodles sections to be indexed by search engines, enhancing visibility and accessibility for users searching for these features.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3054"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement and Contributions",
+      "summary": "The npmx community continues to grow, with users actively contributing to the project. Recent posts highlight new contributors celebrating their merged PRs, fostering a collaborative environment and encouraging further participation in open-source development.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/mk.gg/post/3mrabfhi7ik2l"
+        },
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/opensourcepledge.com/post/3mra6d4mxjc2z"
+        }
+      ]
+    }
+  ]
+}

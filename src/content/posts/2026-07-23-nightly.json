@@ -1,0 +1,29 @@
+{
+  "title": "Module Replacements Upgraded to 3.1.0!",
+  "date": "2026-07-23T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Module Updates",
+      "summary": "The recent merge of PR #3073 involves a standard bump of the module-replacements to version 3.1.0. This update is part of routine maintenance to ensure compatibility and performance improvements within the project.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3073"
+        }
+      ]
+    },
+    {
+      "title": "User Verification",
+      "summary": "A new verification status has been granted to user @iiro.fi by npmx. This indicates a step towards enhancing user trust and credibility within the npmx community, allowing verified users to stand out.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mrdiu2573k2s"
+        }
+      ]
+    }
+  ]
+}

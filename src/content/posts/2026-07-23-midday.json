@@ -1,0 +1,29 @@
+{
+  "title": "Magic-String Soars with Major Updates!",
+  "date": "2026-07-23T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Magic-String Package Updates",
+      "summary": "The magic-string package has reached 140 million downloads per week. Recent updates include a PR for ESM-only support and significant performance improvements after removing sourcemaps. This reflects the ongoing efforts to enhance high-impact packages in the ecosystem.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/43081j.com/post/3mrclzr4j4225"
+        }
+      ]
+    },
+    {
+      "title": "Atproto x IETF Meetup",
+      "summary": "The atproto x IETF meetup is scheduled for this evening at the Metalab, featuring discussions on @npmx.dev, Fedisky, and various web methods within atproto. Attendees can enjoy vegan curry while networking and learning about these technologies.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/atproto.wien/post/3mrcoyj2vvk25"
+        }
+      ]
+    }
+  ]
+}

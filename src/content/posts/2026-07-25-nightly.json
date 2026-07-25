@@ -1,0 +1,18 @@
+{
+  "title": "TypeScript 7 Unveils API Emit Feature!",
+  "date": "2026-07-25T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "Typescript 7 Release",
+      "summary": "The latest daily release of Typescript 7 includes a new feature that allows support for 'emit' via API, contributed by a community member. This enhancement is expected to improve the development experience for Typescript users, enabling more efficient coding practices.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/pier.fumagalli.org/post/3mrhppldv3c2p"
+        }
+      ]
+    }
+  ]
+}

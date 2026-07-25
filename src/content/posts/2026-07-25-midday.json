@@ -1,0 +1,40 @@
+{
+  "title": "Bluesky Community Applauds @npmx.dev!",
+  "date": "2026-07-25T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "GIF Day Noodle Update",
+      "summary": "The recent merge of PR #3076 enhances the GIF day noodles feature, extending it from 1 day to 3 days. This change, suggested by @trueberryless, aims to improve user engagement by allowing more time for GIF sharing, thus enriching the overall experience on the platform.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3076"
+        }
+      ]
+    },
+    {
+      "title": "Community Engagement on Bluesky",
+      "summary": "A repost from @matteogabriele.bsky.social emphasizes that @npmx.dev serves as more than just a package browser; it symbolizes a movement towards reclaiming the internet. This highlights the community's desire for empowerment and self-creation in the digital space.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/matteogabriele.bsky.social/post/3mrhtbm6x2c2s"
+        }
+      ]
+    },
+    {
+      "title": "User Interaction on Bluesky",
+      "summary": "A simple yet engaging post on Bluesky featuring a clapping emoji signifies user appreciation and support for @npmx.dev. This interaction reflects the community's positive sentiment and engagement with the platform's initiatives and updates.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/npmx.dev/post/3mrhqiltvxs2u"
+        }
+      ]
+    }
+  ]
+}

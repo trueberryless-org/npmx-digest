@@ -1,0 +1,18 @@
+{
+  "title": "Boosting Accessibility with Russian Localization!",
+  "date": "2026-07-26T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Internationalization Improvements",
+      "summary": "The recent merge of PR #3083 addresses missing Russian translations in the project. This enhancement is crucial for improving accessibility and user experience for Russian-speaking users. Ensuring complete language support is a key step in making the application more inclusive.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3083"
+        }
+      ]
+    }
+  ]
+}

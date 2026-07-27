@@ -1,0 +1,18 @@
+{
+  "title": "Login Woes: Tackling 401 Errors in PDS",
+  "date": "2026-07-27T06:00:00.000Z",
+  "type": "daily",
+  "topics": [
+    {
+      "title": "Authentication Issues",
+      "summary": "A user reported a bug related to logging in with their handle, encountering a 401 Unauthorized error. The issue may stem from using a self-hosted PDS and a did:web identifier instead of did:plc. This highlights potential challenges in the authentication process for self-hosted solutions.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/2771"
+        }
+      ]
+    }
+  ]
+}

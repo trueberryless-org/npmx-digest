@@ -1,0 +1,33 @@
+{
+  "title": "Revamped Compare Packages Page Enhances Clarity",
+  "date": "2026-07-28T22:00:00.000Z",
+  "type": "nightly",
+  "topics": [
+    {
+      "title": "UI Improvements for Compare Packages Page",
+      "summary": "Recent updates have focused on enhancing the user interface of the compare packages page. A fix was implemented to prevent facet label wrapping, ensuring consistent alignment of info icons next to labels. This change addresses user concerns about visual inconsistencies and improves overall readability.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3089"
+        },
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/3063"
+        }
+      ]
+    },
+    {
+      "title": "Linting Rule Corrections",
+      "summary": "A recent pull request corrected the usage of invalid rule names in oxlint disable comments. This change ensures that warnings are properly suppressed by using the correct format for rule names, enhancing code quality and compliance with linting standards.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3086"
+        }
+      ]
+    }
+  ]
+}

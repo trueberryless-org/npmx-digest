@@ -1,0 +1,40 @@
+{
+  "title": "Nuxt 0.1.0: Powering Modular Server-Side Rendering",
+  "date": "2026-07-29T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Malware Scanning in npm",
+      "summary": "npm has implemented a new feature that scans packages for malware at the time of publishing. This proactive measure aims to enhance security and protect users from malicious code, ensuring a safer ecosystem for package consumption.",
+      "relevanceScore": 10,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/lukekarrys.com/post/3mrqoctij2c2i"
+        }
+      ]
+    },
+    {
+      "title": "Dependency Updates",
+      "summary": "The recent merge of PR #3093 updates the `verkit` dependency to version 0.3.1, ensuring that the project remains up-to-date with the latest features and fixes. This change is crucial for maintaining compatibility and improving overall performance.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3093"
+        }
+      ]
+    },
+    {
+      "title": "Module Federation Release",
+      "summary": "Module Federation Nuxt 0.1.0 has been released, featuring SSR support and dynamic remote loading capabilities. This update enhances the modular architecture of Nuxt applications, allowing for better dependency management and improved performance in server-side rendering.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "bluesky",
+          "url": "https://bsky.app/profile/nst.blue/post/3mrpuw4izyd2w"
+        }
+      ]
+    }
+  ]
+}

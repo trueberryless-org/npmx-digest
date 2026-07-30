@@ -1,0 +1,51 @@
+{
+  "title": "Modals Refreshed: Say Goodbye to Stale Data!",
+  "date": "2026-07-30T14:00:00.000Z",
+  "type": "midday",
+  "topics": [
+    {
+      "title": "Integration of Effect.ts Playground Links",
+      "summary": "Support for Effect.ts playground links has been added to package Readmes, allowing users to easily access and experiment with specific environments. This enhancement aims to promote the use of Effect.ts libraries, which are rapidly gaining popularity.",
+      "relevanceScore": 9,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3082"
+        }
+      ]
+    },
+    {
+      "title": "Modal State Management Improvements",
+      "summary": "Recent updates have improved the modal behavior in the Local Connector and Atmosphere by ensuring that form states are reset upon closing. This prevents stale data from being displayed when reopening modals, enhancing user experience and reducing confusion.",
+      "relevanceScore": 8,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3091"
+        }
+      ]
+    },
+    {
+      "title": "Documentation Parameter Naming Fix",
+      "summary": "A fix has been implemented to address the issue of undefined parameter names in package documentation caused by destructured parameters. The solution introduces positional fallback names, ensuring clarity and consistency in documentation for anonymous parameters.",
+      "relevanceScore": 7,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/pull/3087"
+        }
+      ]
+    },
+    {
+      "title": "Feature Request for Effect.ts Playground Links",
+      "summary": "A feature request has been closed, advocating for the rendering of Effect.ts playground links in the sidebar of package Readmes. This initiative aims to foster experimentation and engagement with the growing Effect.ts ecosystem.",
+      "relevanceScore": 6,
+      "sources": [
+        {
+          "platform": "github",
+          "url": "https://github.com/npmx-dev/npmx.dev/issues/3081"
+        }
+      ]
+    }
+  ]
+}

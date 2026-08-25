@@ -1,5 +1,8 @@
 # 📰 npmx-digest
 
+> [!IMPORTANT]  
+> Because [GitHub Models were retired](https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/), this website does not continue to generate new entries. It will be archived and kept to remember the rapid contributor grow and awesome feature drops of npmx.
+
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/765292dd-a66b-423b-aece-551ab6940f24/deploy-status)](https://app.netlify.com/projects/npmx-digest/deploys)
 
